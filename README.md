@@ -324,8 +324,8 @@ HTML, which stands for HyperText Markup Language, is the standard language used 
 
 #### Brief History of HTML and Its Evolution
 
-| ![A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.](images/html_timeline.png)| 
-|:--:| 
+|![A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.](images/html_timeline.png)|
+|:--:|
 | *A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.* |
 
 The journey of HTML began in the early 1990s, devised by Tim Berners-Lee, a physicist at the CERN research facility in Switzerland. Initially created to facilitate information sharing between scientists across different universities and institutes, HTML has evolved significantly over the years. Key milestones include:
@@ -339,16 +339,16 @@ These developments were guided by organizations such as the World Wide Web Conso
 
 #### Understanding the Role of HTML in Web Development
 
-![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/html_css_javascript_interaction.png)
-|:--:| 
+|![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/html_css_javascript_interaction.png)|
+|:--:|
 | *HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.* |
 
 HTML is a key component of the web development ecosystem, used in conjunction with Cascading Style Sheets (CSS) and JavaScript. While HTML lays out the structure of the page, CSS is used for styling, and JavaScript for adding interactivity and dynamic content. This combination is essential in creating a diverse range of web applications, from simple static websites to complex interactive platforms.
 
 #### Overview of Web Browsers and How They Interpret HTML
 
-![Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).](images/browser_rendering.png)
-|:--:| 
+|![Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).](images/browser_rendering.png)|
+|:--:|
 | *Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).* |
 
 Web browsers like Google Chrome, Mozilla Firefox, Safari, and Microsoft Edge are the tools through which users interact with HTML documents. Each browser interprets HTML code to display web pages. Understanding how different browsers parse and render HTML is crucial for developers to ensure consistency and compatibility across the web. This section can delve into the concept of browser rendering engines, cross-browser compatibility issues, and the importance of following web standards to minimize inconsistencies.
@@ -371,7 +371,7 @@ Below is an example of a basic HTML document structure:
 </html>
 ```
 
-[![Edit 001-Basic HTML Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/001-basic-html-structure-7gq85k)
+[![Edit 001-Basic HTML Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/001-basic-html-structure-7gq85k)
 
 [^1]CodeSandbox: Basic HTML Structure.
 
@@ -396,8 +396,8 @@ Before diving into HTML coding, it's essential to choose and set up a text edito
 
 #### Understanding the File Structure for Web Projects
 
-![Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.](images/html_css_javascript_project_structure.png)
-|:--:| 
+|![Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.](images/html_css_javascript_project_structure.png)|
+|:--:|
 | *Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.* |
 
 Organizing files and folders properly is crucial in web development. A basic project might include separate HTML, CSS, and JavaScript files, along with a directory for images and other media.
@@ -472,7 +472,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ```
 
-[![Edit 002-Setting Up a Basic HTML File Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
+[![Edit 002-Setting Up a Basic HTML File Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
 
 [^2]CodeSandbox: Setting Up a Basic HTML File Structure.
 
@@ -480,8 +480,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Basics of Document Object Model (DOM)
 
-![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/dom_structure.png)
-|:--:| 
+|![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/dom_structure.png)|
+|:--:|
 | *Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, html, head, and body.* |
 
 Understanding the Document Object Model (DOM) is fundamental in web development. It's a programming interface for HTML and XML documents that defines the logical structure of documents and the way a document is accessed and manipulated.
@@ -512,7 +512,7 @@ document.getElementById("changeColorButton").addEventListener("click", function(
 });
 ```
 
-[![Edit 003-Exploring the DOM](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
+[![Edit 003-Exploring the DOM](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
 
 [^3]CodeSandbox: Exploring the DOM.
 
@@ -544,7 +544,7 @@ An HTML document is structured with various elements, each serving a specific pu
 </html>
 ```
 
-[![Edit 004-Basic Anatomy of an HTML Document](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-anatomy-of-an-html-document-cqc9qw)
+[![Edit 004-Basic Anatomy of an HTML Document](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-anatomy-of-an-html-document-cqc9qw)
 
 [^4]CodeSandbox: Basic Anatomy of an HTML Document.
 
@@ -600,7 +600,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 </html>
 ```
 
-[![Edit 005-Creating a Simple HTML Page](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/005-creating-a-simple-html-page-gkxq6z)
+[![Edit 005-Creating a Simple HTML Page](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/005-creating-a-simple-html-page-gkxq6z)
 
 [^5]CodeSandbox: Creating a Simple HTML Page.
 
@@ -625,7 +625,7 @@ Headings are used to define the hierarchy and importance of content on a web pag
 <h6>Sub-sub-sub-sub-subsection Title</h6>
 ```
 
-[![Edit 006-Using Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/006-using-headings-6p6kkp)
+[![Edit 006-Using Headings](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/006-using-headings-6p6kkp)
 
 [^6]CodeSandbox: Using Headings.
 
@@ -642,7 +642,7 @@ The `<p>` tag defines a paragraph. Other tags like `<strong>`, `<em>`, `<mark>`,
 <p>This paragraph contains <strong>bold text</strong>, <em>italic text</em>, <mark>highlighted text</mark>, <small>smaller text</small>, and <del>deleted text</del>.</p>
 ```
 
-[![Edit 007-Paragraphs and Formatting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/007-paragraphs-and-formatting-hcdvjw)
+[![Edit 007-Paragraphs and Formatting](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/007-paragraphs-and-formatting-hcdvjw)
 
 [^7]CodeSandbox: Paragraphs and Formatting.
 
@@ -676,7 +676,7 @@ There are three types of lists in HTML: ordered lists (`<ol>`), unordered lists 
 </dl>
 ```
 
-[![Edit 008-Lists in HTML](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/008-lists-in-html-xlyz8s)
+[![Edit 008-Lists in HTML](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/008-lists-in-html-xlyz8s)
 
 [^8]CodeSandbox: Lists in HTML.
 
@@ -699,7 +699,7 @@ Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing use
 <a href="tel:+1234567890">Call Us</a>
 ```
 
-[![Edit 009-Creating a Hyperlink](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/009-creating-a-hyperlink-fqmf24)
+[![Edit 009-Creating a Hyperlink](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/009-creating-a-hyperlink-fqmf24)
 
 [^9]CodeSandbox: Creating a Hyperlink.
 
@@ -716,7 +716,7 @@ The `<img>` tag embeds images into your HTML document. Attributes like `src`, `a
 <img src="image.jpg" alt="Description of image" width="500" height="300">
 ```
 
-[![Edit 010-Embedding an Image](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/010-embedding-an-image-cp8ht6)
+[![Edit 010-Embedding an Image](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/010-embedding-an-image-cp8ht6)
 
 [^10]CodeSandbox: Embedding an Image.
 
@@ -742,7 +742,7 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 </table>
 ```
 
-[![Edit 011-A Simple Table](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/011-a-simple-table-jxrk65)
+[![Edit 011-A Simple Table](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/011-a-simple-table-jxrk65)
 
 [^11]CodeSandbox: A Simple Table.
 
@@ -761,7 +761,7 @@ The `<br>` tag inserts a single line break, useful for content separation within
 <p>This is another paragraph following a horizontal rule.</p>
 ```
 
-[![Edit 012-Using Line Breaks and Horizontal Rules](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/012-using-line-breaks-and-horizontal-rules-q3p3lx)
+[![Edit 012-Using Line Breaks and Horizontal Rules](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/012-using-line-breaks-and-horizontal-rules-q3p3lx)
 
 [^12]CodeSandbox: Using Line Breaks and Horizontal Rules.
 
@@ -790,7 +790,7 @@ Forms are essential for user interactions on websites. They are used to collect 
 - `action`: The URL where the form data is sent.
 - `method`: The HTTP method (GET or POST) used when submitting the form.
 
-[![Edit 013-Basic Form Syntax](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/013-basic-form-syntax-8grgqh)
+[![Edit 013-Basic Form Syntax](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/013-basic-form-syntax-8grgqh)
 
 [^13]CodeSandbox: Basic Form Syntax.
 
@@ -808,7 +808,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 - Text fields for short, freeform text input.
 
-[![Edit 014-Text Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/014-text-inputs-hgzcj8)
+[![Edit 014-Text Inputs](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/014-text-inputs-hgzcj8)
 
 [^14]CodeSandbox: Text Inputs.
 
@@ -825,7 +825,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 - For selecting one option from a set.
 
-[![Edit 015-Radio Buttons](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/015-radio-buttons-9ny4lk)
+[![Edit 015-Radio Buttons](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/015-radio-buttons-9ny4lk)
 
 [^15]CodeSandbox: Radio Buttons.
 
@@ -840,7 +840,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 - For selecting multiple values from a set.
 
-[![Edit 016-Checkboxes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/016-checkboxes-8y2kr3)
+[![Edit 016-Checkboxes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/016-checkboxes-8y2kr3)
 
 [^16]CodeSandbox: Checkboxes.
 
@@ -860,7 +860,7 @@ Select menus provide a drop-down list of options.
 </select>
 ```
 
-[![Edit 017-Creating Select Menus](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/017-creating-select-menus-cjrj6p)
+[![Edit 017-Creating Select Menus](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/017-creating-select-menus-cjrj6p)
 
 [^17]CodeSandbox: Creating Select Menus.
 
@@ -878,7 +878,7 @@ Buttons to submit or reset the form data.
 <button type="submit">Submit Form</button>
 ```
 
-[![Edit 018-Submit Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/018-submit-button-4g2k2t)
+[![Edit 018-Submit Button](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/018-submit-button-4g2k2t)
 
 [^18]CodeSandbox: Submit Button.
 
@@ -890,7 +890,7 @@ Buttons to submit or reset the form data.
 <input type="reset" value="Reset Form">
 ```
 
-[![Edit 019-Reset Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/019-reset-button-6tqsmk)
+[![Edit 019-Reset Button](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/019-reset-button-6tqsmk)
 
 [^19]CodeSandbox: Reset Button.
 
@@ -903,7 +903,7 @@ Buttons to submit or reset the form data.
 <input type="number" name="age" min="18" max="100">
 ```
 
-[![Edit 020-Form Validation Basics](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
+[![Edit 020-Form Validation Basics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
 
 [^20]CodeSandbox: Form Validation Basics.
 
@@ -917,7 +917,7 @@ Buttons to submit or reset the form data.
 <input type="file" name="document">
 ```
 
-[![Edit 021-File Uploads](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/021-file-uploads-q82hj2)
+[![Edit 021-File Uploads](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/021-file-uploads-q82hj2)
 
 [^21]CodeSandbox: File Uploads.
 
@@ -930,7 +930,7 @@ Buttons to submit or reset the form data.
 <input type="date" name="birthday">
 ```
 
-[![Edit 022-HTML5 Input Types](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/022-html5-input-types-sjwsrk)
+[![Edit 022-HTML5 Input Types](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/022-html5-input-types-sjwsrk)
 
 [^22]CodeSandbox: HTML5 Input Types.
 
@@ -1179,7 +1179,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
 </script>
 ```
 
-[![Edit 023-Building a Comprehensive Registration Form](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
+[![Edit 023-Building a Comprehensive Registration Form](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
 
 [^23]CodeSandbox: Building a Comprehensive Registration Form.
 
@@ -1266,7 +1266,7 @@ Add a submit button for the form.
 <button type="submit">Submit</button>
 ```
 
-[![Edit 024-Dynamic Form with JavaScript](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/024-dynamic-form-with-javascript-czrr4l)
+[![Edit 024-Dynamic Form with JavaScript](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/024-dynamic-form-with-javascript-czrr4l)
 
 [^24]CodeSandbox: Dynamic Form with JavaScript.
 
@@ -1358,7 +1358,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </article>
 ```
 
-[![Edit 025-The `<article>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/025-the-article-element-tcc2rz)
+[![Edit 025-The `<article>` Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/025-the-article-element-tcc2rz)
 
 [^25]CodeSandbox: The `<article>` Element.
 
@@ -1375,7 +1375,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </section>
 ```
 
-[![Edit 026-The `<section>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/026-the-section-element-djdp6h)
+[![Edit 026-The `<section>` Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/026-the-section-element-djdp6h)
 
 [^26]CodeSandbox: The `<section>` Element.
 
@@ -1395,7 +1395,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </nav>
 ```
 
-[![Edit 027-The `<nav>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/027-the-nav-element-3mqmnr)
+[![Edit 027-The `<nav>` Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/027-the-nav-element-3mqmnr)
 
 [^27]CodeSandbox: The `<nav>` Element.
 
@@ -1412,7 +1412,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </header>
 ```
 
-[![Edit 028-The `<header>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/028-the-header-element-2mcn2c)
+[![Edit 028-The `<header>` Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/028-the-header-element-2mcn2c)
 
 [^28]CodeSandbox: The `<header>` Element.
 
@@ -1428,7 +1428,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 </footer>
 ```
 
-[![Edit 029-The `<footer>` Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-2hcsgy)
+[![Edit 029-The `<footer>` Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/029-the-footer-element-2hcsgy)
 
 [^29]CodeSandbox: The `<footer>` Element.
 
@@ -1509,7 +1509,7 @@ function loadContact() {
 }
 ```
 
-[![Edit 030-Semantic SPA Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/030-semantic-spa-structure-d969pp)
+[![Edit 030-Semantic SPA Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/030-semantic-spa-structure-d969pp)
 
 [^30]CodeSandbox: Semantic SPA Structure.
 
@@ -1565,7 +1565,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 </html>
 ```
 
-[![Edit 031-Article with Microdata for Rich Snippets](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/031-article-with-microdata-for-rich-snippets-36f5kf)
+[![Edit 031-Article with Microdata for Rich Snippets](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/031-article-with-microdata-for-rich-snippets-36f5kf)
 
 [^31]CodeSandbox: Article with Microdata for Rich Snippets.
 
@@ -1591,8 +1591,8 @@ This example demonstrates how to use microdata within an HTML document to descri
 
 ### Evolution and Future Trends in HTML5 and Semantic Elements
 
-| ![Evolution and Future Trends in HTML5 and Semantic Elements.](images/html_evolution.png) | 
-|:--:| 
+|![Evolution and Future Trends in HTML5 and Semantic Elements.](images/html_evolution.png)|
+|:--:|
 | *Evolution and Future Trends in HTML5 and Semantic Elements.* |
 
 The evolution of HTML5 and its semantic elements represents a significant leap forward in web development. As we look toward the future, it's clear that the emphasis on semantics, accessibility, and machine-readable code will continue to shape the development of HTML standards and practices. In this section, we'll explore some of the current trends and future directions in the use of semantic HTML, including code examples to illustrate these concepts.
@@ -1614,7 +1614,7 @@ Accessibility is becoming increasingly important in web development. Future HTML
 </div>
 ```
 
-[![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-883g8q)
+[![Edit 032-Using ARIA (Accessible Rich Internet Applications) Attributes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/032-using-aria-accessible-rich-internet-applications-attributes-883g8q)
 
 [^32]CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.
 
@@ -1636,7 +1636,7 @@ As web applications become more complex, there's a growing need for semantic ele
 </toolbar>
 ```
 
-[![Edit 033-Speculative `<toolbar>` Semantic Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/033-speculative-toolbar-semantic-element-wfkyhq)
+[![Edit 033-Speculative `<toolbar>` Semantic Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/033-speculative-toolbar-semantic-element-wfkyhq)
 
 [^33]CodeSandbox: Speculative `<toolbar>` Semantic Element.
 
@@ -1658,7 +1658,7 @@ Semantic HTML is also likely to evolve in tandem with emerging web technologies,
 </custom-dropdown>
 ```
 
-[![Edit 034-Using Custom Elements with Semantic Meaning](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/034-using-custom-elements-with-semantic-meaning-ln6g7r)
+[![Edit 034-Using Custom Elements with Semantic Meaning](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/034-using-custom-elements-with-semantic-meaning-ln6g7r)
 
 [^34]CodeSandbox: Using Custom Elements with Semantic Meaning.
 
@@ -1714,7 +1714,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 </html>
 ```
 
-[![Edit 035-Semantic Headings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/035-semantic-headings-l8v69w)
+[![Edit 035-Semantic Headings](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/035-semantic-headings-l8v69w)
 
 [^35]CodeSandbox: Semantic Headings.
 
@@ -1736,7 +1736,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 </nav>
 ```
 
-[![Edit 036-Semantic Navigation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/036-semantic-navigation-9lnsgj)
+[![Edit 036-Semantic Navigation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/036-semantic-navigation-9lnsgj)
 
 [^36]CodeSandbox: Semantic Navigation.
 
@@ -1772,7 +1772,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 <p>Details about subtopic 2...</p>
 ```
 
-[![Edit 037-Proper Heading Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/037-proper-heading-structure-x22m79)
+[![Edit 037-Proper Heading Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/037-proper-heading-structure-x22m79)
 
 [^37]CodeSandbox: Proper Heading Structure.
 
@@ -1796,7 +1796,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 </form>
 ```
 
-[![Edit 038-Form Labels and Inputs](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/038-form-labels-and-inputs-3rm7jk)
+[![Edit 038-Form Labels and Inputs](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/038-form-labels-and-inputs-3rm7jk)
 
 [^38]CodeSandbox: Form Labels and Inputs.
 
@@ -1818,7 +1818,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 </nav>
 ```
 
-[![Edit 039-Use of `<nav>` and `<nav>` Landmarks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/039-use-of-nav-and-nav-landmarks-85hjqc)
+[![Edit 039-Use of `<nav>` and `<nav>` Landmarks](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/039-use-of-nav-and-nav-landmarks-85hjqc)
 
 [^39]CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.
 
@@ -1838,7 +1838,7 @@ In addition to semantic HTML elements, ARIA (Accessible Rich Internet Applicatio
 </div>
 ```
 
-[![Edit 040-ARIA Role for a Live Region](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/040-aria-role-for-a-live-region-6vyl6n)
+[![Edit 040-ARIA Role for a Live Region](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/040-aria-role-for-a-live-region-6vyl6n)
 
 [^40]CodeSandbox: ARIA Role for a Live Region.
 
@@ -1853,7 +1853,7 @@ The `role="status"` attribute signifies that this element provides live updates.
 <input type="range" id="slider" name="slider" min="0" max="100" step="1" value="50" aria-label="Value Selector">
 ```
 
-[![Edit 041-ARIA Role for a Slider](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/041-aria-role-for-a-slider-gsjppj)
+[![Edit 041-ARIA Role for a Slider](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/041-aria-role-for-a-slider-gsjppj)
 
 [^41]CodeSandbox: ARIA Role for a Slider.
 
@@ -1915,7 +1915,7 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 </html>
 ```
 
-[![Edit 042-Homepage Structure](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/042-homepage-structure-tq6vp3)
+[![Edit 042-Homepage Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/042-homepage-structure-tq6vp3)
 
 [^42]CodeSandbox: Homepage Structure.
 
@@ -1935,7 +1935,7 @@ For the product listing, "EcoShop" employs `<article>` tags to semantically repr
 </article>
 ```
 
-[![Edit 043-Product Listing with Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/043-product-listing-with-semantic-markup-6sngw9)
+[![Edit 043-Product Listing with Semantic Markup](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/043-product-listing-with-semantic-markup-6sngw9)
 
 [^43]CodeSandbox: Product Listing with Semantic Markup.
 
@@ -1972,7 +1972,7 @@ The `<audio>` element in HTML5 is a powerful tool for embedding audio content di
 </audio>
 ```
 
-[![Edit 044-Audio Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/044-audio-element-hmf35t)
+[![Edit 044-Audio Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/044-audio-element-hmf35t)
 
 [^44]CodeSandbox: Audio Element.
 
@@ -1994,7 +1994,7 @@ The `<video>` element, similar to the `<audio>` element, enables the integration
 </video>
 ```
 
-[![Edit 045-Video Element](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/045-video-element-yx2ytt)
+[![Edit 045-Video Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/045-video-element-yx2ytt)
 
 [^45]CodeSandbox: Video Element.
 
@@ -2026,7 +2026,7 @@ ctx.stroke();
 </script>
 ```
 
-[![Edit 046-Canvas for Graphics](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/046-canvas-for-graphics-wxtng3)
+[![Edit 046-Canvas for Graphics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/046-canvas-for-graphics-wxtng3)
 
 [^46]CodeSandbox: Canvas for Graphics.
 
@@ -2062,7 +2062,7 @@ function showPosition(position) {
 </script>
 ```
 
-[![Edit 047-Geolocation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
+[![Edit 047-Geolocation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
 
 [^47]CodeSandbox: Geolocation.
 
@@ -2079,7 +2079,7 @@ Web Storage, comprising Local Storage and Session Storage, allows data to be sto
 
 #### Local Storage
 
-[![Edit 048-Local Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
+[![Edit 048-Local Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
 
 [^48]CodeSandbox: Local Storage.
 
@@ -2121,7 +2121,7 @@ function saveSessionData() {
 </script>
 ```
 
-[![Edit 049-Session Storage](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/049-session-storage-jlmh4x)
+[![Edit 049-Session Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/049-session-storage-jlmh4x)
 
 [^49]CodeSandbox: Session Storage.
 
@@ -2152,7 +2152,7 @@ function drop(event) {
 </script>
 ```
 
-[![Edit 050-Drag and Drop](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/050-drag-and-drop-hfgnpw)
+[![Edit 050-Drag and Drop](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/050-drag-and-drop-hfgnpw)
 
 [^50]CodeSandbox: Drag and Drop.
 
@@ -2171,7 +2171,7 @@ Iframes (Inline Frames) allow you to embed one HTML document within another. The
 <iframe src="https://www.youtube.com/embed/a3ICNMQW7Ok" width="800" height="600" frameborder="0" scrolling="auto"></iframe>
 ```
 
-[![Edit 051-Iframes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/051-iframes-l2fyl4)
+[![Edit 051-Iframes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/051-iframes-l2fyl4)
 
 [^51]CodeSandbox: Iframes.
 
@@ -2193,7 +2193,7 @@ SVG is a powerful XML-based vector image format that can be embedded directly in
 </svg>
 ```
 
-[![Edit 052-SVG (Scalable Vector Graphics)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/052-svg-scalable-vector-graphics-3nx6c6)
+[![Edit 052-SVG (Scalable Vector Graphics)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/052-svg-scalable-vector-graphics-3nx6c6)
 
 [^52]CodeSandbox: SVG (Scalable Vector Graphics).
 
@@ -2212,7 +2212,7 @@ Data attributes allow you to store custom data private to the page or applicatio
 <div id="product" data-product-id="12345" data-product-name="Widget" data-price="19.99"></div>
 ```
 
-[![Edit 053-Data Attributes](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/053-data-attributes-ww7npw)
+[![Edit 053-Data Attributes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/053-data-attributes-ww7npw)
 
 [^53]CodeSandbox: Data Attributes.
 
@@ -2255,7 +2255,7 @@ p {
 }
 ```
 
-[![Edit 054-Selectors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/054-selectors-sl9z4d)
+[![Edit 054-Selectors](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/054-selectors-sl9z4d)
 
 [^54]CodeSandbox: Selectors.
 
@@ -2288,7 +2288,7 @@ p {
 }
 ```
 
-[![Edit 055-Properties and Values](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/055-properties-and-values-f4437y)
+[![Edit 055-Properties and Values](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/055-properties-and-values-f4437y)
 
 [^55]CodeSandbox: Properties and Values.
 
@@ -2302,8 +2302,8 @@ p {
 
 The CSS box model describes how elements are rendered on a web page, consisting of content, padding, border, and margin.
 
-![CSS Box Model.](images/css-box-model.png)
-|:--:| 
+|![CSS Box Model.](images/css-box-model.png)|
+|:--:|
 | *CSS Box Model.* |
 
 ```css
@@ -2317,7 +2317,7 @@ The CSS box model describes how elements are rendered on a web page, consisting 
 }
 ```
 
-[![Edit 056-Box Model](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/056-box-model-pjx5ch)
+[![Edit 056-Box Model](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/056-box-model-pjx5ch)
 
 [^56]CodeSandbox: Box Model.
 
@@ -2339,7 +2339,7 @@ p {
 }
 ```
 
-[![Edit 057-CSS Comments](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/057-css-comments-vny2rf)
+[![Edit 057-CSS Comments](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/057-css-comments-vny2rf)
 
 [^57]CodeSandbox: CSS Comments.
 
@@ -2358,7 +2358,7 @@ Inline CSS involves applying styles directly to individual HTML elements using t
 <p style="color: blue; font-size: 16px;">This is a blue paragraph with a font size of 16px.</p>
 ```
 
-[![Edit 058-Inline CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/058-inline-css-pptd9v)
+[![Edit 058-Inline CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/058-inline-css-pptd9v)
 
 [^58]CodeSandbox: Inline CSS.
 
@@ -2390,7 +2390,7 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 </html>
 ```
 
-[![Edit 059-Internal (Embedded) CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/059-internal-embedded-css-n8rn6n)
+[![Edit 059-Internal (Embedded) CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/059-internal-embedded-css-n8rn6n)
 
 [^59]CodeSandbox: Internal (Embedded) CSS.
 
@@ -2426,7 +2426,7 @@ p {
 }
 ```
 
-[![Edit 060-External CSS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/060-external-css-w9r4jj)
+[![Edit 060-External CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/060-external-css-w9r4jj)
 
 [^60]CodeSandbox: External CSS.
 
@@ -2457,7 +2457,7 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 </html>
 ```
 
-[![Edit 061-CSS Frameworks](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/061-css-frameworks-tnxxzj)
+[![Edit 061-CSS Frameworks](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/061-css-frameworks-tnxxzj)
 
 [^61]CodeSandbox: CSS Frameworks.
 
@@ -2482,7 +2482,7 @@ $primary-color: #007bff;
 }
 ```
 
-[![Edit 062-CSS Preprocessors](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/062-css-preprocessors-lzkls6)
+[![Edit 062-CSS Preprocessors](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/062-css-preprocessors-lzkls6)
 
 [^62]CodeSandbox: CSS Preprocessors.
 
@@ -2515,7 +2515,7 @@ Flexbox, short for Flexible Box Layout, is a one-dimensional layout model that a
 }
 ```
 
-[![Edit 063-Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/063-flexbox-f4c853)
+[![Edit 063-Flexbox](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/063-flexbox-f4c853)
 
 [^63]CodeSandbox: Flexbox.
 
@@ -2545,7 +2545,7 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 }
 ```
 
-[![Edit 064-Grid Layouts](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/064-grid-layouts-nykj4p)
+[![Edit 064-Grid Layouts](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/064-grid-layouts-nykj4p)
 
 [^64]CodeSandbox: Grid Layouts.
 
@@ -2589,7 +2589,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 </html>
 ```
 
-[![Edit 065-Embedded JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/065-embedded-javascript-example-2ch5rl)
+[![Edit 065-Embedded JavaScript Example](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/065-embedded-javascript-example-2ch5rl)
 
 [^65]CodeSandbox: Embedded JavaScript Example.
 
@@ -2634,7 +2634,7 @@ function greet() {
 }
 ```
 
-[![Edit 066-External JavaScript Example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
+[![Edit 066-External JavaScript Example](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
 
 [^66]CodeSandbox: External JavaScript Example.
 
@@ -2676,7 +2676,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 </html>
 ```
 
-[![Edit 067-DOM Manipulation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/067-dom-manipulation-7k5drg)
+[![Edit 067-DOM Manipulation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/067-dom-manipulation-7k5drg)
 
 [^67]CodeSandbox: DOM Manipulation.
 
@@ -2699,7 +2699,7 @@ function changeParagraphText() {
 }
 ```
 
-[![Edit 068-Advanced DOM Manipulation Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/068-advanced-dom-manipulation-techniques-mj9mr7)
+[![Edit 068-Advanced DOM Manipulation Techniques](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/068-advanced-dom-manipulation-techniques-mj9mr7)
 
 [^68]CodeSandbox: Advanced DOM Manipulation Techniques.
 
@@ -2728,7 +2728,7 @@ JavaScript enables developers to handle user interactions and browser events thr
 </html>
 ```
 
-[![Edit 069-Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/069-event-handling-rwd3qd)
+[![Edit 069-Event Handling](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/069-event-handling-rwd3qd)
 
 [^69]CodeSandbox: Event Handling.
 
@@ -2751,7 +2751,7 @@ document.getElementById("parent").addEventListener("click", function(event) {
 });
 ```
 
-[![Edit 070-Advanced Event Handling](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
+[![Edit 070-Advanced Event Handling](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
 
 [^70]CodeSandbox: Advanced Event Handling.
 
@@ -2788,7 +2788,7 @@ Adopting a mobile-first approach involves designing for mobile devices first, th
 }
 ```
 
-[![Edit 071-Mobile-First Approach](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/071-mobile-first-approach-fd8cvs)
+[![Edit 071-Mobile-First Approach](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/071-mobile-first-approach-fd8cvs)
 
 [^71]CodeSandbox: Mobile-First Approach.
 
@@ -2851,7 +2851,7 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 }
 ```
 
-[![Edit 072-Fluid Grids](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/072-fluid-grids-qxh5zz)
+[![Edit 072-Fluid Grids](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/072-fluid-grids-qxh5zz)
 
 [^72]CodeSandbox: Fluid Grids.
 
@@ -2874,7 +2874,7 @@ Media queries allow you to apply specific styles based on the characteristics of
 }
 ```
 
-[![Edit 073-Media Queries](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/073-media-queries-dwprjz)
+[![Edit 073-Media Queries](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/073-media-queries-dwprjz)
 
 [^73]CodeSandbox: Media Queries.
 
@@ -2898,7 +2898,7 @@ Percentage units allow you to define dimensions, margins, and padding relative t
 }
 ```
 
-[![Edit 074-Percentage (%)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/074-percentage-ct6wzy)
+[![Edit 074-Percentage (%)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/074-percentage-ct6wzy)
 
 [^74]CodeSandbox: Percentage (%).
 
@@ -2921,7 +2921,7 @@ Viewport units represent a percentage of the viewport's width or height, allowin
 }
 ```
 
-[![Edit 075-Viewport Width (vw) and Viewport Height (vh)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/075-viewport-width-vw-and-viewport-height-vh-ckqpy3)
+[![Edit 075-Viewport Width (vw) and Viewport Height (vh)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/075-viewport-width-vw-and-viewport-height-vh-ckqpy3)
 
 [^75]CodeSandbox: Viewport Width (vw) and Viewport Height (vh).
 
@@ -2945,7 +2945,7 @@ Let's have an example of Responsive Meta Tag.
 </html>
 ```
 
-[![Edit 076-Viewport Settings](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/076-viewport-settings-7gjptw)
+[![Edit 076-Viewport Settings](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/076-viewport-settings-7gjptw)
 
 [^76]CodeSandbox: Viewport Settings.
 
@@ -2970,7 +2970,7 @@ The em unit represents the font size of the element's parent container. It is co
 }
 ```
 
-[![Edit 077-Em (em)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
+[![Edit 077-Em (em)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
 
 [^77]CodeSandbox: Em (em).
 
@@ -3010,7 +3010,7 @@ In responsive web design, not all content is equally important or relevant to us
 </div>
 ```
 
-[![Edit 078-Importance of Content Prioritization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
+[![Edit 078-Importance of Content Prioritization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
 
 [^78]CodeSandbox: Importance of Content Prioritization.
 
@@ -3045,7 +3045,7 @@ p.paragraph-bolded {
 }
 ```
 
-[![Edit 079-Visual Hierarchy](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/079-visual-hierarchy-rqvhyf)
+[![Edit 079-Visual Hierarchy](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/079-visual-hierarchy-rqvhyf)
 
 [^79]CodeSandbox: Visual Hierarchy.
 
@@ -3066,7 +3066,7 @@ Reorganizing content based on its importance and relevance to users can help ens
 }
 ```
 
-[![Edit 080-Content Reorganization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/080-content-reorganization-xr6npx)
+[![Edit 080-Content Reorganization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/080-content-reorganization-xr6npx)
 
 [^80]CodeSandbox: Content Reorganization.
 
@@ -3110,7 +3110,7 @@ When selecting the appropriate file format for images and media, consider factor
 <source src="image.tiff" type="image/tiff">
 ```
 
-[![Edit 081-Choose the Right File Format](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
+[![Edit 081-Choose the Right File Format](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
 
 [^81]CodeSandbox: Choose the Right File Format.
 
@@ -3132,7 +3132,7 @@ Use image compression techniques to reduce file size without sacrificing quality
 <img src="optimized-image.jpg" alt="Optimized JPEG Image">
 ```
 
-[![Edit 082-Optimizing Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/082-optimizing-compression-lwj6ct)
+[![Edit 082-Optimizing Compression](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/082-optimizing-compression-lwj6ct)
 
 [^82]CodeSandbox: Optimizing Compression.
 
@@ -3150,7 +3150,7 @@ Implement lazy loading techniques to defer the loading of images and media until
 <img src="placeholder.jpg" alt="Lazy Loaded Image" loading="lazy">
 ```
 
-[![Edit 083-Lazy Loading](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/083-lazy-loading-mfcf6s)
+[![Edit 083-Lazy Loading](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/083-lazy-loading-mfcf6s)
 
 [^83]CodeSandbox: Lazy Loading.
 
@@ -3174,7 +3174,7 @@ Serve responsive images that are appropriately sized for different screen resolu
      alt="Responsive Image">
 ```
 
-[![Edit 084-Serving Responsive Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
+[![Edit 084-Serving Responsive Images](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
 
 [^84]CodeSandbox: Serving Responsive Images.
 
@@ -3212,7 +3212,7 @@ Configure server-side caching and leverage browser caching mechanisms to store i
 </html>
 ```
 
-[![Edit 085-Enable Browser Caching](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/085-enable-browser-caching-xl3wzp)
+[![Edit 085-Enable Browser Caching](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/085-enable-browser-caching-xl3wzp)
 
 [^85]CodeSandbox: Enable Browser Caching.
 
@@ -3237,7 +3237,7 @@ Optimizing video files involves selecting the appropriate codecs and formats for
 </video>
 ```
 
-[![Edit 086-Video Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/086-video-optimization-688yvn)
+[![Edit 086-Video Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/086-video-optimization-688yvn)
 
 [^86]CodeSandbox: Video Optimization.
 
@@ -3265,7 +3265,7 @@ Similar to video optimization, audio optimization involves selecting the appropr
 </audio>
 ```
 
-[![Edit 087-Audio Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/087-audio-optimization-zy3cpv)
+[![Edit 087-Audio Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/087-audio-optimization-zy3cpv)
 
 [^87]CodeSandbox: Audio Optimization.
 
@@ -3365,7 +3365,7 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 </html>
 ```
 
-[![Edit 088-Key Concepts of Flexbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/088-key-concepts-of-flexbox-zpmyxf)
+[![Edit 088-Key Concepts of Flexbox](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/088-key-concepts-of-flexbox-zpmyxf)
 
 [^88]CodeSandbox: Key Concepts of Flexbox.
 
@@ -3413,7 +3413,7 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 </html>
 ```
 
-[![Edit 089-Key Concepts of CSS Grid](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/089-key-concepts-of-css-grid-fnt88c)
+[![Edit 089-Key Concepts of CSS Grid](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/089-key-concepts-of-css-grid-fnt88c)
 
 [^89]CodeSandbox: Key Concepts of CSS Grid.
 
@@ -3439,7 +3439,7 @@ Media queries are essential for creating responsive designs that adapt to differ
 }
 ```
 
-[![Edit 090-Media Queries for Responsive Design](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/090-media-queries-for-responsive-design-5pr5ll)
+[![Edit 090-Media Queries for Responsive Design](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/090-media-queries-for-responsive-design-5pr5ll)
 
 [^90]CodeSandbox: Media Queries for Responsive Design.
 
@@ -3476,7 +3476,7 @@ Web accessibility is crucial for ensuring that websites and web applications are
 </nav>
 ```
 
-[![Edit 091-Importance and Principles of Web Accessibility](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/091-importance-and-principles-of-web-accessibility-qtxl9q)
+[![Edit 091-Importance and Principles of Web Accessibility](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/091-importance-and-principles-of-web-accessibility-qtxl9q)
 
 [^91]CodeSandbox: Importance and Principles of Web Accessibility.
 
@@ -3496,7 +3496,7 @@ Accessible Rich Internet Applications (ARIA) attributes and roles provide additi
 - The `role="button"` attribute indicates that the `<button>` element functions as a button.
 - The `aria-label="Close"` attribute provides a descriptive label for the button, ensuring that screen reader users understand its purpose.
 
-[![Edit 092-ARIA (Accessible Rich Internet Applications) Labels and Roles](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/092-aria-accessible-rich-internet-applications-labels-and-roles-vd3t4c)
+[![Edit 092-ARIA (Accessible Rich Internet Applications) Labels and Roles](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/092-aria-accessible-rich-internet-applications-labels-and-roles-vd3t4c)
 
 [^92]CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.
 
@@ -3515,7 +3515,7 @@ HTML5 introduces several features and elements that support web accessibility, m
 </main>
 ```
 
-[![Edit 093-Accessibility Features in HTML5](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/093-accessibility-features-in-html5-zwjmnz)
+[![Edit 093-Accessibility Features in HTML5](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/093-accessibility-features-in-html5-zwjmnz)
 
 [^93]CodeSandbox: Accessibility Features in HTML5.
 
@@ -3552,7 +3552,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 <img src="example.jpg" alt="SEO Basics with HTML - Image Alt Attribute Example">
 ```
 
-[![Edit 094-Image Alt Attribute](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/094-image-alt-attribute-fgcs54)
+[![Edit 094-Image Alt Attribute](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/094-image-alt-attribute-fgcs54)
 
 [^94]CodeSandbox: Image Alt Attribute.
 
@@ -3584,7 +3584,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 </footer>
 ```
 
-[![Edit 095-Semantic HTML Elements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/095-semantic-html-elements-ncm57v)
+[![Edit 095-Semantic HTML Elements](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/095-semantic-html-elements-ncm57v)
 
 [^95]CodeSandbox: Semantic HTML Elements.
 
@@ -3611,7 +3611,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 <meta name="keywords" content="SEO, HTML, meta tags, keywords" />
 ```
 
-[![Edit 096-Meta Keywords Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/096-meta-keywords-tag-ykmyqn)
+[![Edit 096-Meta Keywords Tag](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/096-meta-keywords-tag-ykmyqn)
 
 [^96]CodeSandbox: Meta Keywords Tag.
 
@@ -3625,7 +3625,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-[![Edit 097-Viewport Meta Tag](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/097-viewport-meta-tag-zzj7nh)
+[![Edit 097-Viewport Meta Tag](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/097-viewport-meta-tag-zzj7nh)
 
 [^97]CodeSandbox: Viewport Meta Tag.
 
@@ -3696,7 +3696,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 </html>
 ```
 
-[![Edit 098-Semantic Markup](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/098-semantic-markup-t9dcrs)
+[![Edit 098-Semantic Markup](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/098-semantic-markup-t9dcrs)
 
 [^98]CodeSandbox: Semantic Markup.
 
@@ -3718,7 +3718,7 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 </form>
 ```
 
-[![Edit 099-Form Enhancements](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/099-form-enhancements-2pv533)
+[![Edit 099-Form Enhancements](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/099-form-enhancements-2pv533)
 
 [^99]CodeSandbox: Form Enhancements.
 
@@ -3737,7 +3737,7 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 </video>
 ```
 
-[![Edit 100-Multimedia Integration](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/100-multimedia-integration-zlskc5)
+[![Edit 100-Multimedia Integration](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/100-multimedia-integration-zlskc5)
 
 [^100]CodeSandbox: Multimedia Integration.
 
@@ -3753,7 +3753,7 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-[![Edit 101-Mobile Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/101-mobile-optimization-mmrlcx)
+[![Edit 101-Mobile Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/101-mobile-optimization-mmrlcx)
 
 [^101]CodeSandbox: Mobile Optimization.
 
@@ -3769,7 +3769,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 <button aria-label="Close">X</button>
 ```
 
-[![Edit 102-Accessibility Features](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/102-accessibility-features-2tk54j)
+[![Edit 102-Accessibility Features](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/102-accessibility-features-2tk54j)
 
 [^102]CodeSandbox: Accessibility Features.
 
@@ -3816,7 +3816,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 </html>
 ```
 
-[![Edit 103-Code Organization and Commenting](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/103-code-organization-and-commenting-722xxt)
+[![Edit 103-Code Organization and Commenting](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/103-code-organization-and-commenting-722xxt)
 
 [^103]CodeSandbox: Code Organization and Commenting.
 
@@ -3865,7 +3865,7 @@ h1 {
 }
 ```
 
-[![Edit 104-HTML Performance Optimization Techniques](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
+[![Edit 104-HTML Performance Optimization Techniques](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
 
 [^104]CodeSandbox: HTML Performance Optimization Techniques.
 
@@ -3880,7 +3880,7 @@ h1 {
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
 
-[![Edit 105-HTML Minification and Compression](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
+[![Edit 105-HTML Minification and Compression](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
 
 [^105]CodeSandbox: HTML Minification and Compression.
 
@@ -3896,7 +3896,7 @@ h1 {
 <p>Welcome to our optimized website.</p>
 ```
 
-[![Edit 106-Lazy Loading of Images](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/106-lazy-loading-of-images-mx2q9r)
+[![Edit 106-Lazy Loading of Images](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/106-lazy-loading-of-images-mx2q9r)
 
 [^106]CodeSandbox: Lazy Loading of Images.
 
@@ -3940,7 +3940,7 @@ In `styles.css`, add simple styling and take note of the minified code, which ca
 body{font-family:Arial,sans-serif}h1{color:navy}
 ```
 
-[![Edit 107-CSS and JavaScript Optimization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
+[![Edit 107-CSS and JavaScript Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
 
 [^107]CodeSandbox: CSS and JavaScript Optimization.
 
@@ -3987,7 +3987,7 @@ The Geolocation API enables web applications to access the user's geographic loc
 </script>
 ```
 
-[![Edit 108-Geolocation API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/108-geolocation-api-443vqt)
+[![Edit 108-Geolocation API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/108-geolocation-api-443vqt)
 
 [^108]CodeSandbox: Geolocation API.
 
@@ -4011,7 +4011,7 @@ const username = localStorage.getItem("username");
 alert("Username: " + username);
 ```
 
-[![Edit 109-Web Storage API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/109-web-storage-api-729wnm)
+[![Edit 109-Web Storage API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/109-web-storage-api-729wnm)
 
 [^109]CodeSandbox: Web Storage API.
 
@@ -4048,7 +4048,7 @@ ctx.fillStyle = "blue";
 ctx.fill();
 ```
 
-[![Edit 110-Canvas API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
+[![Edit 110-Canvas API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
 
 [^110]CodeSandbox: Canvas API.
 
@@ -4084,7 +4084,7 @@ self.addEventListener("message", (e) => {
 });
 ```
 
-[![Edit 111-Web Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/111-web-workers-snqmpz)
+[![Edit 111-Web Workers](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/111-web-workers-snqmpz)
 
 [^111]CodeSandbox: Web Workers.
 
@@ -4118,7 +4118,7 @@ socket.onmessage = function(event) {
 socket.send("Hello from client!");
 ```
 
-[![Edit 112-WebSocket API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/112-websocket-api-dypkvz)
+[![Edit 112-WebSocket API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/112-websocket-api-dypkvz)
 
 [^112]CodeSandbox: WebSocket API.
 
@@ -4155,7 +4155,7 @@ document.getElementById("dropzone").addEventListener("drop", function(event) {
 </script>
 ```
 
-[![Edit 113-Drag and Drop API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/113-drag-and-drop-api-fsswsl)
+[![Edit 113-Drag and Drop API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/113-drag-and-drop-api-fsswsl)
 
 [^113]CodeSandbox: Drag and Drop API.
 
@@ -4181,7 +4181,7 @@ The Audio and Video API allows web applications to embed and control audio and v
 </video>
 ```
 
-[![Edit 114-Audio and Video API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/114-audio-and-video-api-zzyzjg)
+[![Edit 114-Audio and Video API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/114-audio-and-video-api-zzyzjg)
 
 [^114]CodeSandbox: Audio and Video API.
 
@@ -4211,7 +4211,7 @@ function handleFile(event) {
 </script>
 ```
 
-[![Edit 115-File API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/115-file-api-69c6jw)
+[![Edit 115-File API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/115-file-api-69c6jw)
 
 [^115]CodeSandbox: File API.
 
@@ -4240,7 +4240,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
 </script>
 ```
 
-[![Edit 116-WebRTC API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/116-webrtc-api-8kfdt8)
+[![Edit 116-WebRTC API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/116-webrtc-api-8kfdt8)
 
 [^116]CodeSandbox: WebRTC API.
 
@@ -4258,7 +4258,7 @@ The Media Capture and Streams API enables web applications to capture audio, vid
 <input type="file" accept="image/*" capture="camera">
 ```
 
-[![Edit 117-Media Capture and Streams API](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
+[![Edit 117-Media Capture and Streams API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
 
 [^117]CodeSandbox: Media Capture and Streams API.
 
@@ -4302,7 +4302,7 @@ const registerServiceWorker = async function () {
 registerServiceWorker();
 ```
 
-[![Edit 118-Implementing Offline Capabilities with Service Workers](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
+[![Edit 118-Implementing Offline Capabilities with Service Workers](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
 
 [^118]CodeSandbox: Implementing Offline Capabilities with Service Workers.
 
@@ -4349,7 +4349,7 @@ h1 {
 }
 ```
 
-[![Edit 119-Caching Assets for Offline Use](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/119-caching-assets-for-offline-use-tmpq6w)
+[![Edit 119-Caching Assets for Offline Use](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/119-caching-assets-for-offline-use-tmpq6w)
 
 [^119]CodeSandbox: Caching Assets for Offline Use.
 
@@ -4389,7 +4389,7 @@ function syncData() {
 }
 ```
 
-[![Edit 120-Offline Data Synchronization](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
+[![Edit 120-Offline Data Synchronization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
 
 [^120]CodeSandbox: Offline Data Synchronization.
 
