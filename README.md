@@ -2,7 +2,128 @@
 
 ![Promotional image](images/promotional.png)
 
+## ❣️ Support
+
+There are many ways to support us; in exchange, you'll get this material in a proper format:
+
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com),
+- 📖 [Udemy, in an interactive video course format](https://www.udemy.com/user/social-ditectrev/),
+- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMWjZNR0VRQUFRQkFKEAkQBA%3D%3D:S:ANO1ljK1zJ0),
+- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com),
+- 🛒 [eBay, in PDF format](www.ebay.com/sch/i.html?item=404900285691&rt=nc&_trksid=p4429486.m3561.l161211&_ssn=ditectrev),
+- 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
+
+💰 If you work for a company, you could probably easily claim this expense while learning this topic. For us, it's about being in the game or not.
+
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
+
+## ✨ This book & course is unlike any HyperText Markup Language (HTML) course you will find online.
+
+✋ Join a live online community and a course taught by industry experts and learn about HTML. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
+## ⌛️ Short and to the point; why should you take the book & course:
+
+1. Always happy to answer your questions 😊
+2. Unhappy? Please raise a refund; we'll always accept it 💸
+3. Learn about topics, such as 😱
+   - Introduction to HTML;
+   - Basic Structure of an HTML Document:
+     - Anatomy of an HTML Document (`<!DOCTYPE>`, `<meta>`, `<head>`, `<body>`);
+   - Essential HTML Tags:
+     - Headings (`<h1>` to `<h6>`);
+     - Paragraphs and Text Formatting (`<strong>`, `<em>`, `<mark>`, `<small>`, `<del>`);
+     - Lists (`<ol>`, `<ul>`, `<li>`);
+     - Hyperlinks (`<a>`);
+     - Images (`<img>`);
+     - Tables (`<table>`, `<tr>`, `<td>`, `<th>`);
+     - Line Breaks (`<br>`) and Horizontal Rules (`<hr>`);
+   - Forms and User Input:
+     - Text Inputs, Radio Buttons, Checkboxes (`<input>`)
+     - Select Menus and Option Elements (`<select>`, `<option>`)
+     - Submit and Reset Buttons (`<select>`, `<option>`)
+     - Form Validation Basics (`<input>`);
+     - Advanced Form Features (`<input>`);
+     - Best Practices in Form Design;
+     - Practical Examples and Exercises;
+   - HTML5 and Semantic Elements:
+     - The Importance of Semantic Markup;
+     - Commonly Used Semantic Elements (`<article>`, `<section>`, `<nav>`, `<header>`, `<footer>`);
+     - Practical Applications and Real-World Scenarios;
+     - SEO and Semantic HTML;
+   - Advanced HTML Features:
+     - Multimedia (`<audio>`, `<video>`);
+     - Canvas (`<canvas>`);
+     - Geolocation;
+     - Web Storage (Local Storage, Session Storage);
+     - Drag and Drop;
+     - Iframes (`<iframe>`);
+     - SVG (Scalable Vector Graphics) (`<svg>`);
+     - Data Attributes (`data-*`);
+   - CSS Integration with HTML:
+     - Basics of Cascading Style Sheets (CSS);
+     - Types of CSS (Inline, Internal, External);
+     - CSS Frameworks;
+     - CSS Preprocessors;
+     - Flexbox and Grid Layouts;
+   - Introduction to JavaScript with HTML:
+     - Embedding JavaScript in HTML;
+     - External JavaScript Files;
+     - DOM Manipulation;
+     - Event Handling;
+   - Building Responsive Web Designs:
+     - Mobile-First Approach;
+     - Flexible Layouts and Units;
+     - Content Prioritization;
+     - Optimized Images and Media;
+     - Testing and Iteration;
+   - Web Accessibility;
+   - SEO Basics with HTML;
+   - HTML Best Practices and Performance Optimization;
+   - HTML5 APIs and Advanced Features:
+     - Geolocation API;
+     - Web Storage API;
+     - Canvas API;
+     - Web Workers;
+     - WebSocket API;
+     - Drag and Drop API;
+     - Audio and Video API;
+     - File API;
+     - WebRTC API;
+     - Media Capture and Streams API;
+     - Offline Applications and Service Workers;
+   - Common Challenges and Debugging Tips;
+   - Additional Resources and Reading Materials;
+   - **Much More!**
+4. Real Life examples ✅
+5. The book & course explains the topic fully in-depth 🔬
+6. 120 **unique** interactive `Tap2Play` CodeSandboxes 🕹️
+
+## ☝️ Course Updates
+
+**[v1.0.0](../../releases/tag/v1.0.0): October 28, 2024.**
+
+## 🙋‍♀️ & 🙋‍♂️ Contribution
+
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
+
+## Who this course is for:
+
+- 👨‍🎓 Enthusiasts of practical education;
+- 👨‍🎓 Everyone who has heard about HTML and would like to know more;
+- 👨‍🎓 Professionalists daily working with technology who want to have a basic grasp of what programming is without burnout;
+- 👨‍🎓 Sceptical Developers about book & course solely focused on HTML;
+- 👨‍🎓 Self-paced Learners for whom expensive Bootcamps are unaffordable;
+- 👨‍🎓 Students interested in Web Development;
+- 👨‍🎓 Students willing to start a career in Software Development;
+- 👨‍🎓 Web Developers willing to know A to Z about HTML;
+
+## Requirements
+
+- 🤩 Excitement to learn!
+- 0️⃣ Prior knowledge is required;
+- ✅ You can learn HTML solely based on our course.
 
 ## Table of Contents
 
