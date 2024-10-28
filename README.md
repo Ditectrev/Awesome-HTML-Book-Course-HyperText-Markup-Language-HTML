@@ -6,11 +6,11 @@
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
 
-- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/awesome-html-book-hypertext-markup-language-html),
 - 📖 [Udemy, in an interactive video course format](https://www.udemy.com/user/social-ditectrev/),
-- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/collection/cluster?gsr=SheCARQKEAoMWjZNR0VRQUFRQkFKEAkQBA%3D%3D:S:ANO1ljK1zJ0),
-- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com),
-- 🛒 [eBay, in PDF format](www.ebay.com/sch/i.html?item=404900285691&rt=nc&_trksid=p4429486.m3561.l161211&_ssn=ditectrev),
+- 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=x8IsEQAAQBAJ),
+- 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/1802525144),
+- 🛒 [eBay, in PDF format](https://www.ebay.com/itm/405312761104?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
 - 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
 💰 If you work for a company, you could probably easily claim this expense while learning this topic. For us, it's about being in the game or not.
