@@ -1,4 +1,4 @@
-# Awesome HTML Book: HyperText Markup Language (HTML)
+# Awesome HTML Book & Course: HyperText Markup Language (HTML)
 
 ![Promotional image](images/promotional.png)
 
@@ -3993,7 +3993,7 @@ h1 {
 [^104]:[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/), last access: September 10, 2024.
 
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
-- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow https://github.com/codesandbox/codesandbox-client/issues/8610 for more information.**
+- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow [https://github.com/codesandbox/codesandbox-client/issues/8610](https://github.com/codesandbox/codesandbox-client/issues/8610) for more information.**
 
 ##### Code Example: HTML Minification and Compression
 
