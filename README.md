@@ -17,9 +17,9 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 ⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
 
-## ✨ This book & course is unlike any HyperText Markup Language (HTML) course you will find online.
+## ✨ This book & course is unlike any HyperText Markup Language (HTML) book & course you will find online.
 
-✋ Join a live online community and a course taught by industry experts and learn about HTML. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+✋ Join a live online community and a book & course taught by industry experts and learn about HTML. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
 [![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
@@ -100,7 +100,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 5. The book & course explains the topic fully in-depth 🔬
 6. 120 **unique** interactive `Tap2Play` CodeSandboxes 🕹️
 
-## ☝️ Course Updates
+## ☝️ Book & Course Updates
 
 **[v1.0.0](../../releases/tag/v1.0.0): October 28, 2024.**
 
@@ -108,7 +108,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
 
-## Who this course is for:
+## Who this book & course is for:
 
 - 👨‍🎓 Enthusiasts of practical education;
 - 👨‍🎓 Everyone who has heard about HTML and would like to know more;
@@ -123,7 +123,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - 🤩 Excitement to learn!
 - 0️⃣ Prior knowledge is required;
-- ✅ You can learn HTML solely based on our course.
+- ✅ You can learn HTML solely based on our book & course.
 
 ## Table of Contents
 
