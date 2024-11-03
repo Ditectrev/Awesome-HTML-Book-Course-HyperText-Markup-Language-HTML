@@ -595,7 +595,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 [![Edit 002-Setting Up a Basic HTML File Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
 
-[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
+[^2]CodeSandbox: Setting Up a Basic HTML File Structure.
+
+[^2]:[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
 
 ### Basics of Document Object Model (DOM)
 

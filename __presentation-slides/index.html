@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/serif.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<style>
+		.fragment.blur {
+			filter: blur(1rem);
+		}
+
+		.fragment.blur.visible {
+			filter: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+# Welcome <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## Introduction to HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### What is HTML? <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Brief History of HTML and Its Evolution <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.](images/html_timeline.png)|
+|:--:|
+| *A timeline graphic showing key milestones in the history of HTML, from HTML 1.0 to HTML5.* |
+
+---
+
+#### Understanding the Role of HTML in Web Development <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.](images/html_css_javascript_interaction.png)|
+|:--:|
+| *HTML, CSS, JavaScript Interaction Diagram: A Venn diagram illustrating how HTML, CSS, and JavaScript overlap and interact in web development.* |
+
+---
+
+#### Overview of Web Browsers and How They Interpret HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).](images/browser_rendering.png)|
+|:--:|
+| *Browser Rendering: showing how a sample HTML code is rendered in different browsers (Chrome, Firefox, Safari).* |
+
+---
+
+##### Example: Basic HTML Structure <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|3,6|4|5|7,10|8|9]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML page.</p>
+  </body>
+</html>
+```
+
+[![Edit 001-Basic HTML Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/001-basic-html-structure-7gq85k)
+
+[CodeSandbox: Basic HTML Structure](https://7gq85k.csb.app/).
+
+---
+
+### Setting Up the Environment <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Installing and Configuring a Text Editor <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+
+#### Understanding the File Structure for Web Projects <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.](images/html_css_javascript_project_structure.png)|
+|:--:|
+| *Web Project File Structure Diagram: A flowchart or tree diagram showing a typical web project's file structure, including HTML, CSS, JavaScript files, and a folder for images.* |
+
+---
+
+##### Example: Setting Up a Basic HTML File Structure <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+[![Edit 002-Setting Up a Basic HTML File Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
+
+[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/).
+
+---
+
+### Basics of Document Object Model (DOM) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/dom_structure.png)|
+|:--:|
+| *Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, html, head, and body.* |
+
+---
+
+#### Example: Exploring the DOM <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+[![Edit 003-Exploring the DOM](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/003-exploring-the-dom-8kyhj7)
+
+[CodeSandbox: Exploring the DOM](https://8kyhj7.csb.app/).
+
+---
+
+## Basic Structure of an HTML Document <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Anatomy of an HTML Document <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Basic Anatomy of an HTML Document <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document Title</title>
+    <!-- Other head elements like links to CSS files, metadata go here -->
+  </head>
+  <body>
+    <!-- Webpage content goes here -->
+  </body>
+</html>
+```
+
+[![Edit 004-Basic Anatomy of an HTML Document](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/004-basic-anatomy-of-an-html-document-cqc9qw)
+
+[CodeSandbox: Basic Anatomy of an HTML Document](https://cqc9qw.csb.app/).
+
+---
+
+### Declaration, Head, and Body Sections <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* The `<!DOCTYPE>` Declaration <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* The `<meta charset="UTF-8" />` <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* The `<head>` Section <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* The `<body>` Section <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Understanding DOCTYPE <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: HTML5 DOCTYPE <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!DOCTYPE html>
+<!-- This is the standard declaration for HTML5 documents -->
+```
+
+---
+
+#### Example: Creating a Simple HTML Page <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+[![Edit 005-Creating a Simple HTML Page](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/005-creating-a-simple-html-page-gkxq6z)
+
+[CodeSandbox: Creating a Simple HTML Page](https://gkxq6z.csb.app/).
+
+---
+
+## Essential HTML Tags <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Headings (`<h1>` to `<h6>`) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Using Headings <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<h1>Main Title of the Page</h1>
+<h2>Subsection Title</h2>
+<h3>Sub-subsection Title</h3>
+<h4>Sub-sub-subsection Title</h4>
+<h5>Sub-sub-sub-subsection Title</h5>
+<h6>Sub-sub-sub-sub-subsection Title</h6>
+```
+
+[![Edit 006-Using Headings](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/006-using-headings-6p6kkp)
+
+[CodeSandbox: Using Headings](https://6p6kkp.csb.app/).
+
+---
+
+### Paragraphs and Text Formatting (bold, italic, underline, more) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Paragraphs and Formatting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<p>This is a standard paragraph.</p>
+<p>This paragraph contains <strong>bold text</strong>, <em>italic text</em>, <mark>highlighted text</mark>, <small>smaller text</small>, and <del>deleted text</del>.</p>
+```
+
+[![Edit 007-Paragraphs and Formatting](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/007-paragraphs-and-formatting-hcdvjw)
+
+[CodeSandbox: Paragraphs and Formatting](https://hcdvjw.csb.app/).
+
+---
+
+### Creating Lists <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Lists in HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!-- Ordered List -->
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+
+<!-- Unordered List -->
+<ul>
+    <li>Bullet item</li>
+    <li>Another bullet item</li>
+</ul>
+
+<!-- Description List -->
+<dl>
+    <dt>Term 1</dt>
+    <dd>Definition 1</dd>
+    <dt>Term 2</dt>
+    <dd>Definition 2</dd>
+</dl>
+```
+
+[![Edit 008-Lists in HTML](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/008-lists-in-html-xlyz8s)
+
+[CodeSandbox: Lists in HTML](https://xlyz8s.csb.app/).
+
+---
+
+### Hyperlinks (`<a>`) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Creating a Hyperlink <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!-- Linking to an external site -->
+<a href="https://www.example.com">Visit Example.com</a>
+<!-- Hyperlink opening in a new tab -->
+<a href="https://www.example.com" target="_blank">Visit Example.com in a new tab</a>
+<!-- Linking to an email address -->
+<a href="mailto:someone@example.com">Send Email</a>
+<!-- Linking to a phone number -->
+<a href="tel:+1234567890">Call Us</a>
+```
+
+[![Edit 009-Creating a Hyperlink](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/009-creating-a-hyperlink-fqmf24)
+
+[CodeSandbox: Creating a Hyperlink](https://fqmf24.csb.app/).
+
+---
+
+### Displaying Images (`<img>`) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Embedding an Image <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!-- Image with specified width and height -->
+<img src="image.jpg" alt="Description of image" width="500" height="300">
+```
+
+[![Edit 010-Embedding an Image](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/010-embedding-an-image-cp8ht6)
+
+[CodeSandbox: Embedding an Image](https://cp8ht6.csb.app/).
+
+---
+
+### Creating Tables (`<table>`, `<tr>`, `<td>`, `<th>`) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: A Simple Table <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>Data Cell 1</td>
+        <td>Data Cell 2</td>
+    </tr>
+    <!-- Additional rows and cells can be added here -->
+</table>
+```
+
+[![Edit 011-A Simple Table](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/011-a-simple-table-jxrk65)
+
+[CodeSandbox: A Simple Table](https://jxrk65.csb.app/).
+
+---
+
+### Line Breaks (`<br>`) and Horizontal Rules (`<hr>`) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Using Line Breaks and Horizontal Rules <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<p>This is a paragraph.<br>Here is a new line in the same paragraph.</p>
+<hr>
+<p>This is another paragraph following a horizontal rule.</p>
+```
+
+[![Edit 012-Using Line Breaks and Horizontal Rules](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/012-using-line-breaks-and-horizontal-rules-q3p3lx)
+
+[CodeSandbox: Using Line Breaks and Horizontal Rules](https://q3p3lx.csb.app/).
+
+---
+
+### Summary: Essential HTML Tags <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## Forms and User Input <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Structure of an HTML Form <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Basic Form Syntax <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<form action="/submit-form" method="post">
+    <!-- Form elements go here -->
+</form>
+```
+
+[![Edit 013-Basic Form Syntax](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/013-basic-form-syntax-8grgqh)
+
+[CodeSandbox: Basic Form Syntax](https://8grgqh.csb.app/).
+
+---
+
+### Text Inputs, Radio Buttons, Checkboxes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Text Inputs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="text" name="username" maxlength="15" placeholder="Enter username">
+```
+
+[![Edit 014-Text Inputs](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/014-text-inputs-hgzcj8)
+
+[CodeSandbox: Text Inputs](https://hgzcj8.csb.app/).
+
+---
+
+#### Example: Radio Buttons <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" value="female" id="female">
+<label for="female">Female</label>
+```
+
+[![Edit 015-Radio Buttons](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/015-radio-buttons-9ny4lk)
+
+[CodeSandbox: Radio Buttons](https://9ny4lk.csb.app/).
+
+---
+
+#### Example: Checkboxes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="checkbox" name="interest" value="coding" id="coding">
+<label for="coding">Coding</label>
+```
+
+[![Edit 016-Checkboxes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/016-checkboxes-8y2kr3)
+
+[CodeSandbox: Checkboxes](https://8y2kr3.csb.app/).
+
+---
+
+### Select Menus and Option Elements <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Creating Select Menus <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<select name="country">
+    <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <!-- Additional options -->
+</select>
+```
+
+[![Edit 017-Creating Select Menus](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/017-creating-select-menus-cjrj6p)
+
+[CodeSandbox: Creating Select Menus](https://cjrj6p.csb.app/).
+
+---
+
+### Submit and Reset Buttons <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Submit Button <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="submit" value="Submit Form">
+<!-- or -->
+<button type="submit">Submit Form</button>
+```
+
+[![Edit 018-Submit Button](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/018-submit-button-4g2k2t)
+
+[CodeSandbox: Submit Button](https://4g2k2t.csb.app/).
+
+---
+
+#### Example: Reset Button <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="reset" value="Reset Form">
+```
+
+[![Edit 019-Reset Button](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/019-reset-button-6tqsmk)
+
+[CodeSandbox: Reset Button](https://6tqsmk.csb.app/).
+
+---
+
+### Form Validation Basics <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+```html
+<input type="email" name="email" required>
+<input type="number" name="age" min="18" max="100">
+```
+
+[![Edit 020-Form Validation Basics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
+
+[CodeSandbox: Form Validation Basics](https://nzcplr.csb.app/).
+
+---
+
+### Advanced Form Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: File Uploads <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="file" name="document">
+```
+
+[![Edit 021-File Uploads](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/021-file-uploads-q82hj2)
+
+[CodeSandbox: File Uploads](https://q82hj2.csb.app/).
+
+---
+
+#### Example: HTML5 Input Types <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<input type="date" name="birthday">
+```
+
+[![Edit 022-HTML5 Input Types](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/022-html5-input-types-sjwsrk)
+
+[CodeSandbox: HTML5 Input Types](https://sjwsrk.csb.app/).
+
+---
+
+### Styling Forms <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Best Practices in Form Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### UX Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Clarity in Form Fields <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Logical Structure and Order <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Simplicity and Minimalism <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Responsive Design <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Clear Action Buttons <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Providing Instant Feedback <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Error Handling and Messages <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Accessibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Security Practices <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Client-side Validation <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Sensitive Data Handling <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cross-Site Scripting (XSS) Protection <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cross-Site Request Forgery (CSRF) Protection <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* CAPTCHA for Spam Prevention <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+#### Summary: Best Practices in Form Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Practical Examples and Exercises <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Step-by-Step Guide: Building a Comprehensive Registration Form <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+
+[![Edit 023-Building a Comprehensive Registration Form](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
+
+[CodeSandbox: Exploring the DOM](https://kk58h2.csb.app/).
+
+---
+
+#### Step-by-Step Guide: Dynamic Form with JavaScript <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+[![Edit 024-Dynamic Form with JavaScript](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/024-dynamic-form-with-javascript-czrr4l)
+
+[CodeSandbox: Dynamic Form with JavaScript](https://czrr4l.csb.app/).
+
+---
+
+### Summary: Forms and User Input <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## HTML5 and Semantic Elements <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+				</textarea>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t',
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
