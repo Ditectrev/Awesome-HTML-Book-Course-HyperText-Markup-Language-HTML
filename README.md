@@ -595,9 +595,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 [![Edit 002-Setting Up a Basic HTML File Structure](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/002-setting-up-a-basic-html-file-structure-hrm893)
 
-[^2]CodeSandbox: Setting Up a Basic HTML File Structure.
-
-[^2]:[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
+[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
 
 ### Basics of Document Object Model (DOM)
 
@@ -869,7 +867,6 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 
 [^11]:[CodeSandbox: A Simple Table](https://jxrk65.csb.app/), last access: May 13, 2024.
 
-
 ### Line Breaks (`<br>`) and Horizontal Rules (`<hr>`)
 
 The `<br>` tag inserts a single line break, useful for content separation within the same paragraph. The `<hr>` tag creates a horizontal line, useful for thematic breaks in content.
@@ -1043,7 +1040,6 @@ Buttons to submit or reset the form data.
 [^21]CodeSandbox: File Uploads.
 
 [^21]:[CodeSandbox: File Uploads](https://q82hj2.csb.app/), last access: May 22, 2024.
-
 
 #### Example: HTML5 Input Types
 
