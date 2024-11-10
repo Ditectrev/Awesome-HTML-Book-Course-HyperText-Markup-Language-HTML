@@ -68,7 +68,7 @@
 
 ### Example: Basic HTML Structure <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1|2|3,6|4|5|7,10|8|9]
+```html[|1|2|3|6|3,6|4|5|7|10|7,10|8|9]
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -117,7 +117,7 @@
 
 |![Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, <html>, <head>, and <body>.](images/dom_structure.png)|
 |:--:|
-| *Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, html, head, and body.* |
+| *Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like `<!DOCTYPE>`, `<html>`, `<head>`, and `<body>`.* |
 
 ---
 
@@ -139,7 +139,7 @@
 
 ### Example: Basic Anatomy of an HTML Document <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1|2,11|3,7|4|5|6|8,10|9]
+```html[|1|2|11|2,11|3|7|3,7|4|5|6|8|10|8,10|9]
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -174,7 +174,7 @@
 
 ### Example: HTML5 DOCTYPE <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2]
 <!DOCTYPE html>
 <!-- This is the standard declaration for HTML5 documents -->
 ```
@@ -199,7 +199,7 @@
 
 ### Example: Using Headings <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2|3|4|5|6]
 <h1>Main Title of the Page</h1>
 <h2>Subsection Title</h2>
 <h3>Sub-subsection Title</h3>
@@ -220,9 +220,16 @@
 
 ### Example: Paragraphs and Formatting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2,9|3|4|5|6|7|8]
 <p>This is a standard paragraph.</p>
-<p>This paragraph contains <strong>bold text</strong>, <em>italic text</em>, <mark>highlighted text</mark>, <small>smaller text</small>, and <del>deleted text</del>.</p>
+<p>This paragraph contains
+  <strong>bold text</strong>,
+  <em>italic text</em>,
+  <mark>highlighted text</mark>,
+  <small>smaller text</small>,
+  and
+  <del>deleted text</del>.
+</p>
 ```
 
 [![Edit 007-Paragraphs and Formatting](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/007-paragraphs-and-formatting-hcdvjw)
@@ -237,7 +244,7 @@
 
 ### Example: Lists in HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|2|5|2,5|3,4|8|11|8,11|9,10|14|19|14,19|15-18|1,7,13]
 <!-- Ordered List -->
 <ol>
     <li>First item</li>
@@ -271,7 +278,7 @@
 
 ### Example: Creating a Hyperlink <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|2|1|4|3|6|5|8|7]
 <!-- Linking to an external site -->
 <a href="https://www.example.com">Visit Example.com</a>
 <!-- Hyperlink opening in a new tab -->
@@ -294,7 +301,7 @@
 
 ### Example: Embedding an Image <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|2|1]
 <!-- Image with specified width and height -->
 <img src="image.jpg" alt="Description of image" width="500" height="300">
 ```
@@ -311,7 +318,7 @@
 
 ### Example: A Simple Table <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|11|1,11|2,5|3,4|6,9|7,8]
 <table border="1">
     <tr>
         <th>Header 1</th>
@@ -337,7 +344,7 @@
 
 ### Example: Using Line Breaks and Horizontal Rules <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2|3]
 <p>This is a paragraph.<br>Here is a new line in the same paragraph.</p>
 <hr>
 <p>This is another paragraph following a horizontal rule.</p>
@@ -363,7 +370,7 @@
 
 ### Example: Basic Form Syntax <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|3|1,3|2]
 <form action="/submit-form" method="post">
     <!-- Form elements go here -->
 </form>
@@ -381,8 +388,13 @@
 
 ### Example: Text Inputs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
-<input type="text" name="username" maxlength="15" placeholder="Enter username">
+```html[|1|6|1,6|2|3|4|5]
+<input
+  type="text"
+  name="username"
+  maxlength="15"
+  placeholder="Enter username"
+>
 ```
 
 [![Edit 014-Text Inputs](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/014-text-inputs-hgzcj8)
@@ -393,7 +405,7 @@
 
 ### Example: Radio Buttons <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2|1-2|3|4|3-4]
 <input type="radio" name="gender" value="male" id="male">
 <label for="male">Male</label>
 <input type="radio" name="gender" value="female" id="female">
@@ -408,7 +420,7 @@
 
 ### Example: Checkboxes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2|1-2]
 <input type="checkbox" name="interest" value="coding" id="coding">
 <label for="coding">Coding</label>
 ```
@@ -425,7 +437,7 @@
 
 ### Example: Creating Select Menus <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|5|1,5|2|3|4]
 <select name="country">
     <option value="usa">United States</option>
     <option value="canada">Canada</option>
@@ -445,7 +457,7 @@
 
 ### Example: Submit Button <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|3|2|1,3]
 <input type="submit" value="Submit Form">
 <!-- or -->
 <button type="submit">Submit Form</button>
@@ -459,7 +471,6 @@
 
 ### Example: Reset Button <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
 <input type="reset" value="Reset Form">
 ```
 
@@ -471,7 +482,7 @@
 
 ### Form Validation Basics <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[|1|2]
 <input type="email" name="email" required>
 <input type="number" name="age" min="18" max="100">
 ```
@@ -488,7 +499,7 @@
 
 ### Example: File Uploads <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[]
 <input type="file" name="document">
 ```
 
@@ -500,7 +511,7 @@
 
 ### Example: HTML5 Input Types <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[]
 <input type="date" name="birthday">
 ```
 
@@ -635,7 +646,7 @@
 
 ### The `<article>` Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,4|2,3]
+```html[|1|4|1,4|2,3]
 <article>
 	<h2>Article Title</h2>
 	<p>Article content...</p>
@@ -650,7 +661,7 @@
 
 ### The `<section>` Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,4|2,3]
+```html[|1|4|1,4|2,3]
 <section>
 	<h2>Section Heading</h2>
 	<p>Section content...</p>
@@ -665,7 +676,7 @@
 
 ### The `<nav>` Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,7|2,6|3,4,5]
+```html[|1|7|1,7|2,6|3,4,5]
 <nav>
   <ul>
     <li><a href="#">Home</a></li>
@@ -683,7 +694,7 @@
 
 ### The `<header>` Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,4|2,3]
+```html[|1|4|1,4|2,3]
 <header>
   <h1>Welcome to My Website</h1>
   <p>Your main site introduction here...</p>
@@ -698,7 +709,7 @@
 
 ### The `<footer>` Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-  ```html[|1,3|2]
+  ```html[|1|3|1,3|2]
 <footer>
     <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
 </footer>
@@ -795,7 +806,7 @@
 
 #### Example: Speculative `<toolbar>` Semantic Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,11|2,5,8|3,6,9]
+```html[|1|11|1,11|2,5,8|3,6,9]
 <toolbar>
     <button aria-label="New document">
       <img src="icons/new-doc.png" alt="">
@@ -821,7 +832,7 @@
 
 ### Example: Using Custom Elements with Semantic Meaning <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1,5|2,3,4]
+```html[|1|5|1,5|2,3,4]
 <custom-dropdown>
     <option value="1">Option 1</option>
     <option value="2">Option 2</option>
@@ -1073,6 +1084,221 @@ Enhanced Support for Machine Learning and AI <!-- .slide: data-transition="zoom"
 ---
 
 ## Advanced HTML Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Multimedia Integration Elements <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Audio Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|4|1,4|2|3]
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+```
+
+[![Edit 044-Audio Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/044-audio-element-hmf35t)
+
+[CodeSandbox: Audio Element](https://hmf35t.csb.app/).
+
+---
+
+### Video Element <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|4|1,4|2|3]
+<video controls width="400" height="300">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
+```
+
+[![Edit 045-Video Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/045-video-element-yx2ytt)
+
+[CodeSandbox: Video Element](https://yx2ytt.csb.app/), last access: May 29, 2024.
+
+---
+
+### Canvas for Graphics <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|6|1,6|7|1,6,7|2|3|4|5]
+<canvas
+  id="myCanvas"
+  width="400"
+  height="200"
+  style="border:1px solid #000000;"
+>
+</canvas>
+```
+
+---
+
+### Canvas for Graphics <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[1|7|1,7|2|3|4|5|6]
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+```
+
+[![Edit 046-Canvas for Graphics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/046-canvas-for-graphics-wxtng3)
+
+[CodeSandbox: Canvas for Graphics](https://wxtng3.csb.app/).
+
+---
+
+### Geolocation <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+[![Edit 047-Geolocation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
+
+[CodeSandbox: Geolocation](https://jkgprf.csb.app/)
+
+---
+
+### Web Storage <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Local Storage <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|3|5|12|5,12|6|8|11|8,11|9|10]
+<button onclick="saveData()">Save Data</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = localStorage.username;
+
+function saveData() {
+    localStorage.setItem("username", "John");
+    document.getElementById("demo").innerHTML = localStorage.username;
+}
+</script>
+```
+
+[![Edit 048-Local Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
+
+[CodeSandbox: Local Storage](https://7wz96c.csb.app/).
+
+---
+
+### Session Storage <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|3|5|12|5,12|6|8|11|8,11|9|10]
+<button onclick="saveSessionData()">Save Session Data</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = sessionStorage.theme;
+
+function saveSessionData() {
+    sessionStorage.setItem("theme", "light");
+    document.getElementById("demo").innerHTML = sessionStorage.theme;
+}
+</script>
+```
+
+[![Edit 049-Session Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/049-session-storage-jlmh4x)
+
+[CodeSandbox: Session Storage](https://jlmh4x.csb.app/).
+
+---
+
+### Drag and Drop <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|4|14|4,14|5|7|5,7|6|9|13|9,13|10|11|12]
+<div id="drag" draggable="true">Drag me!</div>
+<div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)">Drop here</div>
+
+<script>
+function allowDrop(event) {
+    event.preventDefault();
+}
+
+function drop(event) {
+    event.preventDefault();
+    const data = event.dataTransfer.getData("text");
+    event.target.appendChild(document.getElementById(data));
+}
+</script>
+```
+
+[![Edit 050-Drag and Drop](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/050-drag-and-drop-hfgnpw)
+
+[CodeSandbox: Drag and Drop](https://hfgnpw.csb.app/).
+
+---
+
+### Iframes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|7|1,7|8|1,7,8|2|3|4|5|6]
+<iframe
+  src="https://www.youtube.com/embed/a3ICNMQW7Ok"
+  width="800"
+  height="600"
+  frameborder="0"
+  scrolling="auto"
+>
+</iframe>
+```
+
+[![Edit 051-Iframes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/051-iframes-l2fyl4)
+
+[CodeSandbox: Iframes](https://l2fyl4.csb.app/).
+
+---
+
+### SVG (Scalable Vector Graphics) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|10|1,10|2|9|2,9|3|4|5|6|7|8]
+<svg width="100" height="100">
+    <circle
+      cx="50"
+      cy="50"
+      r="40"
+      stroke="black"
+      stroke-width="2"
+      fill="red"
+    />
+</svg>
+```
+
+[![Edit 052-SVG (Scalable Vector Graphics)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/052-svg-scalable-vector-graphics-3nx6c6)
+
+[CodeSandbox: SVG (Scalable Vector Graphics)](https://3nx6c6.csb.app/).
+
+---
+
+### Data Attributes <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|6|1,6|7|1,6,7|2|3|4|5]
+<div
+  id="product"
+  data-product-id="12345"
+  data-product-name="Widget"
+  data-price="19.99"
+>
+</div>
+```
+
+[![Edit 053-Data Attributes](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/053-data-attributes-ww7npw)
+
+[CodeSandbox: Data Attributes](https://ww7npw.csb.app/).
+
+---
+
+### Summary: Advanced HTML Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## CSS Integration with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 				</textarea>
 			</section>
 		</div>

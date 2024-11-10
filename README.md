@@ -2198,12 +2198,6 @@ Web Storage, comprising Local Storage and Session Storage, allows data to be sto
 
 #### Local Storage
 
-[![Edit 048-Local Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
-
-[^48]CodeSandbox: Local Storage.
-
-[^48]:[CodeSandbox: Local Storage](https://7wz96c.csb.app/), last access: June 4, 2024.
-
 ```html
 <button onclick="saveData()">Save Data</button>
 
@@ -2218,6 +2212,12 @@ function saveData() {
 }
 </script>
 ```
+
+[![Edit 048-Local Storage](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/048-local-storage-7wz96c)
+
+[^48]CodeSandbox: Local Storage.
+
+[^48]:[CodeSandbox: Local Storage](https://7wz96c.csb.app/), last access: June 4, 2024.
 
 - The `localStorage` object enables the storage of data as key-value pairs.
 - In this instance, clicking the "Save Data" button invokes the `saveData` function, which stores the username "John" in local storage.
