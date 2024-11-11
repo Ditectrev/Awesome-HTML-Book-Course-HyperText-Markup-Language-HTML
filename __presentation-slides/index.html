@@ -1299,6 +1299,287 @@ function drop(event) {
 ---
 
 ## CSS Integration with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Basics of Cascading Style Sheets (CSS) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Selectors <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|6|11|1,6,11|2|4|2,4|3|7|9|7,9|8|12|14|12,14|13]
+/* Element Selector */
+p {
+    color: blue;
+}
+
+/* Class Selector */
+.title {
+    font-size: 24px;
+}
+
+/* ID Selector */
+#header {
+    background-color: gray;
+}
+```
+
+[![Edit 054-Selectors](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/054-selectors-sl9z4d)
+
+[CodeSandbox: Selectors](https://sl9z4d.csb.app/).
+
+---
+
+### Properties and Values <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|8|13|1,8,13|2|6|2,6|3,4,5|9|11|9,11|10|14|16|14,16|15]
+/* Font Properties */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Color Properties */
+.title {
+    color: #ff0000; /* Red */
+}
+
+/* Background Properties */
+#header {
+    background-color: #f0f0f0; /* Light Gray */
+}
+```
+
+[![Edit 055-Properties and Values](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/055-properties-and-values-f4437y)
+
+[CodeSandbox: Properties and Values](https://f4437y.csb.app/).
+
+---
+
+### Box Model <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+|![CSS Box Model.](images/css-box-model.png)|
+|:--:|
+| *CSS Box Model.* |
+
+---
+
+### Box Model <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|2|8|2,8|3|4|5|6|7]
+/* Box Model Properties */
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+```
+
+[![Edit 056-Box Model](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/056-box-model-pjx5ch)
+
+[CodeSandbox: Box Model](https://pjx5ch.csb.app/).
+
+---
+
+### CSS Comments <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|3]
+/* This is a CSS comment */
+p {
+    color: blue; /* Set text color to blue */
+}
+```
+
+[![Edit 057-CSS Comments](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/057-css-comments-vny2rf)
+
+[CodeSandbox: CSS Comments](https://vny2rf.csb.app/).
+
+---
+
+### Types of CSS (Inline, Internal, External) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Inline CSS <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1]
+<p style="color: blue; font-size: 16px;">
+  This is a blue paragraph with a font size of 16px.
+</p>
+```
+
+[![Edit 058-Inline CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/058-inline-css-pptd9v)
+
+[CodeSandbox: Inline CSS](https://pptd9v.csb.app/).
+
+---
+
+### Internal (Embedded) CSS <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|11|6,11|7-10|14]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Internal (Embedded) CSS</title>
+    <style>
+        p {
+            color: green;
+            font-size: 18px;
+        }
+    </style>
+  </head>
+  <body>
+    <p>This is a green paragraph with a font size of 18px.</p>
+  </body>
+</html>
+```
+
+[![Edit 059-Internal (Embedded) CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/059-internal-embedded-css-n8rn6n)
+
+[CodeSandbox: Internal (Embedded) CSS](https://n8rn6n.csb.app/).
+
+---
+
+### External CSS <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>External CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <p>This paragraph is styled using an external CSS file.</p>
+  </body>
+</html>
+```
+
+---
+
+### External CSS <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|2-5]
+/* styles.css */
+p {
+    color: purple;
+    font-size: 20px;
+}
+```
+
+[![Edit 060-External CSS](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/060-external-css-w9r4jj)
+
+[CodeSandbox: External CSS](https://w9r4jj.csb.app/).
+
+---
+
+### CSS Frameworks <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|9|6,9|7|8]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Frameworks</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css"
+    >
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bootstrap Example</h1>
+      <button class="btn btn-primary">Click Me</button>
+    </div>
+  </body>
+</html>
+```
+
+[![Edit 061-CSS Frameworks](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/061-css-frameworks-tnxxzj)
+
+[CodeSandbox: CSS Frameworks](https://tnxxzj.csb.app/).
+
+---
+
+### CSS Preprocessors <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```sass[|1|2|4|8|4,8|6|7|5|2|2,5]
+// styles.sass
+$primary-color: #007bff;
+
+.button {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+}
+```
+
+[![Edit 062-CSS Preprocessors](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/062-css-preprocessors-lzkls6)
+
+[CodeSandbox: CSS Preprocessors](https://lzkls6.csb.app/).
+
+---
+
+### Flexbox and Grid Layouts <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Flexbox <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|6|1,6|2|3|4|5|3-5|8|12|8,12|9|11|10|3-5,10]
+.container {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: #f1f1f1;
+    flex: 1;
+    margin: 10px;
+}
+```
+
+[![Edit 063-Flexbox](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/063-flexbox-f4c853)
+
+[CodeSandbox: Flexbox](https://f4c853.csb.app/).
+
+---
+
+### Grid Layouts <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|6|1,6|2|3|4|5|3-5|8|11|8,11|9|10|3-5]
+.container {
+    background-color: #ff0000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.item {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+```
+
+[![Edit 064-Grid Layouts](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/064-grid-layouts-nykj4p)
+
+[CodeSandbox: Grid Layouts](https://nykj4p.csb.app/).
+
+---
+
+### Conclusion: CSS Integration with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## Introduction to JavaScript with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 				</textarea>
 			</section>
 		</div>
