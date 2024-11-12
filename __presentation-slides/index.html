@@ -1117,7 +1117,7 @@ Enhanced Support for Machine Learning and AI <!-- .slide: data-transition="zoom"
 
 [![Edit 045-Video Element](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/045-video-element-yx2ytt)
 
-[CodeSandbox: Video Element](https://yx2ytt.csb.app/), last access: May 29, 2024.
+[CodeSandbox: Video Element](https://yx2ytt.csb.app/).
 
 ---
 
@@ -1157,7 +1157,7 @@ ctx.stroke();
 
 [![Edit 047-Geolocation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/047-geolocation-jkgprf)
 
-[CodeSandbox: Geolocation](https://jkgprf.csb.app/)
+[CodeSandbox: Geolocation](https://jkgprf.csb.app/).
 
 ---
 
@@ -1580,6 +1580,195 @@ $primary-color: #007bff;
 ---
 
 ## Introduction to JavaScript with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Embedding JavaScript in HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|11|6,11|7|8|10|8,10|9|15|6-11,15]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Embedded JavaScript Example</title>
+    <script>
+        // Inline JavaScript code
+        function greet() {
+            alert("Hello, world!");
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Embedded JavaScript Example</h1>
+    <button onclick="greet()">Click me</button>
+  </body>
+</html>
+```
+
+[![Edit 065-Embedded JavaScript Example](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/065-embedded-javascript-example-2ch5rl)
+
+[CodeSandbox: Embedded JavaScript Example](https://2ch5rl.csb.app/).
+
+---
+
+### Pros of Inline Scripting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Quick and easy to implement. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Suitable for small scripts and simple interactions. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Cons of Inline Scripting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Mixing JavaScript with HTML can lead to code clutter and reduced readability. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Limited reusability and maintainability, especially for larger projects. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### External JavaScript Files <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|10|6,10]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>External JavaScript Example</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>External JavaScript Example</h1>
+    <button onclick="greet()">Click me</button>
+  </body>
+</html>
+```
+
+---
+
+### External JavaScript Files <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|3|2|1-3]
+function greet() {
+    alert("Hello, world!");
+}
+```
+
+[![Edit 066-External JavaScript Example](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/066-external-javascript-example-sttc6x)
+
+[CodeSandbox: External JavaScript Example](https://sttc6x.csb.app/).
+
+---
+
+### Pros of External Files <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Separation of concerns. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Improved maintainability. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Better performance. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Cons of External Files <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Additional HTTP requests. <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### DOM Manipulation <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|9|11|16|11,16|12|15|12,15|13-14|8|8-9,11-16]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM Manipulation Example</title>
+  </head>
+  <body>
+    <h1 id="heading">JavaScript Example</h1>
+    <button onclick="changeText()">Change Text</button>
+
+    <script>
+      function changeText() {
+        document.getElementById("heading")
+          .textContent = "New Heading";
+      }
+    </script>
+  </body>
+</html>
+```
+
+[![Edit 067-DOM Manipulation](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/067-dom-manipulation-7k5drg)
+
+[CodeSandbox: DOM Manipulation](https://7k5drg.csb.app/).
+
+---
+
+### Advanced DOM Manipulation Techniques <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|3|9|3,9|4|5|6|7|8]
+setTimeout(changeParagraphText, 5000);
+
+function changeParagraphText() {
+    // Select all paragraphs with a specific class and update their text content
+    document.querySelectorAll("p.myClass")
+        .forEach((paragraph) => {
+            paragraph.textContent = "New content";
+    });
+}
+```
+
+[![Edit 068-Advanced DOM Manipulation Techniques](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/068-advanced-dom-manipulation-techniques-mj9mr7)
+
+[CodeSandbox: Advanced DOM Manipulation Techniques](https://mj9mr7.csb.app/).
+
+---
+
+### Event Handling <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|10|15|10,15|11|8|12|13|14|8,10-15]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Handling Example</title>
+  </head>
+  <body>
+    <button id="btn">Click me</button>
+
+    <script>
+      document.getElementById("btn")
+        .addEventListener("click", function() {
+          alert("Button clicked!");
+      });
+    </script>
+  </body>
+</html>
+```
+
+[![Edit 069-Event Handling](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/069-event-handling-rwd3qd)
+
+[CodeSandbox: Event Handling](https://rwd3qd.csb.app/).
+
+---
+
+### Advanced Event Handling <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|2|3|4|5|6|7|8]
+// Event delegation: Handling events on parent elements for dynamically created child elements
+document.getElementById("parent")
+    .addEventListener("click", function(event) {
+      alert("event.target.tagName is equal " + event.target.tagName);
+      if (event.target.tagName === "BUTTON") {
+          alert("Button clicked!");
+      }
+});
+```
+
+[![Edit 070-Advanced Event Handling](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
+
+[CodeSandbox: Advanced Event Handling](https://mcrl3w.csb.app/).
+
+---
+
+### Summary: Introduction to JavaScript with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 				</textarea>
 			</section>
 		</div>
