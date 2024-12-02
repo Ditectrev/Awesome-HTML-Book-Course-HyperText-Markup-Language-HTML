@@ -562,7 +562,6 @@
 
 ### Step-by-Step Guide: Building a Comprehensive Registration Form <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-
 [![Edit 023-Building a Comprehensive Registration Form](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
 
 [CodeSandbox: Exploring the DOM](https://kk58h2.csb.app/).
@@ -1769,6 +1768,628 @@ document.getElementById("parent")
 ---
 
 ### Summary: Introduction to JavaScript with HTML <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## Building Responsive Web Designs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Responsive Design Principles <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Mobile-First Approach <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Flexible Layouts and Units <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Content Prioritization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Optimized Images and Media <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Testing and Iteration <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Mobile-First Approach <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|2-5|7|8|12|8,12|9-11]
+/* Base styles for mobile devices */
+.container {
+    background-color: #ff0000;
+    padding: 10px;
+}
+
+/* Additional styles for larger screens */
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+}
+```
+
+[![Edit 071-Mobile-First Approach](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/071-mobile-first-approach-fd8cvs)
+
+[CodeSandbox: Mobile-First Approach](https://fd8cvs.csb.app/).
+
+---
+
+### Key Principles of Mobile-First Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Focus on Core Content <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Progressive Enhancement <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Responsive Layouts <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Improved User Experience <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Benefits of Mobile-First Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Better Performance <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Enhanced Accessibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Future-Proofing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Improved SEO <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Smoother Scaling <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Implementation Tips <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Content Strategy <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Responsive Design <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* User Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Flexible Layouts and Units <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Fluid Grids <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|5|1,5|3|4|7|12|7,12|10|11|14-19]
+.container {
+    background-color: #ff0000;
+    width: 90%; /* Set container width to 90% of the viewport */
+    margin: 0 auto; /* Center the container */
+}
+
+.column {
+    background-color: #f1f1f1;
+    float: left;
+    width: 30%; /* Set column width to 30% of the container */
+    margin-right: 5%; /* Add 5% margin between columns */
+}
+
+/* Apply clearfix to clear floats */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+```
+
+[![Edit 072-Fluid Grids](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/072-fluid-grids-qxh5zz)
+
+[CodeSandbox: Fluid Grids](https://qxh5zz.csb.app/).
+
+---
+
+### Media Queries <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|5|6|10|6,10|7-9]
+.column {
+    background-color: #f1f1f1;
+}
+
+/* Apply styles for screens larger than 768px */
+@media screen and (min-width: 768px) {
+    .column {
+        width: 45%; /* Adjust column width for larger screens */
+    }
+}
+```
+
+[![Edit 073-Media Queries](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/073-media-queries-dwprjz)
+
+[CodeSandbox: Media Queries](https://dwprjz.csb.app/).
+
+---
+
+### Percentage (%) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|3|1,4|8|6,9|3,8]
+.container {
+    background-color: #ff0000;
+    width: 90%; /* Set container width to 90% of the viewport */
+}
+
+.column {
+    background-color: #f1f1f1;
+    width: 50%; /* Set column width to 50% of the container */
+}
+```
+
+[![Edit 074-Percentage (%)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/074-percentage-ct6wzy)
+
+[CodeSandbox: Percentage (%)](https://ct6wzy.csb.app/).
+
+---
+
+### Viewport Width (vw) and Viewport Height (vh) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|3|1,4|8|9|8-9|6,10|3,8-9]
+.text {
+    background-color: #ff0000;
+    font-size: 5vw; /* Set font size to 5% of the viewport width */
+}
+
+.box {
+    background-color: #f1f1f1;
+    width: 50vw; /* Set box width to 50% of the viewport width */
+    height: 50vh; /* Set box height to 50% of the viewport height */
+}
+```
+
+[![Edit 075-Viewport Width (vw) and Viewport Height (vh)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/075-viewport-width-vw-and-viewport-height-vh-ckqpy3)
+
+[CodeSandbox: Viewport Width (vw) and Viewport Height (vh)](https://ckqpy3.csb.app/).
+
+---
+
+### Viewport Settings <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|5|3,7|2,11]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewport Settings</title>
+  </head>
+  <body style="background-color: grey">
+    <!-- Content -->
+  </body>
+</html>
+```
+
+[![Edit 076-Viewport Settings](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/076-viewport-settings-7gjptw)
+
+[CodeSandbox: Viewport Settings](https://7gjptw.csb.app/).
+
+---
+
+### Em (em) <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|2|1,3|6|5,7]
+.container {
+    font-size: 16px; /* Set base font size to 16 pixels */
+}
+
+.text {
+    font-size: 1.5em; /* Set font size to 1.5 times the parent container's font size */
+}
+```
+
+[![Edit 077-Em (em)](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/077-em-em-gw6ctx)
+
+[CodeSandbox: Em (em)](https://gw6ctx.csb.app/).
+
+---
+
+### Benefits and Considerations <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Device Agnosticism <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Future-Proofing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Improved Accessibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Simplified Maintenance <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Enhanced User Experience <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cross-Device Compatibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Content Prioritization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|2|1,11|5-8|4,9|3,10]
+<div class="header">
+    <h1>Main Heading</h1>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+```
+
+[![Edit 078-Importance of Content Prioritization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/078-importance-of-content-prioritization-8h7t4q)
+
+[CodeSandbox: Importance of Content Prioritization](https://8h7t4q.csb.app/).
+
+---
+
+### Techniques for Content Prioritization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Visual Hierarchy <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|2|1,3|6|5,7|10|9,11|14-15|13,16]
+h1 {
+    font-size: 24px; /* Large font size for main heading */
+}
+
+h2 {
+    font-size: 20px; /* Medium font size for subheadings */
+}
+
+p.paragraph-normal {
+    font-size: 16px; /* Standard font size for body text */
+}
+
+p.paragraph-bolded {
+    font-size: 16px; /* Standard font size for body text */
+    font-weight: bold; /* Bold font weight for emphasis */
+}
+```
+
+[![Edit 079-Visual Hierarchy](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/079-visual-hierarchy-rqvhyf)
+
+[CodeSandbox: Visual Hierarchy](https://rqvhyf.csb.app/).
+
+---
+
+### Content Reorganization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|2,4|1,5|3]
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none; /* Hide navigation menu on small screens */
+    }
+}
+```
+
+[![Edit 080-Content Reorganization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/080-content-reorganization-xr6npx)
+
+[CodeSandbox: Content Reorganization](https://xr6npx.csb.app/).
+
+---
+
+### Benefits of Content Prioritization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Improved User Engagement <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Enhanced Readability <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Better Conversion Rates <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Optimized Images and Media <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Importance of Optimized Images and Media <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Bandwidth Efficiency <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* User Experience Enhancement <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* SEO Benefits <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Best Practices for Optimized Images and Media <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Choose the Right File Format <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|3|4|5|6|7]
+<!-- Example of using various image formats -->
+<img src="image.jpg" alt="JPEG Image">
+<img src="image.png" alt="PNG Image">
+<source src="image.webp" type="image/webp">
+<source src="image.avif" type="image/avif">
+<source src="image.jp2" type="image/jp2">
+<source src="image.tiff" type="image/tiff">
+```
+
+[![Edit 081-Choose the Right File Format](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
+
+[CodeSandbox: Choose the Right File Format](https://swxx45.csb.app/).
+
+---
+
+### Optimizing Compression <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2]
+<!-- Example of optimizing compression with image optimization tools -->
+<img src="optimized-image.jpg" alt="Optimized JPEG Image">
+```
+
+[![Edit 082-Optimizing Compression](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/082-optimizing-compression-lwj6ct)
+
+[CodeSandbox: Optimizing Compression](https://lwj6ct.csb.app/).
+
+---
+
+### Lazy Loading <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2]
+<!-- Example of implementing lazy loading with the loading attribute -->
+<img src="placeholder.jpg" alt="Lazy Loaded Image" loading="lazy">
+```
+
+[![Edit 083-Lazy Loading](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/083-lazy-loading-mfcf6s)
+
+[CodeSandbox: Lazy Loading](https://mfcf6s.csb.app/).
+
+---
+
+### Serving Responsive Images <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|3|4|5|6|7]
+<!-- Example of serving responsive images with the srcset attribute -->
+<img src="small-image.jpg"
+    srcset="medium-image.jpg 800w,
+      large-image.jpg 1600w"
+    sizes="(max-width: 600px) 90vw,
+      (max-width: 1024px) 70vw,
+      100vw"
+    alt="Responsive Image">
+```
+
+[![Edit 084-Serving Responsive Images](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
+
+[CodeSandbox: Serving Responsive Images](https://xxs4hy.csb.app/).
+
+---
+
+### Enable Browser Caching <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|2,22|3,12|5-8|9|10|19]
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Enable Browser Caching</title>
+  </head>
+  <body>
+    <!-- Example of enabling browser caching with cache-control headers -->
+    <img
+      src="cached-image.jpg"
+      alt="Cached Image"
+      style="max-width: 100%; height: auto"
+      loading="lazy"
+    />
+  </body>
+</html>
+```
+
+[![Edit 085-Enable Browser Caching](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/085-enable-browser-caching-xl3wzp)
+
+[CodeSandbox: Enable Browser Caching](https://xl3wzp.csb.app/).
+
+---
+
+### Video Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2,9|3|4|5|6|7|8]
+<!-- Example of using various video formats -->
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  <source src="video.ogg" type="video/ogg">
+  <source src="video.av1" type="video/av1">
+  <source src="video.hevc" type="video/hevc">
+  Your browser does not support the video tag.
+</video>
+```
+
+[![Edit 086-Video Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/086-video-optimization-688yvn)
+
+[CodeSandbox: Video Optimization](https://688yvn.csb.app/).
+
+---
+
+### Audio Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2,9|3|4|5|6|7|8]
+<!-- Example of using various audio formats -->
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+  <source src="audio.wav" type="audio/wav">
+  <source src="audio.aac" type="audio/aac">
+  <source src="audio.opus" type="audio/opus">
+  Your browser does not support the audio tag.
+</audio>
+```
+
+[![Edit 087-Audio Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/087-audio-optimization-zy3cpv)
+
+[CodeSandbox: Audio Optimization](https://zy3cpv.csb.app/).
+
+---
+
+### Benefits of Optimized Images and Media <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Improved Performance <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Enhanced User Experience <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* SEO Advantages <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cost Savings <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Broader compatibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Testing and Iteration <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Testing <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Responsive Design Testing <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Device Compatibility <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Cross-Browser Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Orientation Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Performance Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Tools for Responsive Testing <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Responsive Design Mode <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Online Testing Platforms <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Iteration <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* User Feedback Analysis <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Performance Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Content Prioritization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Agile Development <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* A/B Testing <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Benefits of Testing and Iteration in Responsive Web Design <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Optimized User Experience <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Improved Performance <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Enhanced Conversion Rates <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Conclusion: Responsive Design Principles <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Fluid Layouts with CSS Flexbox <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Key Concepts of Flexbox <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Flex Container <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Flex Items<!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Key Concepts of Flexbox <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6,19|7|12|7,12|9|10|11|13|18|13,18|15|22|26|22,26|7|23-25|13|7-18,22-26]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flexbox Layout</title>
+    <style>
+      .container {
+        background-color: #ff0000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .item {
+        background-color: #f1f1f1;
+        flex: 1 1 auto;
+        margin: 10px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
+</html>
+```
+
+[![Edit 088-Key Concepts of Flexbox](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/088-key-concepts-of-flexbox-zpmyxf)
+
+[CodeSandbox: Key Concepts of Flexbox](https://zpmyxf.csb.app/).
+
+---
+
+### Responsive Grid Layouts with CSS Grid <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Key Concepts of CSS Grid <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Grid Container <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Grid Items<!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+### Key Concepts of CSS Grid <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6,17|7|12|7,12|9|10|11|13|16|13,16|20|24|20,24|7|21-23|13|7-16,20-24]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Grid Layout</title>
+    <style>
+      .container {
+        background-color: #ff0000;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+      }
+      .item {
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
+</html>
+```
+
+[![Edit 089-Key Concepts of CSS Grid](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/089-key-concepts-of-css-grid-fnt88c)
+
+[CodeSandbox: Key Concepts of CSS Grid](https://fnt88c.csb.app/).
+
+---
+
+### Key Concepts of CSS Grid <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```css[|1|9|1,9|2|4|2,4|3|5|8|5,8]
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .item {
+        background-color: #f1f1f1;
+        width: 100%;
+    }
+}
+```
+
+[![Edit 090-Media Queries for Responsive Design](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/090-media-queries-for-responsive-design-5pr5ll)
+
+[CodeSandbox: Media Queries for Responsive Design](https://5pr5ll.csb.app/).
+
+---
+
+### Conclusion: Building Responsive Designs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 				</textarea>
 			</section>
 		</div>

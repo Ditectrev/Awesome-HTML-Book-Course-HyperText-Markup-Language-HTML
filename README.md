@@ -3314,7 +3314,7 @@ Configure server-side caching and leverage browser caching mechanisms to store i
       http-equiv="Cache-Control"
       content="no-cache, no-store, must-revalidate"
     />
-     <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Enable Browser Caching</title>
   </head>
@@ -3460,7 +3460,7 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
     <title>Flexbox Layout</title>
     <style>
       .container {
-         background-color: #ff0000;
+        background-color: #ff0000;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -3516,8 +3516,8 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
         grid-gap: 20px;
       }
       .item {
-         background-color: #f1f1f1;
-         padding: 20px;
+        background-color: #f1f1f1;
+        padding: 20px;
       }
     </style>
   </head>
