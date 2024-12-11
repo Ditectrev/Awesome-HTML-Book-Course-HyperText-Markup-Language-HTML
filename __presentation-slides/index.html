@@ -2,34 +2,34 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>Awesome HTML Book & Course: HyperText Markup Language (HTML)</title>
+  <title>Awesome HTML Book & Course: HyperText Markup Language (HTML)</title>
 
-	<link rel="stylesheet" href="dist/reset.css">
-	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/serif.css">
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/serif.css">
 
-	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
 
-	<style>
-		.fragment.blur {
-			filter: blur(1rem);
-		}
+  <style>
+    .fragment.blur {
+      filter: blur(1rem);
+    }
 
-		.fragment.blur.visible {
-			filter: none;
-		}
-	</style>
+    .fragment.blur.visible {
+      filter: none;
+    }
+  </style>
 </head>
 
 <body>
-	<div class="reveal">
-		<div class="slides">
-			<section data-markdown>
-				<textarea data-template>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown>
+        <textarea data-template>
 # Welcome <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
 ---
@@ -1138,11 +1138,11 @@ Enhanced Support for Machine Learning and AI <!-- .slide: data-transition="zoom"
 
 ```javascript[1|7|1,7|2|3|4|5|6]
 <script>
-const c = document.getElementById("myCanvas");
-const ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.arc(95, 50, 40, 0, 2 * Math.PI);
-ctx.stroke();
+  const c = document.getElementById("myCanvas");
+  const ctx = c.getContext("2d");
+  ctx.beginPath();
+  ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+  ctx.stroke();
 </script>
 ```
 
@@ -1172,12 +1172,12 @@ ctx.stroke();
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = localStorage.username;
+  document.getElementById("demo").innerHTML = localStorage.username;
 
-function saveData() {
+  function saveData() {
     localStorage.setItem("username", "John");
     document.getElementById("demo").innerHTML = localStorage.username;
-}
+  }
 </script>
 ```
 
@@ -1195,12 +1195,12 @@ function saveData() {
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = sessionStorage.theme;
+  document.getElementById("demo").innerHTML = sessionStorage.theme;
 
-function saveSessionData() {
+  function saveSessionData() {
     sessionStorage.setItem("theme", "light");
     document.getElementById("demo").innerHTML = sessionStorage.theme;
-}
+  }
 </script>
 ```
 
@@ -1217,15 +1217,15 @@ function saveSessionData() {
 <div id="drop" ondrop="drop(event)" ondragover="allowDrop(event)">Drop here</div>
 
 <script>
-function allowDrop(event) {
+  function allowDrop(event) {
     event.preventDefault();
-}
+  }
 
-function drop(event) {
+  function drop(event) {
     event.preventDefault();
     const data = event.dataTransfer.getData("text");
     event.target.appendChild(document.getElementById(data));
-}
+  }
 </script>
 ```
 
@@ -1591,10 +1591,10 @@ $primary-color: #007bff;
     <meta charset="UTF-8" />
     <title>Embedded JavaScript Example</title>
     <script>
-        // Inline JavaScript code
-        function greet() {
-            alert("Hello, world!");
-        }
+      // Inline JavaScript code
+      function greet() {
+        alert("Hello, world!");
+      }
     </script>
   </head>
   <body>
@@ -1734,9 +1734,9 @@ function changeParagraphText() {
 
     <script>
       document.getElementById("btn")
-        .addEventListener("click", function() {
+        .addEventListener("click", function () {
           alert("Button clicked!");
-      });
+        });
     </script>
   </body>
 </html>
@@ -2390,27 +2390,96 @@ p.paragraph-bolded {
 ---
 
 ### Conclusion: Building Responsive Designs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+## Web Accessibility <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Importance and Principles of Web Accessibility <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Perceivable <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Operable <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Understandable <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Robust <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+#### Importance and Principles of Web Accessibility <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1,13|2,12|3,5|6,8|9,11|4|7|10]
+<nav>
+  <ul>
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>
+  </ul>
+</nav>
+```
+
+[![Edit 091-Importance and Principles of Web Accessibility](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/091-importance-and-principles-of-web-accessibility-qtxl9q)
+
+[CodeSandbox: Importance and Principles of Web Accessibility](https://qtxl9q.csb.app/).
+
+---
+
+### ARIA (Accessible Rich Internet Applications) Labels and Roles <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1,4|2|3]
+<button
+  role="button"
+  aria-label="Close">
+X</button>
+```
+
+[![Edit 092-ARIA (Accessible Rich Internet Applications) Labels and Roles](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/092-aria-accessible-rich-internet-applications-labels-and-roles-vd3t4c)
+
+[CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles](https://vd3t4c.csb.app/).
+
+---
+
+### Accessibility Features in HTML5 <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1,6|2,5|3|4]
+<main>
+  <article>
+    <h2>Web Accessibility</h2>
+    <p>Web accessibility ensures that websites and web applications are usable by people with disabilities.</p>
+  </article>
+</main>
+```
+
+[![Edit 093-Accessibility Features in HTML5](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/093-accessibility-features-in-html5-zwjmnz)
+
+[CodeSandbox: Accessibility Features in HTML5](https://zwjmnz.csb.app/).
 				</textarea>
-			</section>
-		</div>
-	</div>
+      </section>
+    </div>
+  </div>
 
-	<script src="dist/reveal.js"></script>
-	<script src="plugin/notes/notes.js"></script>
-	<script src="plugin/markdown/markdown.js"></script>
-	<script src="plugin/highlight/highlight.js"></script>
-	<script>
-		// More info about initialization & config:
-		// - https://revealjs.com/initialization/
-		// - https://revealjs.com/config/
-		Reveal.initialize({
-			hash: true,
-			slideNumber: 'c/t',
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      slideNumber: 'c/t',
 
-			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
-		});
-	</script>
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
 </body>
 
 </html>
