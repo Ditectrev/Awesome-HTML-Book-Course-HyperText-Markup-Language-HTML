@@ -371,32 +371,32 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [SEO Basics with HTML](#seo-basics-with-html)
   - [Understanding SEO and Its Importance](#understanding-seo-and-its-importance)
   - [HTML Tags and Attributes Important for SEO](#html-tags-and-attributes-important-for-seo)
-    - [Code Example: Image Alt Attribute](#code-example-image-alt-attribute)
-    - [Code Example: Semantic HTML Elements](#code-example-semantic-html-elements)
+    - [Example: Image Alt Attribute](#example-image-alt-attribute)
+    - [Example: Semantic HTML Elements](#example-semantic-html-elements)
     - [Conclusion: HTML Tags and Attributes Important for SEO](#conclusion-html-tags-and-attributes-important-for-seo)
   - [Meta Tags and SEO Best Practices](#meta-tags-and-seo-best-practices)
-    - [Code Example: Meta Keywords Tag](#code-example-meta-keywords-tag)
-    - [Code Example: Viewport Meta Tag](#code-example-viewport-meta-tag)
+    - [Example: Meta Keywords Tag](#example-meta-keywords-tag)
+    - [Example: Viewport Meta Tag](#example-viewport-meta-tag)
     - [Conclusion: Meta Tags and SEO Best Practices](#conclusion-meta-tags-and-seo-best-practices)
   - [Additional SEO Techniques and Best Practices](#additional-seo-techniques-and-best-practices)
 - [HTML Best Practices and Performance Optimization](#html-best-practices-and-performance-optimization)
   - [HTML Best Practices](#html-best-practices)
     - [Semantic Markup](#semantic-markup)
-      - [Code Example: Semantic Markup](#code-example-semantic-markup)
+      - [Example: Semantic Markup](#example-semantic-markup)
     - [Form Enhancements](#form-enhancements)
-      - [Code Example: Form Enhancements](#code-example-form-enhancements)
+      - [Example: Form Enhancements](#example-form-enhancements)
     - [Multimedia Integration](#multimedia-integration)
-      - [Code Example: Multimedia Integration](#code-example-multimedia-integration)
+      - [Example: Multimedia Integration](#example-multimedia-integration)
     - [Mobile Optimization](#mobile-optimization)
-      - [Code Example: Mobile Optimization](#code-example-mobile-optimization)
+      - [Example: Mobile Optimization](#example-mobile-optimization)
     - [Accessibility Features](#accessibility-features)
-      - [Code Example: Accessibility Features](#code-example-accessibility-features)
-    - [Code Organization and Commenting](#code-organization-and-commenting)
+      - [Example: Accessibility Features](#example-accessibility-features)
+    - [Code Organization and Commenting](#organization-and-commenting)
     - [HTML Performance Optimization Techniques](#html-performance-optimization-techniques)
-      - [Code Example: HTML Minification and Compression](#code-example-html-minification-and-compression)
-      - [Code Example: Lazy Loading of Images](#code-example-lazy-loading-of-images)
+      - [Example: HTML Minification and Compression](#example-html-minification-and-compression)
+      - [Example: Lazy Loading of Images](#example-lazy-loading-of-images)
       - [Minimizing HTTP Requests](#minimizing-http-requests)
-      - [Code Example: CSS and JavaScript Optimization](#code-example-css-and-javascript-optimization)
+      - [Example: CSS and JavaScript Optimization](#example-css-and-javascript-optimization)
   - [Conclusion: HTML Best Practices and Perfomance Optimization](#conclusion-html-best-practices-and-perfomance-optimization)
 - [HTML5 APIs and Advanced Features](#html5-apis-and-advanced-features)
   - [Overview of HTML5 APIs](#overview-of-html5-apis)
@@ -3664,7 +3664,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 - **Structured Data Markup**: Adding structured data markup using schema.org vocabulary helps search engines understand the content of a web page better. This can enhance search results with rich snippets, knowledge graphs, and other interactive elements.
 - **Canonical Tag**: The canonical tag (`<link rel="canonical">`) specifies the preferred URL for a web page, particularly useful for avoiding duplicate content issues and consolidating link equity across multiple URLs.
 
-#### Code Example: Image Alt Attribute
+#### Example: Image Alt Attribute
 
 ```html
 <img src="example.jpg" alt="SEO Basics with HTML - Image Alt Attribute Example">
@@ -3678,7 +3678,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 
 - In this example, the `alt` attribute provides alternative text for the image, describing its content and context. This helps improve accessibility for users who cannot see the image and provides valuable information to search engines for indexing.
 
-#### Code Example: Semantic HTML Elements
+#### Example: Semantic HTML Elements
 
 ```html
 <header>
@@ -3723,7 +3723,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 - **Robots Meta Tag**: The robots meta tag (`<meta name="robots">`) instructs search engine crawlers on how to index and follow links on a webpage. By using directives like "noindex" or "nofollow," webmasters can control whether a page should be indexed in search results and whether its links should be followed by search engine crawlers.
 - **Open Graph and Twitter Cards**: Open Graph meta tags and Twitter Cards allow webmasters to control how content is displayed when shared on social media platforms like Facebook and Twitter. By optimizing these meta tags, webmasters can ensure that shared content appears correctly and attracts more engagement on social media.
 
-#### Code Example: Meta Keywords Tag
+#### Example: Meta Keywords Tag
 
 ```html
 <meta name="keywords" content="SEO, HTML, meta tags, keywords" />
@@ -3737,7 +3737,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 
 - While the `<meta name="keywords">` tag may not carry as much weight as it once did, it still provides a way to specify relevant keywords for the page's content. Including relevant keywords can still be beneficial, especially for other search engines that may use them as a ranking factor.
 
-#### Code Example: Viewport Meta Tag
+#### Example: Viewport Meta Tag
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -3778,7 +3778,7 @@ Adhering to HTML best practices ensures that web pages are well-structured, acce
 
 Semantic HTML elements provide meaning to the structure of a webpage, making it easier for search engines to understand and index the content, as well as improving accessibility for users with assistive technologies. By using semantic elements like `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and `<footer>`, developers can create more meaningful and well-organized web pages.
 
-##### Code Example: Semantic Markup
+##### Example: Semantic Markup
 
 ```html
 <!DOCTYPE html>
@@ -3824,7 +3824,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 
 HTML5 introduces new input types and attributes to enhance form usability and validation. By utilizing input types such as `email`, `url`, `tel`, and attributes like `required`, `placeholder`, and `pattern`, developers can create more user-friendly and robust web forms that provide better feedback and guidance to users.
 
-##### Code Example: Form Enhancements
+##### Example: Form Enhancements
 
 ```html
 <form>
@@ -3846,7 +3846,7 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 
 The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio and video content directly into web pages without relying on third-party plugins like Flash. This enables seamless playback experiences for users across different browsers and devices, improving accessibility and user engagement.
 
-##### Code Example: Multimedia Integration
+##### Example: Multimedia Integration
 
 ```html
 <video controls>
@@ -3865,7 +3865,7 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 
 With the increasing usage of mobile devices for accessing the web, it's essential to optimize web pages for mobile viewing. HTML5 provides features like responsive design, touch events, and viewport meta tags to ensure that web pages are rendered correctly and provide optimal user experiences on smartphones and tablets.
 
-##### Code Example: Mobile Optimization
+##### Example: Mobile Optimization
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -3881,7 +3881,7 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 
 Accessibility is an important aspect of web development, ensuring that web content is usable by all users, including those with disabilities. HTML5 provides features like landmark roles, ARIA attributes, and semantic elements that improve accessibility and make web content more accessible to users with assistive technologies.
 
-##### Code Example: Accessibility Features
+##### Example: Accessibility Features
 
 ```html
 <button aria-label="Close">X</button>
@@ -3992,7 +3992,7 @@ h1 {
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
 - **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow [https://github.com/codesandbox/codesandbox-client/issues/8610](https://github.com/codesandbox/codesandbox-client/issues/8610) for more information.**
 
-##### Code Example: HTML Minification and Compression
+##### Example: HTML Minification and Compression
 
 ```html
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
@@ -4006,7 +4006,7 @@ h1 {
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
 
-##### Code Example: Lazy Loading of Images
+##### Example: Lazy Loading of Images
 
 ```html
 <h1>Hello, World!</h1>
@@ -4027,7 +4027,7 @@ h1 {
 - **CSS and JavaScript Optimization**: Combine and minify CSS and JavaScript files to reduce the number of HTTP requests required to fetch external resources. Use tools like CSS preprocessors (e.g., Sass, Less) and JavaScript bundlers (e.g., Webpack, Parcel) to optimize and bundle assets efficiently.
 - **Image Sprites**: Combine multiple small images into a single sprite sheet and use CSS background positioning to display specific images, reducing the number of HTTP requests needed to load individual images.
 
-##### Code Example: CSS and JavaScript Optimization
+##### Example: CSS and JavaScript Optimization
 
 ```html
 <!DOCTYPE html>
