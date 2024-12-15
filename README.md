@@ -391,7 +391,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
       - [Example: Mobile Optimization](#example-mobile-optimization)
     - [Accessibility Features](#accessibility-features)
       - [Example: Accessibility Features](#example-accessibility-features)
-    - [Code Organization and Commenting](#organization-and-commenting)
+    - [Code Organization and Commenting](#code-organization-and-commenting)
     - [HTML Performance Optimization Techniques](#html-performance-optimization-techniques)
       - [Example: HTML Minification and Compression](#example-html-minification-and-compression)
       - [Example: Lazy Loading of Images](#example-lazy-loading-of-images)

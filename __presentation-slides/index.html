@@ -954,7 +954,7 @@ Enhanced Support for Machine Learning and AI <!-- .slide: data-transition="zoom"
 
 ### Example: Form Labels and Inputs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|2,6|3,7]
+```html[|1|11|1,11|2,6|3,7]
 <form>
     <label for="username">Username:</label>
     <input type="text" id="username" name="username" aria-describedby="username-help">
@@ -2590,6 +2590,296 @@ X</button>
 * Local SEO <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * Site Speed Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
 * SEO Tools and Analytics <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+## HTML Best Practices and Performance Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### HTML Best Practices <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Semantic Markup <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Example: Semantic Markup <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2,37|3,6|4|5|7,36|8,23|9|10,22|11,21|12,14|15,17|18,20|13|16|19|24,32|25,31|26|27,30|28|29|33,35|34]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Semantic HTML5 Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>Website Header</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Main Content Section</h2>
+          <article>
+            <h3>Article Title</h3>
+            <p>Article content goes here...</p>
+          </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+```
+
+[![Edit 098-Semantic Markup](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/098-semantic-markup-t9dcrs)
+
+[CodeSandbox: Semantic Markup](https://t9dcrs.csb.app/).
+
+---
+
+### Form Enhancements <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Example: Form Enhancements <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|7|1,7|2|3|4|5|6]
+<form>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit">Submit</button>
+</form>
+```
+
+[![Edit 099-Form Enhancements](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/099-form-enhancements-2pv533)
+
+[CodeSandbox: Form Enhancements](https://2pv533.csb.app/), last access: September 8, 2024.
+
+---
+
+### Multimedia Integration <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Example: Multimedia Integration <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|4|1,4|2|3]
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+```
+
+[![Edit 100-Multimedia Integration](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/100-multimedia-integration-zlskc5)
+
+[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/).
+
+---
+
+### Mobile Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Example: Mobile Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|4|1,4|2|3]
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0"
+/>
+```
+
+[![Edit 101-Mobile Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/101-mobile-optimization-mmrlcx)
+
+[CodeSandbox: Mobile Optimization](https://mmrlcx.csb.app/).
+
+---
+
+### Accessibility Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Example: Accessibility Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1,4|2|3]
+<button
+  role="button"
+  aria-label="Close">
+X</button>
+```
+
+---
+
+### Code Organization and Commenting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* Modular Code Structure <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Descriptive Comments <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+#### Code Organization and Commenting <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|8|9-18|20|21-26|28|29-31]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Optimized Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Website Header</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section>
+        <h2>Main Section</h2>
+        <p>This is the main content section of the page.</p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Optimized Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+```
+
+[![Edit 103-Code Organization and Commenting](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/103-code-organization-and-commenting-722xxt)
+
+[CodeSandbox: Code Organization and Commenting](https://722xxt.csb.app/).
+
+---
+
+#### HTML Performance Optimization Techniques <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|7|3,8]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Optimized Website</title>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+  </head>
+  <body>
+    <!-- Content of the web page -->
+    <h1>Hello, World!</h1>
+    <p>Welcome to our optimized website.</p>
+  </body>
+</html>
+```
+
+[![Edit 104-HTML Performance Optimization Techniques](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/104-html-performance-optimization-techniques-qm3w7j)
+
+[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/).
+
+---
+
+### Example: HTML Minification and Compression <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
+```
+
+[![Edit 105-HTML Minification and Compression](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/105-html-minification-and-compression-vdpynt)
+
+[CodeSandbox: HTML Minification and Compression](https://vdpynt.csb.app/).
+
+---
+
+### Example: Lazy Loading of Images <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|2|6|2,6|4]
+<h1>Hello, World!</h1>
+<img
+  src="placeholder.png"
+  loading="lazy"
+  alt="Lazy Loaded Image"
+>
+<p>Welcome to our optimized website.</p>
+```
+
+---
+
+### Minimizing HTTP Requests <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+* CSS and JavaScript Optimization <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+* Image Sprites <!-- .element: class="fragment custom blur highlight-current-blue fade-up" -->
+
+---
+
+#### Example: CSS and JavaScript Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|6|3,7|12|8,13]
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS and JavaScript Optimization</title>
+    <link rel="stylesheet" href="styles.min.css">
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph on my first webpage.</p>
+
+    <script src="scripts.min.js" defer></script>
+  </body>
+</html>
+```
+
+[![Edit 107-CSS and JavaScript Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
+
+[CodeSandbox: CSS and JavaScript Optimization](https://nz9jsn.csb.app/).
+
+---
+
+### Example: CSS and JavaScript Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|]
+document.addEventListener("DOMContentLoaded",function(){alert("Welcome to My First Website!")});
+```
+
+```css[|]
+body{font-family:Arial,sans-serif}h1{color:navy}
+```
+
+[![Edit 107-CSS and JavaScript Optimization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/107-css-and-javascript-optimization-nz9jsn)
+
+[CodeSandbox: CSS and JavaScript Optimization](https://nz9jsn.csb.app/).
+
+---
+
+### Conclusion: HTML Best Practices and Perfomance Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
 				</textarea>
       </section>
     </div>
