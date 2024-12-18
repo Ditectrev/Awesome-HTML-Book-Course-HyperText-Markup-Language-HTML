@@ -397,7 +397,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
       - [Example: Lazy Loading of Images](#example-lazy-loading-of-images)
       - [Minimizing HTTP Requests](#minimizing-http-requests)
       - [Example: CSS and JavaScript Optimization](#example-css-and-javascript-optimization)
-  - [Conclusion: HTML Best Practices and Perfomance Optimization](#conclusion-html-best-practices-and-perfomance-optimization)
+  - [Conclusion: HTML Best Practices and Performance Optimization](#conclusion-html-best-practices-and-performance-optimization)
 - [HTML5 APIs and Advanced Features](#html5-apis-and-advanced-features)
   - [Overview of HTML5 APIs](#overview-of-html5-apis)
     - [Geolocation API](#geolocation-api)
@@ -4066,7 +4066,7 @@ body{font-family:Arial,sans-serif}h1{color:navy}
 
 - In this example, CSS and JavaScript files are minified and combined into single files (`styles.min.css` and `scripts.min.js`) to minimize the number of HTTP requests required for fetching external resources, thereby improving page load times.
 
-### Conclusion: HTML Best Practices and Perfomance Optimization
+### Conclusion: HTML Best Practices and Performance Optimization
 
 By following these HTML5 best practices and incorporating the provided code examples, developers can create modern, efficient, and accessible web applications that provide superior user experiences across various platforms and devices.
 

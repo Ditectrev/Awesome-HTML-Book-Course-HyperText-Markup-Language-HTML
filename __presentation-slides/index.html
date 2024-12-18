@@ -2878,8 +2878,369 @@ body{font-family:Arial,sans-serif}h1{color:navy}
 
 ---
 
-### Conclusion: HTML Best Practices and Perfomance Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+### Conclusion: HTML Best Practices and Performance Optimization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
+---
+
+## HTML5 APIs and Advanced Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Overview of HTML5 APIs <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+### Geolocation API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|1,2|4|20|4,20|5|17|5,17|6|16|6,16|7-12|13-15|18-20]
+<p>Latitude: <span id="latitude"></span></p>
+<p>Longitude: <span id="longitude"></span></p>
+
+<script>
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      function (position) {
+        document.getElementById("latitude").innerHTML =
+          position.coords.latitude;
+        document.getElementById("longitude").innerHTML =
+          position.coords.longitude;
+      },
+      function (error) {
+        alert("Error getting geolocation: " + error.message);
+      }
+    );
+  }
+  else {
+    alert("Geolocation is not supported by this browser");
+  }
+</script>
+```
+
+[![Edit 108-Geolocation API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/108-geolocation-api-443vqt)
+
+[CodeSandbox: Geolocation API](https://443vqt.csb.app/).
+
+---
+
+### Web Storage API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|2|4|5|6]
+// Store data in local storage
+localStorage.setItem("username", "John");
+
+// Retrieve data from local storage
+const username = localStorage.getItem("username");
+alert("Username: " + username);
+```
+
+[![Edit 109-Web Storage API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/109-web-storage-api-729wnm)
+
+[CodeSandbox: Web Storage API](https://729wnm.csb.app/).
+
+---
+
+### Canvas API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|6|1,6|7|1,6,7|2|3|4|5]
+<canvas
+  id="myCanvas"
+  width="400"
+  height="200"
+  style="border:1px solid #000000;"
+>
+</canvas>
+```
+
+[![Edit 110-Canvas API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/110-canvas-api-lgtkpg)
+
+[CodeSandbox: Canvas API](https://lgtkpg.csb.app/).
+
+---
+
+### Web Workers <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|2|4|5|7|5,7|6|9|10]
+// Create a new web worker
+const worker = new Worker("worker.js");
+
+// Handle messages from the worker
+worker.onmessage = function(event) {
+  alert("Message from worker: " + event.data);
+};
+
+// Send a message to the worker
+worker.postMessage("Hello from main thread!");
+```
+
+```javascript[|1|3|1,3|2]
+self.addEventListener("message", (e) => {
+  self.postMessage(e.data);
+});
+```
+
+[![Edit 111-Web Workers](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/111-web-workers-snqmpz)
+
+[CodeSandbox: Web Workers](https://snqmpz.csb.app/).
+
+---
+
+### WebSocket API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|2|4|5|7|5,7|6|9|10|12|10,12|11|14|15]
+// Create a WebSocket connection
+const socket = new WebSocket("wss://echo.websocket.org");
+
+// Handle connection open event
+socket.onopen = function(event) {
+  alert("WebSocket connected!");
+};
+
+// Handle message received from server
+socket.onmessage = function(event) {
+  alert("Message received: " + event.data);
+};
+
+// Send a message to the server
+socket.send("Hello from client!");
+```
+
+[![Edit 112-WebSocket API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/112-websocket-api-dypkvz)
+
+[CodeSandbox: WebSocket API](https://dypkvz.csb.app/).
+
+---
+
+### Drag and Drop API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|4|25|4,25|5|6|10|6,10|7|9|7,9|8|12|13|17|13,17|14|16|14,16|15|18|24|18,24|19|23|19,23|20|21|22]
+<div id="draggable" draggable="true">Drag me!</div>
+<div id="dropzone">Drop here!</div>
+
+<script>
+  // Event listeners for draggable element
+  document.getElementById("draggable").addEventListener("dragstart",
+    function (event) {
+      event.dataTransfer.setData("text/plain", "Dragged text");
+    }
+  );
+
+  // Event listeners for drop zone
+  document.getElementById("dropzone").addEventListener("dragover",
+    function (event) {
+      event.preventDefault();
+    }
+  );
+  document.getElementById("dropzone").addEventListener("drop",
+    function (event) {
+      event.preventDefault();
+      const data = event.dataTransfer.getData("text/plain");
+      event.target.textContent = "Dropped: " + data;
+    }
+  );
+</script>
+```
+
+[![Edit 113-Drag and Drop API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/113-drag-and-drop-api-fsswsl)
+
+[CodeSandbox: Drag and Drop API](https://fsswsl.csb.app/).
+
+---
+
+### Audio and Video API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|4|1,4|2|3|6|9|6,9|7|8]
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
+
+[![Edit 114-Audio and Video API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/114-audio-and-video-api-zzyzjg)
+
+[CodeSandbox: Audio and Video API](https://zzyzjg.csb.app/).
+
+---
+
+### File API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|2|4|13|4,13|5|12|5,12|6|7|8|10|8,10|9|11]
+<input type="file" id="fileInput" onchange="handleFile(event)">
+<pre id="fileContents"></pre>
+
+<script>
+  function handleFile(event) {
+    const file = event.target.files[0];
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      document.getElementById("fileContents").textContent = e.target.result;
+    };
+    reader.readAsText(file);
+  }
+</script>
+```
+
+[![Edit 115-File API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/115-file-api-69c6jw)
+
+[CodeSandbox: File API](https://69c6jw.csb.app/).
+
+---
+
+### WebRTC API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|11|1,11|2|3|7|3,7|4|5|6|8|10|8,10|9]
+<script>
+  navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+    .then(function (stream) {
+      const videoElement = document.createElement("video");
+      videoElement.srcObject = stream;
+      document.body.appendChild(videoElement);
+    })
+    .catch(function (error) {
+      alert("getUserMedia error: " + error);
+    });
+</script>
+```
+
+[![Edit 116-WebRTC API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/116-webrtc-api-8kfdt8)
+
+[CodeSandbox: WebRTC API](https://8kfdt8.csb.app/).
+
+---
+
+### Media Capture and Streams API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```html[|1|5|1,5|2|3|4]
+<input
+  type="file"
+  accept="image/*"
+  capture="camera"
+>
+```
+
+[![Edit 117-Media Capture and Streams API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
+
+[CodeSandbox: Media Capture and Streams API](https://4s97wh.csb.app/).
+
+---
+
+### Offline Applications and Service Workers <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+---
+
+#### Example: Implementing Offline Capabilities with Service Workers <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|24|1,24|26|2|23|2,23|3|21|3,21|4|9|4,9|5|6|8|6,8|7|10|12|10,12|11|13|15|13,15|14|16|18|16,18|17|20|22|20,22|21]
+const registerServiceWorker = async function () {
+  if ("serviceWorker" in navigator) {
+    try {
+      const registration = await navigator.serviceWorker.register(
+        "/service-worker.js",
+          {
+            scope: "/",
+          }
+      );
+      if (registration.installing) {
+        alert("Service Worker installing");
+      }
+      else if (registration.waiting) {
+        alert("Service Worker installed");
+      }
+      else if (registration.active) {
+        alert("Service Worker active with scope: " + registration.scope);
+      }
+    }
+    catch (error) {
+      alert(`Registration failed with ${error}`);
+    }
+  }
+};
+
+registerServiceWorker();
+```
+
+[![Edit 118-Implementing Offline Capabilities with Service Workers](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/118-implementing-offline-capabilities-with-service-workers-zjm7tx)
+
+[CodeSandbox: Implementing Offline Capabilities with Service Workers](https://zjm7tx.csb.app/).
+
+---
+
+#### Example: Caching Assets for Offline Use <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|4|1,4|2|3|6|16|6,16|7|15|7,15|8|14|8,14|9|10|11|12|13]
+const addResourcesToCache = async (resources) => {
+  const cache = await caches.open("v1");
+  await cache.addAll(resources);
+};
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    addResourcesToCache([
+      "/",
+      "/index.html",
+      "/style.css",
+      "/script.js",
+      "/example.png",
+    ])
+  );
+});
+```
+
+[![Edit 119-Caching Assets for Offline Use](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/119-caching-assets-for-offline-use-tmpq6w)
+
+[CodeSandbox: Caching Assets for Offline Use](https://tmpq6w.csb.app/).
+
+---
+
+### Example: Offline Data Synchronization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|10|1,10|12|2|3|6|3,6|4|5|7|9|7,9|8]
+const syncMessagesLater = async function () {
+  const registration = await navigator.serviceWorker.ready;
+    try {
+      await registration.sync.register("sync-data");
+      alert("Background Sync registered");
+    }
+    catch {
+      alert("Background Sync could not be registered!");
+    }
+};
+
+syncMessagesLater();
+```
+
+[![Edit 120-Offline Data Synchronization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
+
+[CodeSandbox: Offline Data Synchronization](https://tmpq6w.csb.app/).
+
+---
+
+### Example: Offline Data Synchronization <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
+
+```javascript[|1|5|1,5|2|4|2,4|3|7|10|7,10|8|9]
+self.addEventListener("sync", function(event) {
+  if (event.tag === "sync-data") {
+    event.waitUntil(syncData());
+  }
+});
+
+function syncData() {
+  // Perform data synchronization logic here
+  alert("Syncing data...");
+}
+```
+
+[![Edit 120-Offline Data Synchronization](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/120-offline-data-synchronization-5gpt4c)
+
+[CodeSandbox: Offline Data Synchronization](https://tmpq6w.csb.app/).
+
+---
+
+### Conclusion: HTML5 APIs and Advanced Features <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 				</textarea>
       </section>
     </div>
