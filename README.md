@@ -135,12 +135,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
       - [Example: Basic HTML Structure](#example-basic-html-structure)
   - [Setting Up the Environment](#setting-up-the-environment)
     - [Installing and Configuring a Text Editor](#installing-and-configuring-a-text-editor)
-      - [Installing Your Chosen Editor](#installing-your-chosen-editor)
     - [Understanding the File Structure for Web Projects](#understanding-the-file-structure-for-web-projects)
       - [Setting Up a Basic File Structure](#setting-up-a-basic-file-structure)
       - [Example: Setting Up a Basic HTML File Structure](#example-setting-up-a-basic-html-file-structure)
   - [Basics of Document Object Model (DOM)](#basics-of-document-object-model-dom)
-    - [Exploring the DOM in a Browser](#exploring-the-dom-in-a-browser)
     - [Example: Exploring the DOM](#example-exploring-the-dom)
 - [Basic Structure of an HTML Document](#basic-structure-of-an-html-document)
   - [Anatomy of an HTML Document](#anatomy-of-an-html-document)
@@ -496,7 +494,7 @@ Below is an example of a basic HTML document structure:
 
 [^1]CodeSandbox: Basic HTML Structure.
 
-[^1]:[CodeSandbox: Basic HTML Structure](https://7gq85k.csb.app/), last access: May 11, 2024.
+[^1]:[CodeSandbox: Basic HTML Structure](https://7gq85k.csb.app/), last access: January 1, 2025.
 
 This code demonstrates a simple HTML page structure with the essential elements: `<!DOCTYPE html>`, `<html>`, `<head>`, `<meta>`, `<title>` and `<body>`.
 
@@ -508,12 +506,7 @@ Before diving into HTML coding, it's essential to choose and set up a text edito
 
 - **Visual Studio Code (VS Code)**: A versatile and widely-used editor by Microsoft, known for its extensive extension library, integrated terminal, and Git control.
 - **Sublime Text**: Known for its speed and efficiency, Sublime Text offers a distraction-free coding environment with a vast array of keyboard shortcuts.
-- **Atom**: Developed by GitHub, Atom is a highly customizable editor with a friendly interface, ideal for beginners and experienced developers alike.
-
-##### Installing Your Chosen Editor
-
-- Provide step-by-step instructions for downloading and installing the chosen text editor.
-- Highlight the importance of familiarizing oneself with the basic features and user interface of the editor.
+- **CodeSandbox**: Cloud development platform which we will be using during this course..
 
 #### Understanding the File Structure for Web Projects
 
@@ -597,7 +590,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 [^2]CodeSandbox: Setting Up a Basic HTML File Structure.
 
-[^2]:[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: May 11, 2024.
+[^2]:[CodeSandbox: Setting Up a Basic HTML File Structure](https://hrm893.csb.app/), last access: January 2, 2025.
 
 ### Basics of Document Object Model (DOM)
 
@@ -606,14 +599,6 @@ document.addEventListener("DOMContentLoaded", function() {
 | *Anatomy of an HTML Document: A labeled diagram showing the structure of an HTML document, with tags like <!DOCTYPE>, html, head, and body.* |
 
 Understanding the Document Object Model (DOM) is fundamental in web development. It's a programming interface for HTML and XML documents that defines the logical structure of documents and the way a document is accessed and manipulated.
-
-- **What is the DOM?**: An explanation of how the DOM represents a web page as a tree-like structure.
-- **Interacting with the DOM**: An overview of how browsers create the DOM and how it can be manipulated with JavaScript to dynamically change HTML and CSS.
-
-#### Exploring the DOM in a Browser
-
-- Instructions on how to inspect the DOM using browser developer tools.
-- Simple exercises to demonstrate the manipulation of the DOM elements.
 
 #### Example: Exploring the DOM
 
@@ -637,7 +622,7 @@ document.getElementById("changeColorButton").addEventListener("click", function(
 
 [^3]CodeSandbox: Exploring the DOM.
 
-[^3]:[CodeSandbox: Exploring the DOM](https://8kyhj7.csb.app/), last access: May 11, 2024.
+[^3]:[CodeSandbox: Exploring the DOM](https://8kyhj7.csb.app/), last access: January 3, 2025.
 
 This code selects the button with the ID `changeColorButton` and adds an event listener to it. When clicked, it changes the color of the first paragraph to red.
 
@@ -669,7 +654,7 @@ An HTML document is structured with various elements, each serving a specific pu
 
 [^4]CodeSandbox: Basic Anatomy of an HTML Document.
 
-[^4]:[CodeSandbox: Basic Anatomy of an HTML Document](https://cqc9qw.csb.app/), last access: May 12, 2024.
+[^4]:[CodeSandbox: Basic Anatomy of an HTML Document](https://cqc9qw.csb.app/), last access: January 3, 2025.
 
 ### Declaration, Head, and Body Sections
 
@@ -725,7 +710,7 @@ The DOCTYPE declaration should be the very first thing in an HTML document, befo
 
 [^5]CodeSandbox: Creating a Simple HTML Page.
 
-[^5]:[CodeSandbox: Creating a Simple HTML Page](https://gkxq6z.csb.app/), last access: May 12, 2024.
+[^5]:[CodeSandbox: Creating a Simple HTML Page](https://gkxq6z.csb.app/), last access: January 4, 2025.
 
 ## Essential HTML Tags
 
@@ -750,7 +735,7 @@ Headings are used to define the hierarchy and importance of content on a web pag
 
 [^6]CodeSandbox: Using Headings.
 
-[^6]:[CodeSandbox: Using Headings](https://6p6kkp.csb.app/), last access: May 12, 2024.
+[^6]:[CodeSandbox: Using Headings](https://6p6kkp.csb.app/), last access: January 4, 2025.
 
 ### Paragraphs and Text Formatting (bold, italic, underline, more)
 
@@ -767,7 +752,7 @@ The `<p>` tag defines a paragraph. Other tags like `<strong>`, `<em>`, `<mark>`,
 
 [^7]CodeSandbox: Paragraphs and Formatting.
 
-[^7]:[CodeSandbox: Paragraphs and Formatting](https://hcdvjw.csb.app/), last access: May 13, 2024.
+[^7]:[CodeSandbox: Paragraphs and Formatting](https://hcdvjw.csb.app/), last access: January 4, 2025.
 
 ### Creating Lists
 
@@ -801,7 +786,7 @@ There are three types of lists in HTML: ordered lists (`<ol>`), unordered lists 
 
 [^8]CodeSandbox: Lists in HTML.
 
-[^8]:[CodeSandbox: Lists in HTML](https://xlyz8s.csb.app/), last access: May 13, 2024.
+[^8]:[CodeSandbox: Lists in HTML](https://xlyz8s.csb.app/), last access: January 5, 2025.
 
 ### Hyperlinks (`<a>`)
 
@@ -824,7 +809,7 @@ Hyperlinks, defined with the `<a>` tag, are crucial for navigation, allowing use
 
 [^9]CodeSandbox: Creating a Hyperlink.
 
-[^9]:[CodeSandbox: Creating a Hyperlink](https://fqmf24.csb.app/), last access: May 13, 2024.
+[^9]:[CodeSandbox: Creating a Hyperlink](https://fqmf24.csb.app/), last access: January 5, 2025.
 
 ### Displaying Images (`<img>`)
 
@@ -841,7 +826,7 @@ The `<img>` tag embeds images into your HTML document. Attributes like `src`, `a
 
 [^10]CodeSandbox: Embedding an Image.
 
-[^10]:[CodeSandbox: Embedding an Image](https://cp8ht6.csb.app/), last access: May 13, 2024.
+[^10]:[CodeSandbox: Embedding an Image](https://cp8ht6.csb.app/), last access: January 6, 2025.
 
 ### Creating Tables (`<table>`, `<tr>`, `<td>`, `<th>`)
 
@@ -867,7 +852,7 @@ Tables are created with `<table>`, and their structure is defined using `<tr>` f
 
 [^11]CodeSandbox: A Simple Table.
 
-[^11]:[CodeSandbox: A Simple Table](https://jxrk65.csb.app/), last access: May 13, 2024.
+[^11]:[CodeSandbox: A Simple Table](https://jxrk65.csb.app/), last access: January 6, 2025.
 
 ### Line Breaks (`<br>`) and Horizontal Rules (`<hr>`)
 
@@ -885,7 +870,7 @@ The `<br>` tag inserts a single line break, useful for content separation within
 
 [^12]CodeSandbox: Using Line Breaks and Horizontal Rules.
 
-[^12]:[CodeSandbox: Using Line Breaks and Horizontal Rules](https://q3p3lx.csb.app/), last access: May 13, 2024.
+[^12]:[CodeSandbox: Using Line Breaks and Horizontal Rules](https://q3p3lx.csb.app/), last access: January 6, 2025.
 
 ### Summary: Essential HTML Tags
 
@@ -914,7 +899,7 @@ Forms are essential for user interactions on websites. They are used to collect 
 
 [^13]CodeSandbox: Basic Form Syntax.
 
-[^13]:[CodeSandbox: Basic Form Syntax](https://8grgqh.csb.app/), last access: May 15, 2024.
+[^13]:[CodeSandbox: Basic Form Syntax](https://8grgqh.csb.app/), last access: January 7, 2025.
 
 ### Text Inputs, Radio Buttons, Checkboxes
 
@@ -932,7 +917,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [^14]CodeSandbox: Text Inputs.
 
-[^14]:[CodeSandbox: Text Inputs](https://hgzcj8.csb.app/), last access: May 22, 2024.
+[^14]:[CodeSandbox: Text Inputs](https://hgzcj8.csb.app/), last access: January 7, 2025.
 
 #### Example: Radio Buttons
 
@@ -949,7 +934,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [^15]CodeSandbox: Radio Buttons.
 
-[^15]:[CodeSandbox: Radio Buttons](https://9ny4lk.csb.app/), last access: May 22, 2024.
+[^15]:[CodeSandbox: Radio Buttons](https://9ny4lk.csb.app/), last access: January 7, 2025.
 
 #### Example: Checkboxes
 
@@ -964,7 +949,7 @@ Text inputs, radio buttons, and checkboxes are standard elements for forms.
 
 [^16]CodeSandbox: Checkboxes.
 
-[^16]:[CodeSandbox: Checkboxes](https://8y2kr3.csb.app/), last access: May 22, 2024.
+[^16]:[CodeSandbox: Checkboxes](https://8y2kr3.csb.app/), last access: January 7, 2025.
 
 ### Select Menus and Option Elements
 
@@ -984,7 +969,7 @@ Select menus provide a drop-down list of options.
 
 [^17]CodeSandbox: Creating Select Menus.
 
-[^17]:[CodeSandbox: Creating Select Menus](https://cjrj6p.csb.app/), last access: May 22, 2024.
+[^17]:[CodeSandbox: Creating Select Menus](https://cjrj6p.csb.app/), last access: January 8, 2025.
 
 ### Submit and Reset Buttons
 
@@ -1002,7 +987,7 @@ Buttons to submit or reset the form data.
 
 [^18]CodeSandbox: Submit Button.
 
-[^18]:[CodeSandbox: Submit Button](https://4g2k2t.csb.app/), last access: May 22, 2024.
+[^18]:[CodeSandbox: Submit Button](https://4g2k2t.csb.app/), last access: January 8, 2025.
 
 #### Example: Reset Button
 
@@ -1014,20 +999,24 @@ Buttons to submit or reset the form data.
 
 [^19]CodeSandbox: Reset Button.
 
-[^19]:[CodeSandbox: Reset Button](https://6tqsmk.csb.app/), last access: May 22, 2024.
+[^19]:[CodeSandbox: Reset Button](https://6tqsmk.csb.app/), last access: January 8, 2025.
 
 ### Form Validation Basics
 
 ```html
-<input type="email" name="email" required>
-<input type="number" name="age" min="18" max="100">
+<form action="/submit-form" method="post">
+  <input type="email" name="email" required />
+  <input type="number" name="age" min="18" max="100" />
+  <button type="submit">Submit Form</button>
+  <input type="reset" value="Reset Form">
+</form>
 ```
 
 [![Edit 020-Form Validation Basics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
 
 [^20]CodeSandbox: Form Validation Basics.
 
-[^20]:[CodeSandbox: Form Validation Basics](https://nzcplr.csb.app/), last access: May 22, 2024.
+[^20]:[CodeSandbox: Form Validation Basics](https://nzcplr.csb.app/), last access: January 9, 2025.
 
 ### Advanced Form Features
 
@@ -1041,7 +1030,7 @@ Buttons to submit or reset the form data.
 
 [^21]CodeSandbox: File Uploads.
 
-[^21]:[CodeSandbox: File Uploads](https://q82hj2.csb.app/), last access: May 22, 2024.
+[^21]:[CodeSandbox: File Uploads](https://q82hj2.csb.app/), last access: January 10, 2025.
 
 #### Example: HTML5 Input Types
 
@@ -1053,7 +1042,7 @@ Buttons to submit or reset the form data.
 
 [^22]CodeSandbox: HTML5 Input Types.
 
-[^22]:[CodeSandbox: HTML5 Input Types](https://sjwsrk.csb.app/), last access: May 22, 2024.
+[^22]:[CodeSandbox: HTML5 Input Types](https://sjwsrk.csb.app/), last access: January 10, 2025.
 
 ### Styling Forms
 
@@ -1302,7 +1291,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
 
 [^23]CodeSandbox: Building a Comprehensive Registration Form.
 
-[^23]:[CodeSandbox: Exploring the DOM](https://kk58h2.csb.app/), last access: May 22, 2024.
+[^23]:[CodeSandbox: Building a Comprehensive Registration Form](https://kk58h2.csb.app/), last access: January 10, 2025.
 
 ##### Conclusion: Step-by-Step Guide: Building a Comprehensive Registration Form
 
@@ -1389,7 +1378,7 @@ Add a submit button for the form.
 
 [^24]CodeSandbox: Dynamic Form with JavaScript.
 
-[^24]:[CodeSandbox: Dynamic Form with JavaScript](https://czrr4l.csb.app/), last access: May 24, 2024.
+[^24]:[CodeSandbox: Dynamic Form with JavaScript](https://czrr4l.csb.app/), last access: January 11, 2025.
 
 ##### Explanation of the Dynamic Behavior
 

@@ -68,7 +68,7 @@
 
 ### Example: Basic HTML Structure <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1|2|3|6|3,6|4|5|7|10|7,10|8|9]
+```html[|1|2|11|2,11|3|6|3,6|4|5|7|10|7,10|8|9]
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -471,6 +471,7 @@
 
 ### Example: Reset Button <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
+```html[|1]
 <input type="reset" value="Reset Form">
 ```
 
@@ -482,9 +483,13 @@
 
 ### Form Validation Basics <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1|2]
-<input type="email" name="email" required>
-<input type="number" name="age" min="18" max="100">
+```html[|1|6|1,6|2|3|4|5]
+<form action="/submit-form" method="post">
+  <input type="email" name="email" required />
+  <input type="number" name="age" min="18" max="100" />
+  <button type="submit">Submit Form</button>
+  <input type="reset" value="Reset Form">
+</form>
 ```
 
 [![Edit 020-Form Validation Basics](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/020-form-validation-basics-nzcplr)
@@ -564,7 +569,7 @@
 
 [![Edit 023-Building a Comprehensive Registration Form](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/023-building-a-comprehensive-registration-form-kk58h2)
 
-[CodeSandbox: Exploring the DOM](https://kk58h2.csb.app/).
+[CodeSandbox: Building a Comprehensive Registration Form](https://kk58h2.csb.app/).
 
 ---
 
@@ -2806,7 +2811,7 @@ X</button>
 
 ### Example: HTML Minification and Compression <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html
+```html[]
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><title>Optimized Website</title></head><body><h1>Hello, World!</h1><p>Welcome to our optimized website.</p></body></html>
 ```
 
