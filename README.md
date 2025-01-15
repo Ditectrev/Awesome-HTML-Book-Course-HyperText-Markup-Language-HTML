@@ -226,13 +226,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [HTML5 and Semantic Elements](#html5-and-semantic-elements)
   - [Introduction to Semantic Elements](#introduction-to-semantic-elements)
   - [Semantic Markup: The Backbone of the Modern Web](#semantic-markup-the-backbone-of-the-modern-web)
-  - [The Importance of Semantic Markup](#the-importance-of-semantic-markup)
-    - [Enhancing Web Accessibility](#enhancing-web-accessibility)
-    - [The SEO Advantage](#the-seo-advantage)
-    - [Technical Aspects and Challenges](#technical-aspects-and-challenges)
-    - [Advanced Techniques and Considerations](#advanced-techniques-and-considerations)
-    - [Comprehensive Best Practices](#comprehensive-best-practices)
-    - [Summary: The Importance of Semantic Markup](#summary-the-importance-of-semantic-markup)
+    - [The Importance of Semantic Markup](#the-importance-of-semantic-markup)
+      - [Enhancing Web Accessibility](#enhancing-web-accessibility)
+      - [The SEO Advantage](#the-seo-advantage)
+      - [Technical Aspects and Challenges](#technical-aspects-and-challenges)
+      - [Advanced Techniques and Considerations](#advanced-techniques-and-considerations)
+      - [Comprehensive Best Practices](#comprehensive-best-practices)
+      - [Summary: The Importance of Semantic Markup](#summary-the-importance-of-semantic-markup)
   - [Commonly Used Semantic Elements](#commonly-used-semantic-elements)
     - [The `<article>` Element](#the-article-element)
     - [The `<section>` Element](#the-section-element)
@@ -1410,48 +1410,48 @@ HTML5 semantic markup is a cornerstone of modern web development, emphasizing th
 
 - **The Role of Context in Semantic Markup**: Every semantic element is chosen based on the context it provides to the content. This context is crucial for assistive technologies to interpret the purpose and relevance of content, enabling users with disabilities to navigate and understand web content more effectively.
 
-### The Importance of Semantic Markup
+#### The Importance of Semantic Markup
 
 - **Accessibility**: Screen readers and other assistive technologies rely on semantic elements to provide a better experience for users with disabilities.
 - **SEO**: Search engines use semantic elements to understand the structure and content of web pages more effectively, improving site visibility in search results.
 - **Maintainability**: Semantic HTML makes code easier to read and maintain.
 
-#### Enhancing Web Accessibility
+##### Enhancing Web Accessibility
 
 The strategic use of semantic elements directly influences the accessibility of web content. These elements serve as signposts for assistive technologies, outlining the structure of web documents in a meaningful way.
 
 - **Semantic Landmarks for Screen Readers**: Elements like `<article>`, `<aside>`, and `<nav>` act as landmarks for screen readers, offering shortcuts to significant sections of the page, thus improving the browsing experience for visually impaired users.
 - **HTML5 and ARIA Integration**: While HTML5 semantic elements naturally embody many ARIA roles, the explicit addition of ARIA attributes to these elements can provide more detailed descriptions and states of interactive components for assistive tools.
 
-#### The SEO Advantage
+##### The SEO Advantage
 
 Semantic HTML5 elements are pivotal in SEO strategies, as they contribute to clearer content structuring, which search engines favor when crawling and indexing web pages.
 
 - **Semantic Elements as SEO Signals**: Elements like `<header>`, `<footer>`, and `<main>` help search engines understand the layout and hierarchy of a page, potentially boosting its ranking for relevant queries.
 - **Enhancing Content Discoverability**: Properly structured content using semantic elements is more likely to be accurately indexed by search engines, improving the content's visibility and discoverability.
 
-#### Technical Aspects and Challenges
+##### Technical Aspects and Challenges
 
 Implementing HTML5 semantic elements involves understanding their technical aspects and addressing various challenges, from browser compatibility to the nuances of semantic integrity.
 
 - **Browser Compatibility Considerations**: Although modern browsers have robust support for HTML5 elements, developers must implement fallback strategies for older browsers, using shivs or polyfills to ensure compatibility.
 - **Maintaining Semantic Integrity**: As developers incorporate more complex JavaScript-driven interactions and dynamic content loading, maintaining the semantic integrity of the document becomes a challenge, requiring careful planning and testing.
 
-#### Advanced Techniques and Considerations
+##### Advanced Techniques and Considerations
 
 Beyond basic usage, advanced techniques involving HTML5 semantic elements can further enhance the functionality and user experience of web applications.
 
 - **Dynamic Content and Semantic Elements**: Leveraging JavaScript and AJAX to dynamically update semantic elements without losing the overall semantic structure of the page requires meticulous attention to how content changes affect the document’s outline and accessibility features.
 - **Semantic Elements in Web Components**: With the advent of Web Components, integrating semantic HTML5 elements within custom elements can help maintain semantic clarity and accessibility in component-based architectures.
 
-#### Comprehensive Best Practices
+##### Comprehensive Best Practices
 
 Adopting comprehensive best practices for using HTML5 semantic elements is essential for developing accessible, SEO-friendly, and maintainable web applications.
 
 - **Semantic HTML5 in Responsive Design**: Ensure that semantic elements are used consistently across different device sizes, maintaining their semantic properties in responsive layouts.
 - **Accessibility Testing**: Regularly perform accessibility audits using tools and manual testing to ensure that the use of semantic elements effectively supports users with disabilities.
 
-#### Summary: The Importance of Semantic Markup
+##### Summary: The Importance of Semantic Markup
 
 This detailed exploration into HTML5 semantic elements highlights their fundamental role in enhancing the semantic web, improving accessibility, and optimizing content for search engines. By understanding and implementing these elements thoughtfully, developers can create more meaningful, accessible, and discoverable web content. The nuanced understanding of these elements' roles, challenges, and best practices is key to leveraging the full potential of HTML5 in modern web development.
 
@@ -1470,7 +1470,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [^25]CodeSandbox: The `<article>` Element.
 
-[^25]:[CodeSandbox: The `<article>` Element](https://tcc2rz.csb.app/), last access: May 25, 2024.
+[^25]:[CodeSandbox: The `<article>` Element](https://tcc2rz.csb.app/), last access: January 15, 2025.
 
 **Usage**: Represents a self-contained composition that’s suitable for syndication. Example: a forum post, a magazine or newspaper article.
 
@@ -1487,7 +1487,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [^26]CodeSandbox: The `<section>` Element.
 
-[^26]:[CodeSandbox: The `<section>` Element](https://djdp6h.csb.app/), last access: May 26, 2024.
+[^26]:[CodeSandbox: The `<section>` Element](https://djdp6h.csb.app/), last access: January 15, 2025.
 
 **Usage**: Defines sections of a document, such as chapters, headers, footers, or any other sections of the document.
 
@@ -1507,7 +1507,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [^27]CodeSandbox: The `<nav>` Element.
 
-[^27]:[CodeSandbox: The `<nav>` Element](https://3mqmnr.csb.app/), last access: May 26, 2024.
+[^27]:[CodeSandbox: The `<nav>` Element](https://3mqmnr.csb.app/), last access: January 15, 2025.
 
 **Usage**: Designed for major navigation blocks, like the primary site navigation.
 
@@ -1524,7 +1524,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [^28]CodeSandbox: The `<header>` Element.
 
-[^28]:[CodeSandbox: The `<header>` Element](https://2mcn2c.csb.app/), last access: May 26, 2024.
+[^28]:[CodeSandbox: The `<header>` Element](https://2mcn2c.csb.app/), last access: January 15, 2025.
 
 **Usage**: Usually contains introductory content or a set of navigational links.
 
@@ -1540,7 +1540,7 @@ This detailed exploration into HTML5 semantic elements highlights their fundamen
 
 [^29]CodeSandbox: The `<footer>` Element.
 
-[^29]:[CodeSandbox: The `<footer>` Element](https://2hcsgy.csb.app/), last access: May 26, 2024.
+[^29]:[CodeSandbox: The `<footer>` Element](https://2hcsgy.csb.app/), last access: January 15, 2025.
 
 **Usage**: Represents the footer of a document or a section, typically containing authorship information, copyright notices, contact information, and links to privacy policies.
 
@@ -1590,7 +1590,7 @@ Here's a basic example of how to structure an SPA with semantic HTML, incorporat
     </main>
 
     <footer role="contentinfo">
-      <p>© 2024 Semantic SPA. All rights reserved.</p>
+      <p>© 2025 Semantic SPA. All rights reserved.</p>
     </footer>
 
     <script src="app.js"></script>
@@ -1621,7 +1621,7 @@ function loadContact() {
 
 [^30]CodeSandbox: Semantic SPA Structure.
 
-[^30]:[CodeSandbox: Semantic SPA Structure](https://d969pp.csb.app/), last access: May 28, 2024.
+[^30]:[CodeSandbox: Semantic SPA Structure](https://d969pp.csb.app/), last access: January 15, 2025.
 
 - **Navigation**: Use `<nav>` for navigation links. It helps screen readers and search engines understand the structure of your navigation.
 - **Content Sections**: Use `<header>`, `<main>`, and `<footer>` to define areas of your page. This helps with document structure and accessibility.
