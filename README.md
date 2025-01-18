@@ -1677,7 +1677,7 @@ Here's an example of how to use microdata in an HTML document to define an artic
 
 [^31]CodeSandbox: Article with Microdata for Rich Snippets.
 
-[^31]:[CodeSandbox: Article with Microdata for Rich Snippets](https://36f5kf.csb.app/), last access: May 28, 2024.
+[^31]:[CodeSandbox: Article with Microdata for Rich Snippets](https://36f5kf.csb.app/), last access: January 18, 2025.
 
 - **`itemscope` and `itemtype`**: These attributes specify that the content within the `<article>` element relates to a particular type (Article) defined in the Schema.org vocabulary.
 - **`itemprop`**: This attribute assigns values to properties of the item. For example, `itemprop="headline"` assigns the heading text to the headline property of the Article.
@@ -1726,7 +1726,7 @@ Accessibility is becoming increasingly important in web development. Future HTML
 
 [^32]CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes.
 
-[^32]:[CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes](https://883g8q.csb.app/), last access: May 28, 2024.
+[^32]:[CodeSandbox: Using ARIA (Accessible Rich Internet Applications) Attributes](https://883g8q.csb.app/), last access: January 18, 2025.
 
 This code demonstrates how ARIA roles and attributes can be used alongside semantic elements to enhance accessibility. The `role` and `aria-label` attributes provide additional context for assistive technologies, making the website's navigation more accessible.
 
