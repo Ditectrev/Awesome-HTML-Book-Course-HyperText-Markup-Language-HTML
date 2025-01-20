@@ -1713,12 +1713,12 @@ Accessibility is becoming increasingly important in web development. Future HTML
 
 ```html
 <div role="navigation" aria-label="Main navigation">
-    <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
 </div>
 ```
 
@@ -1738,9 +1738,9 @@ As web applications become more complex, there's a growing need for semantic ele
 
 ```html
 <toolbar>
-    <button aria-label="New document"><img src="icons/new-doc.png" alt=""></button>
-    <button aria-label="Open file"><img src="icons/open-file.png" alt=""></button>
-    <button aria-label="Save"><img src="icons/save.png" alt=""></button>
+  <button aria-label="New document"><img src="icons/new-doc.png" alt=""></button>
+  <button aria-label="Open file"><img src="icons/open-file.png" alt=""></button>
+  <button aria-label="Save"><img src="icons/save.png" alt=""></button>
 </toolbar>
 ```
 
@@ -1748,7 +1748,7 @@ As web applications become more complex, there's a growing need for semantic ele
 
 [^33]CodeSandbox: Speculative `<toolbar>` Semantic Element.
 
-[^33]:[CodeSandbox: Speculative `<toolbar>` Semantic Element](https://wfkyhq.csb.app/), last access: May 28, 2024.
+[^33]:[CodeSandbox: Speculative `<toolbar>` Semantic Element](https://wfkyhq.csb.app/), last access: January 20, 2025.
 
 Although the `<toolbar>` element doesn't exist in HTML at the time of writing, this example illustrates how future semantic elements could provide clearer meaning to common UI components in web applications.
 
@@ -1760,9 +1760,9 @@ Semantic HTML is also likely to evolve in tandem with emerging web technologies,
 
 ```html
 <custom-dropdown>
-    <option value="1">Option 1</option>
-    <option value="2">Option 2</option>
-    <option value="3">Option 3</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
 </custom-dropdown>
 ```
 
@@ -1770,7 +1770,7 @@ Semantic HTML is also likely to evolve in tandem with emerging web technologies,
 
 [^34]CodeSandbox: Using Custom Elements with Semantic Meaning.
 
-[^34]:[CodeSandbox: Using Custom Elements with Semantic Meaning](https://ln6g7r.csb.app/), last access: May 28, 2024.
+[^34]:[CodeSandbox: Using Custom Elements with Semantic Meaning](https://ln6g7r.csb.app/), last access: January 20, 2025.
 
 This example shows how custom elements, part of the Web Components spec, can be used to create semantically meaningful widgets that enhance the user interface while maintaining clean and understandable code.
 
@@ -1816,7 +1816,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
     </main>
 
     <footer>
-      <p>© 2024 My Blog. All rights reserved.</p>
+      <p>© 2025 My Blog. All rights reserved.</p>
     </footer>
   </body>
 </html>
@@ -1826,7 +1826,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 
 [^35]CodeSandbox: Semantic Headings.
 
-[^35]:[CodeSandbox: Semantic Headings](https://l8v69w.csb.app/), last access: May 29, 2024.
+[^35]:[CodeSandbox: Semantic Headings](https://l8v69w.csb.app/), last access: January 20, 2025.
 
 - In this example, we use semantic headings (`<h1>` and `<h2>`) to structure the content. Search engines give more weight to text within headings, so using them appropriately can improve SEO.
 - The main content is enclosed in `<article>` elements, which provide context to search engines that this is valuable, standalone content.
@@ -1835,12 +1835,12 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 
 ```html
 <nav>
-    <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
 </nav>
 ```
 
@@ -1848,7 +1848,7 @@ Semantic HTML plays a crucial role in SEO (Search Engine Optimization) by provid
 
 [^36]CodeSandbox: Semantic Navigation.
 
-[^36]:[CodeSandbox: Semantic Navigation](https://9lnsgj.csb.app/), last access: May 29, 2024.
+[^36]:[CodeSandbox: Semantic Navigation](https://9lnsgj.csb.app/), last access: January 20, 2025.
 
 In this navigation menu, we use a `<nav>` element to signify its purpose. Search engines understand that navigation menus are crucial for user experience.
 
