@@ -1884,7 +1884,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [^37]CodeSandbox: Proper Heading Structure.
 
-[^37]:[CodeSandbox: Proper Heading Structure](https://x22m79.csb.app/), last access: May 29, 2024.
+[^37]:[CodeSandbox: Proper Heading Structure](https://x22m79.csb.app/), last access: January 23, 2025.
 
 - In this example, we use `<h1>` for the main heading and `<h2>` for subheadings. This creates a clear hierarchy that screen readers can interpret. Proper heading structure helps users with visual impairments understand the content's organization.
 
@@ -1892,15 +1892,15 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 ```html
 <form>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" aria-describedby="username-help">
-    <p id="username-help">Your username must be unique.</p>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" aria-describedby="username-help">
+  <p id="username-help">Your username must be unique.</p>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" aria-describedby="password-help">
-    <p id="password-help">Password should be at least 8 characters long.</p>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" aria-describedby="password-help">
+  <p id="password-help">Password should be at least 8 characters long.</p>
 
-    <button type="submit">Submit</button>
+  <button type="submit">Submit</button>
 </form>
 ```
 
@@ -1908,7 +1908,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [^38]CodeSandbox: Form Labels and Inputs.
 
-[^38]:[CodeSandbox: Form Labels and Inputs](https://3rm7jk.csb.app/), last access: May 29, 2024.
+[^38]:[CodeSandbox: Form Labels and Inputs](https://3rm7jk.csb.app/), last access: January 23, 2025.
 
 - Labels associated with form inputs using the `for` attribute and `id` linkage ensure that screen readers announce labels when users focus on input fields.
 - The `aria-describedby` attribute links form inputs to additional descriptive information, making it easier for screen reader users to understand input requirements.
@@ -1917,12 +1917,12 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 ```html
 <nav>
-    <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/contact">Contact</a></li>
-    </ul>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
 </nav>
 ```
 
@@ -1930,7 +1930,7 @@ Semantic HTML plays a crucial role in making web content more accessible to all 
 
 [^39]CodeSandbox: Use of `<nav>` and `<nav>` Landmarks.
 
-[^39]:[CodeSandbox: Use of `<nav>` and `<nav>` Landmarks](https://85hjqc.csb.app/), last access: May 29, 2024.
+[^39]:[CodeSandbox: Use of `<nav>` and `<nav>` Landmarks](https://85hjqc.csb.app/), last access: January 23, 2025.
 
 The `<nav>` element is used to represent the navigation menu. Screen readers can identify this landmark and provide shortcuts for users to navigate to the navigation content.
 
