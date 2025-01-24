@@ -1942,7 +1942,7 @@ In addition to semantic HTML elements, ARIA (Accessible Rich Internet Applicatio
 
 ```html
 <div role="status" aria-live="polite">
-    The weather forecast for today is sunny with a high of 78°F.
+  The weather forecast for today is sunny with a high of 78°F.
 </div>
 ```
 
@@ -1950,7 +1950,7 @@ In addition to semantic HTML elements, ARIA (Accessible Rich Internet Applicatio
 
 [^40]CodeSandbox: ARIA Role for a Live Region.
 
-[^40]:[CodeSandbox: ARIA Role for a Live Region](https://6vyl6n.csb.app/), last access: May 29, 2024.
+[^40]:[CodeSandbox: ARIA Role for a Live Region](https://6vyl6n.csb.app/), last access: January 24, 2025.
 
 The `role="status"` attribute signifies that this element provides live updates. The `aria-live="polite"` attribute informs screen readers to politely announce changes without interrupting the user.
 
@@ -1958,14 +1958,14 @@ The `role="status"` attribute signifies that this element provides live updates.
 
 ```html
 <label for="slider">Select a value:</label>
-<input type="range" id="slider" name="slider" min="0" max="100" step="1" value="50" aria-label="Value Selector">
+<input role="slider" type="range" id="slider" name="slider" min="0" max="100" step="1" value="50" aria-label="Value Selector">
 ```
 
 [![Edit 041-ARIA Role for a Slider](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/041-aria-role-for-a-slider-gsjppj)
 
 [^41]CodeSandbox: ARIA Role for a Slider.
 
-[^41]:[CodeSandbox: ARIA Role for a Slider](https://gsjppj.csb.app/), last access: May 29, 2024.
+[^41]:[CodeSandbox: ARIA Role for a Slider](https://gsjppj.csb.app/), last access: January 24, 2025.
 
 The `role="slider"` attribute indicates that this input element behaves as a slider. This is essential for users who rely on assistive technologies to understand the purpose of the input.
 
