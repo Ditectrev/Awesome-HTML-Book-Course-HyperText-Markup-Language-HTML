@@ -2017,7 +2017,7 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
     </main>
 
     <footer>
-      <p>© 2024 EcoShop. All rights reserved.</p>
+      <p>© 2025 EcoShop. All rights reserved.</p>
     </footer>
   </body>
 </html>
@@ -2027,7 +2027,7 @@ The homepage of "EcoShop" is structured to provide a clear hierarchy and meaning
 
 [^42]CodeSandbox: Homepage Structure.
 
-[^42]:[CodeSandbox: Homepage Structure](https://tq6vp3.csb.app/), last access: May 29, 2024.
+[^42]:[CodeSandbox: Homepage Structure](https://tq6vp3.csb.app/), last access: January 25, 2025.
 
 ###### Implementation: Product Listing with Semantic Markup
 
@@ -2035,11 +2035,11 @@ For the product listing, "EcoShop" employs `<article>` tags to semantically repr
 
 ```html
 <article class="product-item">
-    <h3>Biodegradable Bamboo Toothbrush</h3>
-    <p>A sustainable alternative to plastic toothbrushes...</p>
-    <footer>
-        <button>Add to Cart</button>
-    </footer>
+  <h3>Biodegradable Bamboo Toothbrush</h3>
+  <p>A sustainable alternative to plastic toothbrushes...</p>
+  <footer>
+    <button>Add to Cart</button>
+  </footer>
 </article>
 ```
 
@@ -2047,7 +2047,7 @@ For the product listing, "EcoShop" employs `<article>` tags to semantically repr
 
 [^43]CodeSandbox: Product Listing with Semantic Markup.
 
-[^43]:[CodeSandbox: Product Listing with Semantic Markup](https://6sngw9.csb.app/), last access: May 29, 2024.
+[^43]:[CodeSandbox: Product Listing with Semantic Markup](https://6sngw9.csb.app/), last access: January 25, 2025.
 
 ##### Benefits of Semantic HTML
 
