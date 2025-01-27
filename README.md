@@ -2075,8 +2075,8 @@ The `<audio>` element in HTML5 is a powerful tool for embedding audio content di
 
 ```html
 <audio controls>
-    <source src="audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
 ```
 
@@ -2084,7 +2084,7 @@ The `<audio>` element in HTML5 is a powerful tool for embedding audio content di
 
 [^44]CodeSandbox: Audio Element.
 
-[^44]:[CodeSandbox: Audio Element](https://hmf35t.csb.app/), last access: May 29, 2024.
+[^44]:[CodeSandbox: Audio Element](https://hmf35t.csb.app/), last access: January 27, 2025.
 
 - The `<audio>` element is used to include audio content within a webpage.
 - The `controls` attribute adds a built-in audio player with play, pause, volume, and seek controls for user interaction.
@@ -2097,8 +2097,8 @@ The `<video>` element, similar to the `<audio>` element, enables the integration
 
 ```html
 <video controls width="400" height="300">
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video element.
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video element.
 </video>
 ```
 
@@ -2106,7 +2106,7 @@ The `<video>` element, similar to the `<audio>` element, enables the integration
 
 [^45]CodeSandbox: Video Element.
 
-[^45]:[CodeSandbox: Video Element](https://yx2ytt.csb.app/), last access: May 29, 2024.
+[^45]:[CodeSandbox: Video Element](https://yx2ytt.csb.app/), last access: January 27, 2025.
 
 - The `<video>` element is employed for embedding video content in web pages.
 - The `controls` attribute adds a video player interface with standard controls.
@@ -2119,18 +2119,24 @@ The `<video>` element, similar to the `<audio>` element, enables the integration
 The `<canvas>` element is a powerful tool for creating graphics and animations directly within a web page.
 
 ```html
-<canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+<canvas
+  id="myCanvas"
+  width="400"
+  height="200"
+  style="border:1px solid #000000;"
+>
+</canvas>
 ```
 
 On such an element, with the help of JavaScript, we can draw, for example, a circle.
 
 ```javascript
 <script>
-const c = document.getElementById("myCanvas");
-const ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.arc(95, 50, 40, 0, 2 * Math.PI);
-ctx.stroke();
+  const c = document.getElementById("myCanvas");
+  const ctx = c.getContext("2d");
+  ctx.beginPath();
+  ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+  ctx.stroke();
 </script>
 ```
 
@@ -2138,7 +2144,7 @@ ctx.stroke();
 
 [^46]CodeSandbox: Canvas for Graphics.
 
-[^46]:[CodeSandbox: Canvas for Graphics](https://wxtng3.csb.app/), last access: May 29, 2024.
+[^46]:[CodeSandbox: Canvas for Graphics](https://wxtng3.csb.app/), last access: January 27, 2025.
 
 - The `<canvas>` element provides an empty drawing area where dynamic graphics and animations can be rendered.
 - The `id`, `width`, and `height` attributes are used to uniquely identify the canvas and specify its dimensions.
