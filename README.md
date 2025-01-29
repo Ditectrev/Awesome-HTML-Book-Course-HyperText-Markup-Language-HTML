@@ -2199,12 +2199,12 @@ Web Storage, comprising Local Storage and Session Storage, allows data to be sto
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = localStorage.username;
+  document.getElementById("demo").innerHTML = localStorage.username;
 
-function saveData() {
+  function saveData() {
     localStorage.setItem("username", "John");
     document.getElementById("demo").innerHTML = localStorage.username;
-}
+  }
 </script>
 ```
 
@@ -2212,7 +2212,7 @@ function saveData() {
 
 [^48]CodeSandbox: Local Storage.
 
-[^48]:[CodeSandbox: Local Storage](https://7wz96c.csb.app/), last access: June 4, 2024.
+[^48]:[CodeSandbox: Local Storage](https://7wz96c.csb.app/), last access: January 29, 2025.
 
 - The `localStorage` object enables the storage of data as key-value pairs.
 - In this instance, clicking the "Save Data" button invokes the `saveData` function, which stores the username "John" in local storage.
@@ -2226,12 +2226,12 @@ function saveData() {
 <p id="demo"></p>
 
 <script>
-document.getElementById("demo").innerHTML = sessionStorage.theme;
+  document.getElementById("demo").innerHTML = sessionStorage.theme;
 
-function saveSessionData() {
+  function saveSessionData() {
     sessionStorage.setItem("theme", "light");
     document.getElementById("demo").innerHTML = sessionStorage.theme;
-}
+  }
 </script>
 ```
 
@@ -2239,7 +2239,7 @@ function saveSessionData() {
 
 [^49]CodeSandbox: Session Storage.
 
-[^49]:[CodeSandbox: Session Storage](https://jlmh4x.csb.app/), last access: June 4, 2024.
+[^49]:[CodeSandbox: Session Storage](https://jlmh4x.csb.app/), last access: January 29, 2025.
 
 - `sessionStorage` functions similarly to `localStorage` but is limited to the duration of a browser session.
 - In the code, clicking the "Save Session Data" button triggers the `saveSessionData` function, which stores the theme "light" in session storage.
