@@ -2161,17 +2161,17 @@ HTML5's Geolocation API empowers web applications to access a user's geographica
 
 <script>
 function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else {
-        document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
-    }
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+  }
 }
 
 function showPosition(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    document.getElementById("demo").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+  const latitude = position.coords.latitude;
+  const longitude = position.coords.longitude;
+  document.getElementById("demo").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
 }
 </script>
 ```
@@ -2180,7 +2180,7 @@ function showPosition(position) {
 
 [^47]CodeSandbox: Geolocation.
 
-[^47]:[CodeSandbox: Geolocation](https://jkgprf.csb.app/), last access: June 4, 2024.
+[^47]:[CodeSandbox: Geolocation](https://jkgprf.csb.app/), last access: January 28, 2025.
 
 - The Geolocation API is accessed through JavaScript, typically initiated by user action.
 - The `navigator.geolocation` object provides methods for obtaining the user's location.
