@@ -2255,13 +2255,13 @@ HTML5 introduced native support for drag-and-drop interactions, allowing users t
 
 <script>
 function allowDrop(event) {
-    event.preventDefault();
+  event.preventDefault();
 }
 
 function drop(event) {
-    event.preventDefault();
-    const data = event.dataTransfer.getData("text");
-    event.target.appendChild(document.getElementById(data));
+  event.preventDefault();
+  const data = event.dataTransfer.getData("text");
+  event.target.appendChild(document.getElementById(data));
 }
 </script>
 ```
@@ -2270,7 +2270,7 @@ function drop(event) {
 
 [^50]CodeSandbox: Drag and Drop.
 
-[^50]:[CodeSandbox: Drag and Drop](https://hfgnpw.csb.app/), last access: June 4, 2024.
+[^50]:[CodeSandbox: Drag and Drop](https://hfgnpw.csb.app/), last access: February 15, 2025.
 
 - The `draggable="true"` attribute makes an element draggable.
 - The `ondragover` and `ondrop` event handlers define drop behavior.
@@ -2289,7 +2289,7 @@ Iframes (Inline Frames) allow you to embed one HTML document within another. The
 
 [^51]CodeSandbox: Iframes.
 
-[^51]:[CodeSandbox: Iframes](https://l2fyl4.csb.app/), last access: June 4, 2024.
+[^51]:[CodeSandbox: Iframes](https://l2fyl4.csb.app/), last access: February 15, 2025.
 
 - The `<iframe>` element is used to embed external content.
 - The `src` attribute specifies the URL of the external content to be displayed within the iframe.
