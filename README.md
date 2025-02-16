@@ -2303,7 +2303,7 @@ SVG is a powerful XML-based vector image format that can be embedded directly in
 
 ```html
 <svg width="100" height="100">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
 </svg>
 ```
 
@@ -2311,7 +2311,7 @@ SVG is a powerful XML-based vector image format that can be embedded directly in
 
 [^52]CodeSandbox: SVG (Scalable Vector Graphics).
 
-[^52]:[CodeSandbox: SVG (Scalable Vector Graphics)](https://3nx6c6.csb.app/), last access: June 5, 2024.
+[^52]:[CodeSandbox: SVG (Scalable Vector Graphics)](https://3nx6c6.csb.app/), last access: February 16, 2025.
 
 - The `<svg>` element is used to define an SVG container.
 - The `width` and `height` attributes set the dimensions of the SVG canvas.
@@ -2330,7 +2330,7 @@ Data attributes allow you to store custom data private to the page or applicatio
 
 [^53]CodeSandbox: Data Attributes.
 
-[^53]:[CodeSandbox: Data Attributes](https://ww7npw.csb.app/), last access: June 5, 2024.
+[^53]:[CodeSandbox: Data Attributes](https://ww7npw.csb.app/), last access: February 16, 2025.
 
 - Data attributes are prefixed with "data-" and can store any custom data you want.
 - In the example, a `div` element has three data attributes: `data-product-id`, `data-product-name`, and `data-price`, each storing specific information about a product.
