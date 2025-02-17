@@ -2355,17 +2355,17 @@ Selectors target HTML elements to apply styling. They can target elements based 
 ```css
 /* Element Selector */
 p {
-    color: blue;
+  color: blue;
 }
 
 /* Class Selector */
 .title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 /* ID Selector */
 #header {
-    background-color: gray;
+  background-color: gray;
 }
 ```
 
@@ -2373,7 +2373,7 @@ p {
 
 [^54]CodeSandbox: Selectors.
 
-[^54]:[CodeSandbox: Selectors](https://sl9z4d.csb.app/), last access: June 5, 2024.
+[^54]:[CodeSandbox: Selectors](https://sl9z4d.csb.app/), last access: February 17, 2025.
 
 - The `p` selector targets all `<p>` elements, setting their text color to blue.
 - The `.title` selector targets elements with the class "title," applying a font size of 24 pixels.
@@ -2386,19 +2386,19 @@ CSS properties define the visual characteristics of HTML elements, while values 
 ```css
 /* Font Properties */
 p {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* Color Properties */
 .title {
-    color: #ff0000; /* Red */
+  color: #ff0000; /* Red */
 }
 
 /* Background Properties */
 #header {
-    background-color: #f0f0f0; /* Light Gray */
+  background-color: #f0f0f0; /* Light Gray */
 }
 ```
 
@@ -2406,7 +2406,7 @@ p {
 
 [^55]CodeSandbox: Properties and Values.
 
-[^55]:[CodeSandbox: Properties and Values](https://f4437y.csb.app/), last access: June 5, 2024.
+[^55]:[CodeSandbox: Properties and Values](https://f4437y.csb.app/), last access: February 17, 2025.
 
 - Font properties control the appearance of text, such as font family, size, and weight.
 - Color properties define the color of text and backgrounds using hexadecimal, RGB, or named colors.
@@ -2423,11 +2423,11 @@ The CSS box model describes how elements are rendered on a web page, consisting 
 ```css
 /* Box Model Properties */
 .box {
-    width: 200px;
-    height: 100px;
-    padding: 20px;
-    border: 2px solid #000;
-    margin: 10px;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid #000;
+  margin: 10px;
 }
 ```
 
@@ -2435,7 +2435,7 @@ The CSS box model describes how elements are rendered on a web page, consisting 
 
 [^56]CodeSandbox: Box Model.
 
-[^56]:[CodeSandbox: Box Model](https://pjx5ch.csb.app/), last access: June 5, 2024.
+[^56]:[CodeSandbox: Box Model](https://pjx5ch.csb.app/), last access: February 17, 2025.
 
 - `width` and `height` set the dimensions of the content area.
 - `padding` creates space between the content and the border.
