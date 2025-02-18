@@ -570,11 +570,11 @@ MyFirstWebsite/
 
 ```css
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: navy;
+  color: navy;
 }
 ```
 
@@ -2449,7 +2449,7 @@ CSS comments are used to add notes or descriptions within the stylesheet. They a
 ```css
 /* This is a CSS comment */
 p {
-    color: blue; /* Set text color to blue */
+  color: blue; /* Set text color to blue */
 }
 ```
 
@@ -2457,7 +2457,7 @@ p {
 
 [^57]CodeSandbox: CSS Comments.
 
-[^57]:[CodeSandbox: CSS Comments](https://vny2rf.csb.app/), last access: June 11, 2024.
+[^57]:[CodeSandbox: CSS Comments](https://vny2rf.csb.app/), last access: February 18, 2025.
 
 - CSS comments are denoted by `/* */`.
 - Comments can be used to document code, provide context, or temporarily disable styles.
@@ -2476,7 +2476,7 @@ Inline CSS involves applying styles directly to individual HTML elements using t
 
 [^58]CodeSandbox: Inline CSS.
 
-[^58]:[CodeSandbox: Inline CSS](https://pptd9v.csb.app/), last access: June 11, 2024.
+[^58]:[CodeSandbox: Inline CSS](https://pptd9v.csb.app/), last access: February 18, 2025.
 
 - Inline CSS is employed by adding a `style` attribute to an HTML element, allowing you to define CSS properties and values directly.
 - This approach offers granular control but lacks reusability and can become unwieldy for larger projects.
@@ -2492,10 +2492,10 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
     <meta charset="UTF-8" />
     <title>Internal (Embedded) CSS</title>
     <style>
-        p {
-            color: green;
-            font-size: 18px;
-        }
+      p {
+        color: green;
+        font-size: 18px;
+      }
     </style>
   </head>
   <body>
@@ -2508,7 +2508,7 @@ Internal CSS, also known as embedded CSS, involves placing CSS rules within a `<
 
 [^59]CodeSandbox: Internal (Embedded) CSS.
 
-[^59]:[CodeSandbox: Internal (Embedded) CSS](https://n8rn6n.csb.app/), last access: June 11, 2024.
+[^59]:[CodeSandbox: Internal (Embedded) CSS](https://n8rn6n.csb.app/), last access: February 18, 2025.
 
 - The `<style>` element resides within the HTML `<head>` section.
 - CSS rules defined within the `<style>` element apply to HTML elements on the same page.
@@ -2535,8 +2535,8 @@ External CSS involves creating a separate CSS file with styles that can be reuse
 ```css
 /* styles.css */
 p {
-    color: purple;
-    font-size: 20px;
+  color: purple;
+  font-size: 20px;
 }
 ```
 
@@ -2544,7 +2544,7 @@ p {
 
 [^60]CodeSandbox: External CSS.
 
-[^60]:[CodeSandbox: External CSS](https://w9r4jj.csb.app/), last access: June 11, 2024.
+[^60]:[CodeSandbox: External CSS](https://w9r4jj.csb.app/), last access: February 18, 2025.
 
 - The `<link>` element within the HTML `<head>` section links to an external CSS file named "styles.css."
 - The "styles.css" file contains CSS rules that apply to HTML elements, such as `<p>` elements in this case.
@@ -2575,7 +2575,7 @@ CSS frameworks like Bootstrap, Foundation, and Bulma provide pre-designed styles
 
 [^61]CodeSandbox: CSS Frameworks.
 
-[^61]:[CodeSandbox: CSS Frameworks](https://tnxxzj.csb.app/), last access: June 12, 2024.
+[^61]:[CodeSandbox: CSS Frameworks](https://tnxxzj.csb.app/), last access: February 18, 2025.
 
 - In this example, the Bootstrap CSS framework is linked via a Content Delivery Network (CDN) URL.
 - Bootstrap classes like `container` and `btn btn-primary` are applied to HTML elements, providing predefined styles and components.
@@ -2590,9 +2590,9 @@ CSS preprocessors like Sass and Less extend CSS with advanced features like vari
 $primary-color: #007bff;
 
 .button {
-    background-color: $primary-color;
-    color: white;
-    padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
 }
 ```
 
@@ -2600,7 +2600,7 @@ $primary-color: #007bff;
 
 [^62]CodeSandbox: CSS Preprocessors.
 
-[^62]:[CodeSandbox: CSS Preprocessors](https://lzkls6.csb.app/), last access: June 12, 2024.
+[^62]:[CodeSandbox: CSS Preprocessors](https://lzkls6.csb.app/), last access: February 18, 2025.
 
 - In this Sass example, a variable `$primary-color` is defined to store the primary button color.
 - Sass features like variable usage and nesting are employed to create the button's styling.
