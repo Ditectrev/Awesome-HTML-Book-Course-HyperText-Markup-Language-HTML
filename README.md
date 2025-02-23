@@ -2647,15 +2647,15 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 
 ```css
 .container {
-    background-color: #ff0000;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+  background-color: #ff0000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .item {
-    background-color: #f1f1f1;
-    padding: 20px;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
 ```
 
@@ -2663,7 +2663,7 @@ Grid Layouts are a two-dimensional layout model that allows for the precise posi
 
 [^64]CodeSandbox: Grid Layouts.
 
-[^64]:[CodeSandbox: Grid Layouts](https://nykj4p.csb.app/), last access: June 13, 2024.
+[^64]:[CodeSandbox: Grid Layouts](https://nykj4p.csb.app/), last access: February 22, 2025.
 
 - The `display: grid;` property on the container establishes a grid container, enabling grid layout for its children.
 - `grid-template-columns: 1fr 1fr 1fr;` defines three equal-width columns in the grid.
