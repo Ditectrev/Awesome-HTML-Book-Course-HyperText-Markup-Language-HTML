@@ -2689,10 +2689,10 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
     <meta charset="UTF-8" />
     <title>Embedded JavaScript Example</title>
     <script>
-        // Inline JavaScript code
-        function greet() {
-            alert("Hello, world!");
-        }
+      // Inline JavaScript code
+      function greet() {
+        alert("Hello, world!");
+      }
     </script>
   </head>
   <body>
@@ -2706,7 +2706,7 @@ JavaScript code can be embedded directly within HTML documents using the `<scrip
 
 [^65]CodeSandbox: Embedded JavaScript Example.
 
-[^65]:[CodeSandbox: Embedded JavaScript Example](https://2ch5rl.csb.app/), last access: June 13, 2024.
+[^65]:[CodeSandbox: Embedded JavaScript Example](https://2ch5rl.csb.app/), last access: February 23, 2025.
 
 - JavaScript code is included directly within the `<script>` tags in the `<head>` section of the HTML document.
 - The `greet()` function is defined inline and is invoked when the button is clicked.
