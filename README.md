@@ -2743,7 +2743,7 @@ In `script.js`, write a simple script:
 
 ```javascript
 function greet() {
-    alert("Hello, world!");
+  alert("Hello, world!");
 }
 ```
 
@@ -2751,7 +2751,7 @@ function greet() {
 
 [^66]CodeSandbox: External JavaScript Example.
 
-[^66]:[CodeSandbox: External JavaScript Example](https://sttc6x.csb.app/), last access: June 18, 2024.
+[^66]:[CodeSandbox: External JavaScript Example](https://sttc6x.csb.app/), last access: February 24, 2025.
 
 - The JavaScript code is moved to an external file named `script.js`.
 - The `<script>` tag in the HTML document references the external JavaScript file using the `src` attribute.
@@ -2793,7 +2793,7 @@ JavaScript interacts with HTML through the Document Object Model (DOM), a hierar
 
 [^67]CodeSandbox: DOM Manipulation.
 
-[^67]:[CodeSandbox: DOM Manipulation](https://7k5drg.csb.app/), last access: June 18, 2024.
+[^67]:[CodeSandbox: DOM Manipulation](https://7k5drg.csb.app/), last access: February 24, 2025.
 
 - The `changeText()` function modifies the text content of an `<h1>` element with the ID `heading` when the button is clicked.
 
@@ -2805,10 +2805,10 @@ Advanced DOM manipulation techniques involve traversing the DOM tree, selecting 
 setTimeout(changeParagraphText, 5000);
 
 function changeParagraphText() {
-    // Select all paragraphs with a specific class and update their text content
-    document.querySelectorAll("p.myClass").forEach((paragraph) => {
-        paragraph.textContent = "New content";
-    });
+  // Select all paragraphs with a specific class and update their text content
+  document.querySelectorAll("p.myClass").forEach((paragraph) => {
+    paragraph.textContent = "New content";
+  });
 }
 ```
 
@@ -2816,7 +2816,7 @@ function changeParagraphText() {
 
 [^68]CodeSandbox: Advanced DOM Manipulation Techniques.
 
-[^68]:[CodeSandbox: Advanced DOM Manipulation Techniques](https://mj9mr7.csb.app/), last access: June 18, 2024.
+[^68]:[CodeSandbox: Advanced DOM Manipulation Techniques](https://mj9mr7.csb.app/), last access: February 24, 2025.
 
 ### Event Handling
 
