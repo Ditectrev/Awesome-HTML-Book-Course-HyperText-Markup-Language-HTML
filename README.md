@@ -2845,7 +2845,7 @@ JavaScript enables developers to handle user interactions and browser events thr
 
 [^69]CodeSandbox: Event Handling.
 
-[^69]:[CodeSandbox: Event Handling](https://rwd3qd.csb.app/), last access: June 18, 2024.
+[^69]:[CodeSandbox: Event Handling](https://rwd3qd.csb.app/), last access: February 25, 2025.
 
 - An event listener is added to the button element, listening for the 'click' event.
 - When the button is clicked, an alert dialog is displayed.
@@ -2857,10 +2857,10 @@ Advanced event handling techniques involve event delegation, capturing and bubbl
 ```javascript
 // Event delegation: Handling events on parent elements for dynamically created child elements
 document.getElementById("parent").addEventListener("click", function(event) {
-    alert("event.target.tagName is equal " + event.target.tagName);
-    if (event.target.tagName === "BUTTON") {
-        alert("Button clicked!");
-    }
+  alert("event.target.tagName is equal " + event.target.tagName);
+  if (event.target.tagName === "BUTTON") {
+    alert("Button clicked!");
+  }
 });
 ```
 
@@ -2868,7 +2868,7 @@ document.getElementById("parent").addEventListener("click", function(event) {
 
 [^70]CodeSandbox: Advanced Event Handling.
 
-[^70]:[CodeSandbox: Advanced Event Handling](https://mcrl3w.csb.app/), last access: June 18, 2024.
+[^70]:[CodeSandbox: Advanced Event Handling](https://mcrl3w.csb.app/), last access: February 25, 2025.
 
 ### Summary: Introduction to JavaScript with HTML
 

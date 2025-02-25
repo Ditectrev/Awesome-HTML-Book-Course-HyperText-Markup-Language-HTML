@@ -1758,12 +1758,12 @@ function changeParagraphText() {
 ```javascript[|1|2|3|4|5|6|7|8]
 // Event delegation: Handling events on parent elements for dynamically created child elements
 document.getElementById("parent")
-    .addEventListener("click", function(event) {
-      alert("event.target.tagName is equal " + event.target.tagName);
-      if (event.target.tagName === "BUTTON") {
-          alert("Button clicked!");
-      }
-});
+  .addEventListener("click", function(event) {
+    alert("event.target.tagName is equal " + event.target.tagName);
+    if (event.target.tagName === "BUTTON") {
+      alert("Button clicked!");
+    }
+  });
 ```
 
 [![Edit 070-Advanced Event Handling](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/070-advanced-event-handling-mcrl3w)
