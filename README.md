@@ -2889,15 +2889,15 @@ Adopting a mobile-first approach involves designing for mobile devices first, th
 ```css
 /* Base styles for mobile devices */
 .container {
-    background-color: #ff0000;
-    padding: 10px;
+  background-color: #ff0000;
+  padding: 10px;
 }
 
 /* Additional styles for larger screens */
 @media screen and (min-width: 768px) {
-    .container {
-        padding: 50px;
-    }
+  .container {
+    padding: 50px;
+  }
 }
 ```
 
@@ -2905,7 +2905,7 @@ Adopting a mobile-first approach involves designing for mobile devices first, th
 
 [^71]CodeSandbox: Mobile-First Approach.
 
-[^71]:[CodeSandbox: Mobile-First Approach](https://fd8cvs.csb.app/), last access: June 20, 2024.
+[^71]:[CodeSandbox: Mobile-First Approach](https://fd8cvs.csb.app/), last access: February 28, 2025.
 
 - In this example, styles for smaller screens are defined first, followed by media queries to enhance the layout for larger screens.
 
