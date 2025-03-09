@@ -2944,23 +2944,23 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 
 ```css
 .container {
-    background-color: #ff0000;
-    width: 90%; /* Set container width to 90% of the viewport */
-    margin: 0 auto; /* Center the container */
+  background-color: #ff0000;
+  width: 90%; /* Set container width to 90% of the viewport */
+  margin: 0 auto; /* Center the container */
 }
 
 .column {
-    background-color: #f1f1f1;
-    float: left;
-    width: 30%; /* Set column width to 30% of the container */
-    margin-right: 5%; /* Add 5% margin between columns */
+  background-color: #f1f1f1;
+  float: left;
+  width: 30%; /* Set column width to 30% of the container */
+  margin-right: 3.33%; /* Add 5% margin between columns */
 }
 
 /* Apply clearfix to clear floats */
 .container:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 ```
 
@@ -2968,7 +2968,7 @@ A fluid grid layout adjusts its column widths and spacing proportionally based o
 
 [^72]CodeSandbox: Fluid Grids.
 
-[^72]:[CodeSandbox: Fluid Grids](https://qxh5zz.csb.app/), last access: June 20, 2024.
+[^72]:[CodeSandbox: Fluid Grids](https://qxh5zz.csb.app/), last access: March 9, 2025.
 
 ###### Media Queries
 
@@ -2976,14 +2976,14 @@ Media queries allow you to apply specific styles based on the characteristics of
 
 ```css
 .column {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 /* Apply styles for screens larger than 768px */
 @media screen and (min-width: 768px) {
-    .column {
-        width: 45%; /* Adjust column width for larger screens */
-    }
+  .column {
+    width: 45%; /* Adjust column width for larger screens */
+  }
 }
 ```
 
@@ -2991,7 +2991,7 @@ Media queries allow you to apply specific styles based on the characteristics of
 
 [^73]CodeSandbox: Media Queries.
 
-[^73]:[CodeSandbox: Media Queries](https://dwprjz.csb.app/), last access: June 20, 2024.
+[^73]:[CodeSandbox: Media Queries](https://dwprjz.csb.app/), last access: March 9, 2025.
 
 ##### Flexible Units
 
