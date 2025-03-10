@@ -1901,13 +1901,16 @@ document.getElementById("parent")
 
 ```css[|3|1,4|8|6,9|3,8]
 .container {
-    background-color: #ff0000;
-    width: 90%; /* Set container width to 90% of the viewport */
+  background-color: #ff0000;
+  margin: 5%;
+  padding: 5%;
+  width: 90%; /* Set container width to 90% of the viewport */
 }
 
 .column {
-    background-color: #f1f1f1;
-    width: 50%; /* Set column width to 50% of the container */
+  background-color: #f1f1f1;
+  padding: 10%;
+  width: 50%; /* Set column width to 50% of the container */
 }
 ```
 
@@ -1921,14 +1924,14 @@ document.getElementById("parent")
 
 ```css[|3|1,4|8|9|8-9|6,10|3,8-9]
 .text {
-    background-color: #ff0000;
-    font-size: 5vw; /* Set font size to 5% of the viewport width */
+  background-color: #ff0000;
+  font-size: 5vw; /* Set font size to 5% of the viewport width */
 }
 
 .box {
-    background-color: #f1f1f1;
-    width: 50vw; /* Set box width to 50% of the viewport width */
-    height: 50vh; /* Set box height to 50% of the viewport height */
+  background-color: #f1f1f1;
+  width: 50vw; /* Set box width to 50% of the viewport width */
+  height: 50vh; /* Set box height to 50% of the viewport height */
 }
 ```
 
@@ -1940,7 +1943,7 @@ document.getElementById("parent")
 
 ### Viewport Settings <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|5|3,7|2,11]
+```html[|5|3,7|2,12]
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -1950,6 +1953,7 @@ document.getElementById("parent")
   </head>
   <body style="background-color: grey">
     <!-- Content -->
+    <h1>Test</h1>
   </body>
 </html>
 ```

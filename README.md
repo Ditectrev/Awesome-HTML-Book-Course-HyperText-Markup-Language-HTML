@@ -3001,13 +3001,16 @@ Percentage units allow you to define dimensions, margins, and padding relative t
 
 ```css
 .container {
-    background-color: #ff0000;
-    width: 90%; /* Set container width to 90% of the viewport */
+  background-color: #ff0000;
+  margin: 5%;
+  padding: 5%;
+  width: 90%; /* Set container width to 90% of the viewport */
 }
 
 .column {
-    background-color: #f1f1f1;
-    width: 50%; /* Set column width to 50% of the container */
+  background-color: #f1f1f1;
+  padding: 10%;
+  width: 50%; /* Set column width to 50% of the container */
 }
 ```
 
@@ -3015,7 +3018,7 @@ Percentage units allow you to define dimensions, margins, and padding relative t
 
 [^74]CodeSandbox: Percentage (%).
 
-[^74]:[CodeSandbox: Percentage (%)](https://ct6wzy.csb.app/), last access: June 20, 2024.
+[^74]:[CodeSandbox: Percentage (%)](https://ct6wzy.csb.app/), last access: March 10, 2025.
 
 ###### Viewport Width (vw) and Viewport Height (vh)
 
@@ -3023,14 +3026,14 @@ Viewport units represent a percentage of the viewport's width or height, allowin
 
 ```css
 .text {
-    background-color: #ff0000;
-    font-size: 5vw; /* Set font size to 5% of the viewport width */
+  background-color: #ff0000;
+  font-size: 5vw; /* Set font size to 5% of the viewport width */
 }
 
 .box {
-    background-color: #f1f1f1;
-    width: 50vw; /* Set box width to 50% of the viewport width */
-    height: 50vh; /* Set box height to 50% of the viewport height */
+  background-color: #f1f1f1;
+  width: 50vw; /* Set box width to 50% of the viewport width */
+  height: 50vh; /* Set box height to 50% of the viewport height */
 }
 ```
 
@@ -3038,7 +3041,7 @@ Viewport units represent a percentage of the viewport's width or height, allowin
 
 [^75]CodeSandbox: Viewport Width (vw) and Viewport Height (vh).
 
-[^75]:[CodeSandbox: Viewport Width (vw) and Viewport Height (vh)](https://ckqpy3.csb.app/), last access: June 25, 2024.
+[^75]:[CodeSandbox: Viewport Width (vw) and Viewport Height (vh)](https://ckqpy3.csb.app/), last access: March 10, 2025.
 
 ###### Viewport Settings
 
@@ -3054,6 +3057,7 @@ Let's have an example of Responsive Meta Tag.
   </head>
   <body style="background-color: grey">
     <!-- Content -->
+     <h1>Test</h1>
   </body>
 </html>
 ```
@@ -3062,7 +3066,7 @@ Let's have an example of Responsive Meta Tag.
 
 [^76]CodeSandbox: Viewport Settings.
 
-[^76]:[CodeSandbox: Viewport Settings](https://7gjptw.csb.app/), last access: June 25, 2024.
+[^76]:[CodeSandbox: Viewport Settings](https://7gjptw.csb.app/), last access: March 10, 2025.
 
 - The `viewport` meta tag is included in the `<head>` section of the HTML document.
 - The `width=device-width` property sets the width of the viewport to the device's screen width.
