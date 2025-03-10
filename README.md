@@ -3079,11 +3079,11 @@ The em unit represents the font size of the element's parent container. It is co
 
 ```css
 .container {
-    font-size: 16px; /* Set base font size to 16 pixels */
+  font-size: 16px; /* Set base font size to 16 pixels */
 }
 
 .text {
-    font-size: 1.5em; /* Set font size to 1.5 times the parent container's font size */
+  font-size: 1.5em; /* Set font size to 1.5 times the parent container's font size */
 }
 ```
 
@@ -3091,7 +3091,7 @@ The em unit represents the font size of the element's parent container. It is co
 
 [^77]CodeSandbox: Em (em).
 
-[^77]:[CodeSandbox: Em (em)](https://gw6ctx.csb.app/), last access: June 25, 2024.
+[^77]:[CodeSandbox: Em (em)](https://gw6ctx.csb.app/), last access: March 10, 2025.
 
 ##### Benefits and Considerations
 
