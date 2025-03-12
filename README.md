@@ -3115,15 +3115,15 @@ In responsive web design, not all content is equally important or relevant to us
 
 ```html
 <div class="header">
-    <h1>Main Heading</h1>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+  <h1>Main Heading</h1>
+  <nav class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 </div>
 ```
 
@@ -3131,7 +3131,7 @@ In responsive web design, not all content is equally important or relevant to us
 
 [^78]CodeSandbox: Importance of Content Prioritization.
 
-[^78]:[CodeSandbox: Importance of Content Prioritization](https://8h7t4q.csb.app/), last access: June 25, 2024.
+[^78]:[CodeSandbox: Importance of Content Prioritization](https://8h7t4q.csb.app/), last access: March 12, 2025.
 
 - In this example, the main heading (`<h1>`) is placed at the top of the page within the `.header` container.
 - The navigation menu (`<nav>`) is positioned below the main heading, making it easily accessible but secondary to the main content.
