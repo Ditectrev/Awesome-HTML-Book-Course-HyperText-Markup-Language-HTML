@@ -3145,20 +3145,20 @@ Visual hierarchy plays a critical role in content prioritization, guiding users'
 
 ```css
 h1 {
-    font-size: 24px; /* Large font size for main heading */
+  font-size: 24px; /* Large font size for main heading */
 }
 
 h2 {
-    font-size: 20px; /* Medium font size for subheadings */
+  font-size: 20px; /* Medium font size for subheadings */
 }
 
 p.paragraph-normal {
-    font-size: 16px; /* Standard font size for body text */
+  font-size: 16px; /* Standard font size for body text */
 }
 
 p.paragraph-bolded {
-    font-size: 16px; /* Standard font size for body text */
-    font-weight: bold; /* Bold font weight for emphasis */
+  font-size: 16px; /* Standard font size for body text */
+  font-weight: bold; /* Bold font weight for emphasis */
 }
 ```
 
@@ -3166,7 +3166,7 @@ p.paragraph-bolded {
 
 [^79]CodeSandbox: Visual Hierarchy.
 
-[^79]:[CodeSandbox: Visual Hierarchy](https://rqvhyf.csb.app/), last access: June 25, 2024.
+[^79]:[CodeSandbox: Visual Hierarchy](https://rqvhyf.csb.app/), last access: March 12, 2025.
 
 - In this example, different font sizes are applied to headings (`<h1>`, `<h2>`) and paragraphs (`<p>`), creating a clear visual distinction between different levels of content.
 - The main heading (`<h1>`) is styled with a larger font size and bold font weight to make it stand out as the most important element on the page.
