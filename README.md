@@ -3221,17 +3221,17 @@ When selecting the appropriate file format for images and media, consider factor
 <!-- Example of using various image formats -->
 <img src="image.jpg" alt="JPEG Image">
 <img src="image.png" alt="PNG Image">
-<source src="image.webp" type="image/webp">
-<source src="image.avif" type="image/avif">
-<source src="image.jp2" type="image/jp2">
-<source src="image.tiff" type="image/tiff">
+<img src="image.webp" type="image/webp">
+<img src="image.avif" type="image/avif">
+<img src="image.jp2" type="image/jp2">
+<img src="image.tiff" type="image/tiff">
 ```
 
 [![Edit 081-Choose the Right File Format](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/081-choose-the-right-file-format-swxx45)
 
 [^81]CodeSandbox: Choose the Right File Format.
 
-[^81]:[CodeSandbox: Choose the Right File Format](https://swxx45.csb.app/), last access: August 28, 2024.
+[^81]:[CodeSandbox: Choose the Right File Format](https://swxx45.csb.app/), last access: March 14, 2025.
 
 - **JPEG (Joint Photographic Experts Group)**: Ideal for photographs and images with natural gradients, offering good compression with minimal loss of quality.
 - **PNG (Portable Network Graphics)**: Suitable for images with transparency or sharp edges, providing lossless compression for high-quality graphics.
