@@ -3253,7 +3253,7 @@ Use image compression techniques to reduce file size without sacrificing quality
 
 [^82]CodeSandbox: Optimizing Compression.
 
-[^82]:[CodeSandbox: Optimizing Compression](https://lwj6ct.csb.app/), last access: September 2, 2024.
+[^82]:[CodeSandbox: Optimizing Compression](https://lwj6ct.csb.app/), last access: March 14, 2025.
 
 - **Image Optimization Tools**: Utilize image optimization tools like ImageOptim, TinyPNG, or Squoosh to reduce file size without compromising image quality.
 - **Advanced Compression Algorithms**: Experiment with advanced compression algorithms such as Brotli, WebP, or JPEG XL to achieve optimal compression ratios and smaller file sizes while preserving visual fidelity.
