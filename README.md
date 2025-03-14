@@ -3177,9 +3177,9 @@ Reorganizing content based on its importance and relevance to users can help ens
 
 ```css
 @media screen and (max-width: 768px) {
-    .menu {
-        display: none; /* Hide navigation menu on small screens */
-    }
+  .menu {
+    display: none; /* Hide navigation menu on small screens */
+  }
 }
 ```
 
@@ -3187,7 +3187,7 @@ Reorganizing content based on its importance and relevance to users can help ens
 
 [^80]CodeSandbox: Content Reorganization.
 
-[^80]:[CodeSandbox: Content Reorganization](https://xr6npx.csb.app/), last access: June 25, 2024.
+[^80]:[CodeSandbox: Content Reorganization](https://xr6npx.csb.app/), last access: March 13, 2025.
 
 - In this example, the navigation menu is hidden on small screens using a media query (`@media screen and (max-width: 768px)`).
 - By hiding the navigation menu on small screens, more space is allocated for displaying the main content, ensuring a focused and streamlined user experience.
