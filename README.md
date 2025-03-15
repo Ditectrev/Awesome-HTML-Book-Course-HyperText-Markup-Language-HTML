@@ -3271,7 +3271,7 @@ Implement lazy loading techniques to defer the loading of images and media until
 
 [^83]CodeSandbox: Lazy Loading.
 
-[^83]:[CodeSandbox: Lazy Loading](https://mfcf6s.csb.app/), last access: September 2, 2024.
+[^83]:[CodeSandbox: Lazy Loading](https://mfcf6s.csb.app/), last access: March 15, 2025.
 
 - **Loading Attribute**: Set the `loading="lazy"` attribute to enable lazy loading, allowing images to load dynamically as they become visible to the user.
 - **Performance Benefits**: Lazy loading prioritizes the loading of visible content, enhancing the user experience and reducing unnecessary resource consumption, particularly on long-scrolling pages or image-heavy websites.
