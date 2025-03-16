@@ -3283,19 +3283,19 @@ Serve responsive images that are appropriately sized for different screen resolu
 ```html
 <!-- Example of serving responsive images with the srcset attribute -->
 <img src="small-image.jpg"
-     srcset="medium-image.jpg 800w,
-             large-image.jpg 1600w"
-     sizes="(max-width: 600px) 90vw,
-            (max-width: 1024px) 70vw,
-            100vw"
-     alt="Responsive Image">
+  srcset="medium-image.jpg 800w,
+    large-image.jpg 1600w"
+  sizes="(max-width: 600px) 90vw,
+    (max-width: 1024px) 70vw,
+    100vw"
+  alt="Responsive Image">
 ```
 
 [![Edit 084-Serving Responsive Images](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/084-serving-responsive-images-xxs4hy)
 
 [^84]CodeSandbox: Serving Responsive Images.
 
-[^84]:[CodeSandbox: Serving Responsive Images](https://xxs4hy.csb.app/), last access: September 2, 2024.
+[^84]:[CodeSandbox: Serving Responsive Images](https://xxs4hy.csb.app/), last access: March 16, 2025.
 
 - **Srcset Attribute**: Use the srcset attribute to specify different image versions for various screen resolutions and pixel densities, ensuring crisp and clear images on devices with varying display capabilities.
 - **Sizes Attribute**: Set the sizes attribute to define the image's display size based on viewport width, ensuring optimal rendering on different devices and screen sizes.
