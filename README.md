@@ -3358,7 +3358,7 @@ Optimizing video files involves selecting the appropriate codecs and formats for
 
 [^86]CodeSandbox: Video Optimization.
 
-[^86]:[CodeSandbox: Video Optimization](https://688yvn.csb.app/), last access: September 3, 2024.
+[^86]:[CodeSandbox: Video Optimization](https://688yvn.csb.app/), last access: March 17, 2025.
 
 - **MP4 (H.264)**: Widely supported video format with efficient compression and compatibility across browsers and devices.
 - **WebM (VP9)**: An open and royalty-free video format developed by Google, offering high-quality compression and excellent browser support.
