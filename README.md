@@ -3333,7 +3333,7 @@ Configure server-side caching and leverage browser caching mechanisms to store i
 
 [^85]CodeSandbox: Enable Browser Caching.
 
-[^85]:[CodeSandbox: Enable Browser Caching](https://xl3wzp.csb.app/), last access: September 2, 2024.
+[^85]:[CodeSandbox: Enable Browser Caching](https://xl3wzp.csb.app/), last access: March 17, 2025.
 
 - **Cache-Control Headers**: Configure server-side caching and leverage browser caching mechanisms to store images locally on users' devices, reducing server load and improving page load times for returning visitors.
 - **Optimization Techniques**: Employ techniques such as cache busting or versioning to ensure timely updates to cached images and prevent stale content delivery.
