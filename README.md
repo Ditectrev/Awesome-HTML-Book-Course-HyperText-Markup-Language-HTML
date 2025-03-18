@@ -3386,7 +3386,7 @@ Similar to video optimization, audio optimization involves selecting the appropr
 
 [^87]CodeSandbox: Audio Optimization.
 
-[^87]:[CodeSandbox: Audio Optimization](https://zy3cpv.csb.app/), last access: September 3, 2024.
+[^87]:[CodeSandbox: Audio Optimization](https://zy3cpv.csb.app/), last access: March 18, 2025.
 
 - **MP3**: Widely used audio format offering good compression and compatibility across browsers and devices.
 - **Ogg Vorbis**: Open-source audio format providing high-quality compression and support in many web browsers.
