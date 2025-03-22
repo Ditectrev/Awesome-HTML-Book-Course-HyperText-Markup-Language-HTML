@@ -3486,7 +3486,7 @@ CSS Flexbox is a powerful layout model that enables flexible and responsive desi
 
 [^88]CodeSandbox: Key Concepts of Flexbox.
 
-[^88]:[CodeSandbox: Key Concepts of Flexbox](https://zpmyxf.csb.app/), last access: September 4, 2024.
+[^88]:[CodeSandbox: Key Concepts of Flexbox](https://zpmyxf.csb.app/), last access: March 22, 2025.
 
 - The `.container` class creates a flex container with `display: flex;`.
 - `justify-content: space-between;` evenly distributes the flex items along the main axis with space between them.
