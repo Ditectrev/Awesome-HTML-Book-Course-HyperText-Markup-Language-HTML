@@ -3534,7 +3534,7 @@ CSS Grid Layout provides a powerful way to create responsive grid-based layouts.
 
 [^89]CodeSandbox: Key Concepts of CSS Grid.
 
-[^89]:[CodeSandbox: Key Concepts of CSS Grid](https://fnt88c.csb.app/), last access: September 4, 2024.
+[^89]:[CodeSandbox: Key Concepts of CSS Grid](https://fnt88c.csb.app/), last access: March 23, 2025.
 
 - The `.container` class creates a grid container with `display: grid;`.
 - `grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));` defines responsive grid columns with a minimum width of 200px and a maximum width of 1fr (fraction of available space).
@@ -3546,13 +3546,13 @@ Media queries are essential for creating responsive designs that adapt to differ
 
 ```css
 @media screen and (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-    .item {
-        background-color: #f1f1f1;
-        width: 100%;
-    }
+  .container {
+    flex-direction: column;
+  }
+  .item {
+    background-color: #f1f1f1;
+    width: 100%;
+  }
 }
 ```
 
@@ -3560,7 +3560,7 @@ Media queries are essential for creating responsive designs that adapt to differ
 
 [^90]CodeSandbox: Media Queries for Responsive Design.
 
-[^90]:[CodeSandbox: Media Queries for Responsive Design](https://5pr5ll.csb.app/), last access: September 4, 2024.
+[^90]:[CodeSandbox: Media Queries for Responsive Design](https://5pr5ll.csb.app/), last access: March 24, 2025.
 
 - The media query targets screens with a maximum width of 768px.
 - Within the media query, the layout changes to a single column with `flex-direction: column;`.
@@ -3597,7 +3597,7 @@ Web accessibility is crucial for ensuring that websites and web applications are
 
 [^91]CodeSandbox: Importance and Principles of Web Accessibility.
 
-[^91]:[CodeSandbox: Importance and Principles of Web Accessibility](https://qtxl9q.csb.app/), last access: September 6, 2024.
+[^91]:[CodeSandbox: Importance and Principles of Web Accessibility](https://qtxl9q.csb.app/), last access: March 24, 2025.
 
 - In this code snippet, semantic HTML elements like `<nav>`, `<ul>`, and `<li>` are used to create a navigational menu.
 - By using semantic elements, screen readers can interpret the structure of the navigation and convey it to users with disabilities more effectively.
