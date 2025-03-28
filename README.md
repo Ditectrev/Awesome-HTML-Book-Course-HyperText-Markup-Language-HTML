@@ -3617,7 +3617,7 @@ Accessible Rich Internet Applications (ARIA) attributes and roles provide additi
 
 [^92]CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles.
 
-[^92]:[CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles](https://vd3t4c.csb.app/), last access: September 6, 2024.
+[^92]:[CodeSandbox: ARIA (Accessible Rich Internet Applications) Labels and Roles](https://vd3t4c.csb.app/), last access: March 28, 2025.
 
 ### Accessibility Features in HTML5
 
@@ -3636,7 +3636,7 @@ HTML5 introduces several features and elements that support web accessibility, m
 
 [^93]CodeSandbox: Accessibility Features in HTML5.
 
-[^93]:[CodeSandbox: Accessibility Features in HTML5](https://zwjmnz.csb.app/), last access: September 6, 2024.
+[^93]:[CodeSandbox: Accessibility Features in HTML5](https://zwjmnz.csb.app/), last access: March 28, 2025.
 
 - Semantic elements like `<main>`, `<article>`, and `<h2>` are used to structure the content of the web page.
 - Screen readers can interpret the semantic structure and convey it to users with disabilities more effectively, improving accessibility.
