@@ -3673,7 +3673,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 
 [^94]CodeSandbox: Image Alt Attribute.
 
-[^94]:[CodeSandbox: Image Alt Attribute](https://fgcs54.csb.app/), last access: September 6, 2024.
+[^94]:[CodeSandbox: Image Alt Attribute](https://fgcs54.csb.app/), last access: March 31, 2025.
 
 - In this example, the `alt` attribute provides alternative text for the image, describing its content and context. This helps improve accessibility for users who cannot see the image and provides valuable information to search engines for indexing.
 
@@ -3697,7 +3697,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
   </article>
 </main>
 <footer>
-  <p>&copy; 2024 Website Name. All rights reserved.</p>
+  <p>&copy; 2025 Website Name. All rights reserved.</p>
 </footer>
 ```
 
@@ -3705,7 +3705,7 @@ HTML provides a wide range of tags and attributes that can positively impact a w
 
 [^95]CodeSandbox: Semantic HTML Elements.
 
-[^95]:[CodeSandbox: Semantic HTML Elements](https://ncm57v.csb.app/), last access: September 6, 2024.
+[^95]:[CodeSandbox: Semantic HTML Elements](https://ncm57v.csb.app/), last access: March 31, 2025.
 
 - Semantic HTML elements like `<header>`, `<nav>`, `<main>`, `<article>`, and `<footer>` provide meaningful structure to the web page, making it easier for search engines to understand the purpose and context of different sections.
 
