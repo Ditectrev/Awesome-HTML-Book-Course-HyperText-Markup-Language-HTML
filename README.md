@@ -3732,7 +3732,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 
 [^96]CodeSandbox: Meta Keywords Tag.
 
-[^96]:[CodeSandbox: Meta Keywords Tag](https://ykmyqn.csb.app/), last access: September 7, 2024.
+[^96]:[CodeSandbox: Meta Keywords Tag](https://ykmyqn.csb.app/), last access: April 1, 2025.
 
 - While the `<meta name="keywords">` tag may not carry as much weight as it once did, it still provides a way to specify relevant keywords for the page's content. Including relevant keywords can still be beneficial, especially for other search engines that may use them as a ranking factor.
 
@@ -3746,7 +3746,7 @@ By utilizing these HTML tags and attributes effectively, webmasters can optimize
 
 [^97]CodeSandbox: Viewport Meta Tag.
 
-[^97]:[CodeSandbox: Viewport Meta Tag](https://zzj7nh.csb.app/), last access: September 7, 2024.
+[^97]:[CodeSandbox: Viewport Meta Tag](https://zzj7nh.csb.app/), last access: April 1, 2025.
 
 - The viewport meta tag ensures that the webpage is displayed correctly and responsively on different devices and screen sizes. Setting the initial scale to 1.0 ensures that the page is rendered at the correct zoom level on mobile devices.
 
@@ -3807,7 +3807,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
       </section>
     </main>
     <footer>
-      <p>&copy; 2024 Your Website. All rights reserved.</p>
+      <p>&copy; 2025 Your Website. All rights reserved.</p>
     </footer>
   </body>
 </html>
@@ -3817,7 +3817,7 @@ Semantic HTML elements provide meaning to the structure of a webpage, making it 
 
 [^98]CodeSandbox: Semantic Markup.
 
-[^98]:[CodeSandbox: Semantic Markup](https://t9dcrs.csb.app/), last access: September 8, 2024.
+[^98]:[CodeSandbox: Semantic Markup](https://t9dcrs.csb.app/), last access: April 1, 2025.
 
 #### Form Enhancements
 
@@ -3827,11 +3827,11 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 
 ```html
 <form>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-    <button type="submit">Submit</button>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <button type="submit">Submit</button>
 </form>
 ```
 
@@ -3839,7 +3839,7 @@ HTML5 introduces new input types and attributes to enhance form usability and va
 
 [^99]CodeSandbox: Form Enhancements.
 
-[^99]:[CodeSandbox: Form Enhancements](https://2pv533.csb.app/), last access: September 8, 2024.
+[^99]:[CodeSandbox: Form Enhancements](https://2pv533.csb.app/), last access: April 1, 2025.
 
 #### Multimedia Integration
 
@@ -3858,7 +3858,7 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 
 [^100]CodeSandbox: Multimedia Integration.
 
-[^100]:[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/), last access: September 8, 2024.
+[^100]:[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/), last access: April 1, 2025.
 
 #### Mobile Optimization
 
