@@ -3849,8 +3849,8 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 
 ```html
 <video controls>
-    <source src="video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 ```
 
@@ -3858,7 +3858,7 @@ The `<audio>` and `<video>` elements in HTML5 allow developers to embed audio an
 
 [^100]CodeSandbox: Multimedia Integration.
 
-[^100]:[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/), last access: April 1, 2025.
+[^100]:[CodeSandbox: Multimedia Integration](https://zlskc5.csb.app/), last access: April 2, 2025.
 
 #### Mobile Optimization
 
@@ -3874,7 +3874,7 @@ With the increasing usage of mobile devices for accessing the web, it's essentia
 
 [^101]CodeSandbox: Mobile Optimization.
 
-[^101]:[CodeSandbox: Mobile Optimization](https://mmrlcx.csb.app/), last access: September 9, 2024.
+[^101]:[CodeSandbox: Mobile Optimization](https://mmrlcx.csb.app/), last access: April 2, 2025.
 
 #### Accessibility Features
 
@@ -3890,7 +3890,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 
 [^102]CodeSandbox: Accessibility Features.
 
-[^102]:[CodeSandbox: Accessibility Features](https://2tk54j.csb.app/), last access: September 9, 2024.
+[^102]:[CodeSandbox: Accessibility Features](https://2tk54j.csb.app/), last access: April 2, 2025.
 
 #### Code Organization and Commenting
 
