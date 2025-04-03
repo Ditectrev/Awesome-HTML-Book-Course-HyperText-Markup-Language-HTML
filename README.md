@@ -3927,7 +3927,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 
     <!-- Footer -->
     <footer>
-      <p>&copy; 2024 Optimized Website. All rights reserved.</p>
+      <p>&copy; 2025 Optimized Website. All rights reserved.</p>
     </footer>
   </body>
 </html>
@@ -3937,7 +3937,7 @@ Accessibility is an important aspect of web development, ensuring that web conte
 
 [^103]CodeSandbox: Code Organization and Commenting.
 
-[^103]:[CodeSandbox: Code Organization and Commenting](https://722xxt.csb.app/), last access: September 9, 2024.
+[^103]:[CodeSandbox: Code Organization and Commenting](https://722xxt.csb.app/), last access: April 3, 2025.
 
 - In this example, the HTML code is organized into distinct sections (header, main content, footer), making it easier to understand and maintain. Comments are used to provide context and describe the purpose of each section.
 
