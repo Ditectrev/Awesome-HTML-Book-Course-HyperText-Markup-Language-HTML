@@ -3966,7 +3966,7 @@ In `script.js`, write a simple script:
 
 ```javascript
 document.addEventListener("DOMContentLoaded", function () {
-    alert("Welcome to My First Website!");
+  alert("Welcome to My First Website!");
 });
 ```
 
@@ -3974,11 +3974,11 @@ In `styles.css`, add simple styling:
 
 ```css
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: navy;
+  color: navy;
 }
 ```
 
@@ -3986,7 +3986,7 @@ h1 {
 
 [^104]CodeSandbox: HTML Performance Optimization Techniques.
 
-[^104]:[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/), last access: September 10, 2024.
+[^104]:[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/), last access: April 4, 2025.
 
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
 - **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow [https://github.com/codesandbox/codesandbox-client/issues/8610](https://github.com/codesandbox/codesandbox-client/issues/8610) for more information.**
@@ -4001,7 +4001,7 @@ h1 {
 
 [^105]CodeSandbox: HTML Minification and Compression.
 
-[^105]:[CodeSandbox: HTML Minification and Compression](https://vdpynt.csb.app/), last access: September 11, 2024.
+[^105]:[CodeSandbox: HTML Minification and Compression](https://vdpynt.csb.app/), last access: April 4, 2025.
 
 - This example demonstrates a minified HTML document where unnecessary whitespace, comments, and redundant attributes have been removed to reduce file size and improve load times.
 
@@ -4017,7 +4017,7 @@ h1 {
 
 [^106]CodeSandbox: Lazy Loading of Images.
 
-[^106]:[CodeSandbox: Lazy Loading of Images](https://mx2q9r.csb.app/), last access: September 12, 2024.
+[^106]:[CodeSandbox: Lazy Loading of Images](https://mx2q9r.csb.app/), last access: April 4, 2025.
 
 - The `loading="lazy"` attribute is applied to the `<img>` tag, instructing the browser to lazily load the image when it enters the viewport, reducing initial page load times and improving performance.
 
@@ -4061,7 +4061,7 @@ body{font-family:Arial,sans-serif}h1{color:navy}
 
 [^107]CodeSandbox: CSS and JavaScript Optimization.
 
-[^107]:[CodeSandbox: CSS and JavaScript Optimization](https://nz9jsn.csb.app/), last access: September 29, 2024.
+[^107]:[CodeSandbox: CSS and JavaScript Optimization](https://nz9jsn.csb.app/), last access: April 4, 2025.
 
 - In this example, CSS and JavaScript files are minified and combined into single files (`styles.min.css` and `scripts.min.js`) to minimize the number of HTTP requests required for fetching external resources, thereby improving page load times.
 
