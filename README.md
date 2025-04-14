@@ -4108,7 +4108,7 @@ The Geolocation API enables web applications to access the user's geographic loc
 
 [^108]CodeSandbox: Geolocation API.
 
-[^108]:[CodeSandbox: Geolocation API](https://443vqt.csb.app/), last access: September 30, 2024.
+[^108]:[CodeSandbox: Geolocation API](https://443vqt.csb.app/), last access: April 14, 2025.
 
 - The code above demonstrates how to use the Geolocation API to retrieve the user's current position.
 - If the browser supports geolocation, the `getCurrentPosition()` method is called to asynchronously obtain the user's position.
@@ -4132,7 +4132,7 @@ alert("Username: " + username);
 
 [^109]CodeSandbox: Web Storage API.
 
-[^109]:[CodeSandbox: Web Storage API](https://729wnm.csb.app/), last access: September 30, 2024.
+[^109]:[CodeSandbox: Web Storage API](https://729wnm.csb.app/), last access: April 14, 2025.
 
 - The code above demonstrates how to use `localStorage` to store and retrieve data.
 - The `setItem()` method is used to store a key-value pair ("username" and "John") in local storage.
@@ -4140,9 +4140,7 @@ alert("Username: " + username);
 
 #### Canvas API
 
-The Canvas API provides a powerful set of drawing and graphics capabilities, allowing developers to create dynamic and interactive graphics directly within the browser. With the Canvas API, developers can draw shapes, paths, text, images, and even perform animations and transformations. This API is commonly used for creating charts, graphs, games, image editing tools, and other visually rich content.
-
-The `<canvas>` element is a powerful tool for creating graphics and animations directly within a web page.
+The Canvas API provides a powerful set of drawing and graphics capabilities, allowing developers to create dynamic and interactive graphics directly within the browser. With the Canvas API, developers can draw shapes, paths, text, images, and even perform animations and transformations. This API is commonly used for creating charts, graphs, games, image editing tools, and other visually rich content. The `<canvas>` element is a powerful tool for creating graphics and animations directly within a web page.
 
 ```html
 <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
@@ -4169,7 +4167,7 @@ ctx.fill();
 
 [^110]CodeSandbox: Canvas API.
 
-[^110]:[CodeSandbox: Canvas API](https://lgtkpg.csb.app/), last access: October 1, 2024.
+[^110]:[CodeSandbox: Canvas API](https://lgtkpg.csb.app/), last access: April 14, 2025.
 
 - The code above demonstrates how to use the Canvas API to draw shapes on a canvas element.
 - First, a canvas context (`2d`) is obtained from the canvas element.
@@ -4205,7 +4203,7 @@ self.addEventListener("message", (e) => {
 
 [^111]CodeSandbox: Web Workers.
 
-[^111]:[CodeSandbox: Web Workers](https://snqmpz.csb.app/), last access: October 1, 2024.
+[^111]:[CodeSandbox: Web Workers](https://snqmpz.csb.app/), last access: April 14, 2025.
 
 - The code above demonstrates how to use web workers to perform tasks in background threads.
 - First, a new web worker is created by passing the path to a worker script (`worker.js`).
@@ -4239,7 +4237,7 @@ socket.send("Hello from client!");
 
 [^112]CodeSandbox: WebSocket API.
 
-[^112]:[CodeSandbox: WebSocket API](https://dypkvz.csb.app/), last access: October 2, 2024.
+[^112]:[CodeSandbox: WebSocket API](https://dypkvz.csb.app/), last access: April 14, 2025.
 
 - The code above demonstrates how to establish a WebSocket connection with a server.
 - Upon successful connection (`onopen` event), the client logs a message to the alert popup.
