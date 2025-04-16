@@ -4274,7 +4274,7 @@ document.getElementById("dropzone").addEventListener("drop", function(event) {
 
 [^113]CodeSandbox: Drag and Drop API.
 
-[^113]:[CodeSandbox: Drag and Drop API](https://fsswsl.csb.app/), last access: October 2, 2024.
+[^113]:[CodeSandbox: Drag and Drop API](https://fsswsl.csb.app/), last access: April 16, 2025.
 
 - The code above demonstrates how to implement drag-and-drop functionality using the Drag and Drop API.
 - The `draggable` attribute is set to `true` on the draggable element, indicating that it can be dragged.
@@ -4300,7 +4300,7 @@ The Audio and Video API allows web applications to embed and control audio and v
 
 [^114]CodeSandbox: Audio and Video API.
 
-[^114]:[CodeSandbox: Audio and Video API](https://zzyzjg.csb.app/), last access: October 6, 2024.
+[^114]:[CodeSandbox: Audio and Video API](https://zzyzjg.csb.app/), last access: April 16, 2025.
 
 - The code above demonstrates how to use the `<audio>` and `<video>` elements to embed audio and video content.
 - The `controls` attribute adds playback controls (play, pause, volume, etc.) to the media player.
