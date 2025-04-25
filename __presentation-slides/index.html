@@ -3113,12 +3113,16 @@ socket.send("Hello from client!");
 
 ### WebRTC API <!-- .slide: data-transition="zoom" data-transition-speed="slow" -->
 
-```html[|1|11|1,11|2|3|7|3,7|4|5|6|8|10|8,10|9]
+```html[|1|15|1,15|2|3|11|3,11|4|5|10|12|14|12,14|13]
 <script>
   navigator.mediaDevices.getUserMedia({ audio: true, video: true })
     .then(function (stream) {
       const videoElement = document.createElement("video");
       videoElement.srcObject = stream;
+      videoElement.height = 240;
+      videoElement.width = 320;
+      videoElement.controls = true;
+      videoElement.muted = false;
       document.body.appendChild(videoElement);
     })
     .catch(function (error) {
@@ -3139,7 +3143,7 @@ socket.send("Hello from client!");
 <input
   type="file"
   accept="image/*"
-  capture="camera"
+  capture
 >
 ```
 

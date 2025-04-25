@@ -4330,7 +4330,7 @@ function handleFile(event) {
 
 [^115]CodeSandbox: File API.
 
-[^115]:[CodeSandbox: File API](https://69c6jw.csb.app/), last access: October 6, 2024.
+[^115]:[CodeSandbox: File API](https://69c6jw.csb.app/), last access: April 25, 2025.
 
 - The code above demonstrates how to use the File API to read the contents of a file selected by the user.
 - When a file is selected using the `<input type="file">` element, the `onchange` event is triggered, calling the `handleFile()` function.
@@ -4347,6 +4347,10 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
   .then(function(stream) {
     const videoElement = document.createElement("video");
     videoElement.srcObject = stream;
+    videoElement.height = 240;
+    videoElement.width = 320;
+    videoElement.controls = true;
+    videoElement.muted = false;
     document.body.appendChild(videoElement);
   })
   .catch(function(error) {
@@ -4359,7 +4363,7 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
 
 [^116]CodeSandbox: WebRTC API.
 
-[^116]:[CodeSandbox: WebRTC API](https://8kfdt8.csb.app/), last access: October 7, 2024.
+[^116]:[CodeSandbox: WebRTC API](https://8kfdt8.csb.app/), last access: April 25, 2025.
 
 - The code above demonstrates how to use the WebRTC API to access the user's audio and video devices and display a live video stream in the browser.
 - The `getUserMedia()` method is called on the `mediaDevices` object to request access to the user's microphone and camera.
@@ -4370,14 +4374,14 @@ navigator.mediaDevices.getUserMedia({ audio: true, video: true })
 The Media Capture and Streams API enables web applications to capture audio, video, and images from the user's device using the device's built-in camera and microphone. This API provides methods for accessing media devices, capturing media streams, and recording audio and video. It also allows for advanced features such as real-time audio and video processing and manipulation. The Media Capture and Streams API empowers developers to create rich multimedia experiences directly within the browser.
 
 ```html
-<input type="file" accept="image/*" capture="camera">
+<input type="file" accept="image/*" capture>
 ```
 
 [![Edit 117-Media Capture and Streams API](images/codesandbox.svg)](https://codesandbox.io/p/sandbox/117-media-capture-and-streams-api-4s97wh)
 
 [^117]CodeSandbox: Media Capture and Streams API.
 
-[^117]:[CodeSandbox: Media Capture and Streams API](https://4s97wh.csb.app/), last access: October 7, 2024.
+[^117]:[CodeSandbox: Media Capture and Streams API](https://4s97wh.csb.app/), last access: April 25, 2025.
 
 - The code above demonstrates how to use the Media Capture API to enable image capture from the device's camera.
 - The `<input>` element has the `type` attribute set to `file` to create a file input control.
