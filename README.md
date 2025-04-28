@@ -3989,7 +3989,7 @@ h1 {
 [^104]:[CodeSandbox: HTML Performance Optimization Techniques](https://qm3w7j.csb.app/), last access: April 4, 2025.
 
 - In this example, the `<link rel="preload">` tag is used to prioritize the loading of critical resources (CSS and JavaScript files) by indicating their importance and specifying the `as` attribute to define the resource type.
-- **There is a problem with this example in CodeSandbox environment to get it fully working, it's just for your information how it should work, sorry for that. Follow [https://github.com/codesandbox/codesandbox-client/issues/8610](https://github.com/codesandbox/codesandbox-client/issues/8610) for more information.**
+- **There is a problem with this example in the CodeSandbox environment. It's just for your information on how it should work to get it fully working. Sorry for that. Follow [https://github.com/codesandbox/codesandbox-client/issues/8610](https://github.com/codesandbox/codesandbox-client/issues/8610) for more details.**
 
 ##### Example: HTML Minification and Compression
 
@@ -4425,13 +4425,14 @@ registerServiceWorker();
 
 [^118]CodeSandbox: Implementing Offline Capabilities with Service Workers.
 
-[^118]:[CodeSandbox: Implementing Offline Capabilities with Service Workers](https://zjm7tx.csb.app/), last access: October 8, 2024.
+[^118]:[CodeSandbox: Implementing Offline Capabilities with Service Workers](https://zjm7tx.csb.app/), last access: April 28, 2025.
 
 - The code above demonstrates how to register a Service Worker for offline capabilities.
 - First, it checks if the browser supports Service Workers.
 - If supported, it registers the Service Worker script (`service-worker.js` - what the script does is outside the scope of this book) using the `register()` method.
 - The Service Worker script can intercept network requests, cache assets, and manage offline behavior.
 - Please turn off your internet and reload the page; it will still load, showing the offline capabilities of the Service Worker.
+- - **This example has a problem in the CodeSandbox environment. To get it fully working with showcasing offline capabilities, please download the file package and run it locally from your local server. You can use the [Live Server extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). After installing the extension, right-click `index.html` and select `Open with Live Server`. Finally, turn off your Internet, or simulate a lack of Internet via opening the DevTools, navigate to the **Network** tab, and select **"Offline"** from the dropdown menu where **"No throttling"** is chosen by default. Make sure your Service Worker has been registered.**
 
 ##### Example: Caching Assets for Offline Use
 
@@ -4472,12 +4473,13 @@ h1 {
 
 [^119]CodeSandbox: Caching Assets for Offline Use.
 
-[^119]:[CodeSandbox: Caching Assets for Offline Use](https://tmpq6w.csb.app/), last access: October 11, 2024.
+[^119]:[CodeSandbox: Caching Assets for Offline Use](https://tmpq6w.csb.app/), last access: April 28, 2025.
 
 - The code above demonstrates how to cache assets for offline use using a Service Worker.
 - During the Service Worker installation phase (`install` event), it opens a cache named `v1`.
 - It then adds specified URLs (including HTML, CSS, JavaScript, and image files) to the cache using the `addAll()` method, embedded in `addResourcesToCache()`.
 - The cached assets can be served from the cache when the user is offline, providing offline access to the application.
+- - **This example has a problem in the CodeSandbox environment. To get it fully working with showcasing offline capabilities, please download the file package and run it locally from your local server. You can use the [Live Server extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). After installing the extension, right-click `index.html` and select `Open with Live Server`. Finally, turn off your Internet, or simulate a lack of Internet via opening the DevTools, navigate to the **Network** tab, and select **"Offline"** from the dropdown menu where **"No throttling"** is chosen by default. Make sure your Service Worker has been registered.**
 
 ##### Example: Offline Data Synchronization
 
@@ -4512,12 +4514,13 @@ function syncData() {
 
 [^120]CodeSandbox: Offline Data Synchronization.
 
-[^120]:[CodeSandbox: Offline Data Synchronization](https://tmpq6w.csb.app/), last access: October 13, 2024.
+[^120]:[CodeSandbox: Offline Data Synchronization](https://5gpt4c.csb.app/), last access: April 28, 2025.
 
 - The code above demonstrates how to perform offline data synchronization using a background sync event (`sync` event).
 - The `syncMessagesLater()` asynchronous function registers a background sync from a browsing context.
 - When a sync event with the tag `sync-data` is triggered, it calls the `syncData()` function.
 - Developers can implement custom synchronization logic inside the `syncData()` function to synchronize data with a server or local storage.
+- - **This example has a problem in the CodeSandbox environment. To get it fully working with showcasing offline capabilities, please download the file package and run it locally from your local server. You can use the [Live Server extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). After installing the extension, right-click `index.html` and select `Open with Live Server`. Finally, turn off your Internet, or simulate a lack of Internet via opening the DevTools, navigate to the **Network** tab, and select **"Offline"** from the dropdown menu where **"No throttling"** is chosen by default. Make sure your Service Worker has been registered.**
 
 ### Conclusion: HTML5 APIs and Advanced Features
 
