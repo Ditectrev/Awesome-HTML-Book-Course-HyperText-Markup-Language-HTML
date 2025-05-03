@@ -4641,7 +4641,7 @@ In this section, we provide a curated list of additional resources and reading m
 
 - **MDN Web Docs**: A comprehensive resource for web developers, offering detailed documentation, tutorials, and guides on HTML5 APIs, CSS, JavaScript, and more.
 - **W3Schools HTML5 Tutorial**: Interactive tutorials covering various aspects of HTML5, including semantic elements, forms, multimedia, and APIs.
-- **Google Developers Web Fundamentals**: A collection of guides and best practices from Google Developers, covering web development topics such as responsive design, performance optimization, and progressive web apps.
+- **web.dev**: A collection of guides and best practices from Google Developers, covering web development topics such as responsive design, performance optimization, and progressive web apps.
 
 ### Books and Publications
 
