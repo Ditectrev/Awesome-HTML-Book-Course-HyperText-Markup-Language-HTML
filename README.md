@@ -1,4 +1,4 @@
-# Awesome HTML Book & Course: HyperText Markup Language (HTML)
+# 📚 Awesome HTML Book & Course: HyperText Markup Language (HTML)
 
 ![Promotional image](images/promotional.png)
 
