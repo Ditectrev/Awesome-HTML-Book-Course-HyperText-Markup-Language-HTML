@@ -104,6 +104,12 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 **[v1.0.0](../../releases/tag/v1.0.0): October 28, 2024.**
 
+- Launch of the course.
+
+**[v1.1.0](../../releases/tag/v1.1.0): May 5, 2025.**
+
+- Post-recording improvements.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
