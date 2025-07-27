@@ -7,7 +7,7 @@
 There are many ways to support us; in exchange, you'll get this material in a proper format:
 
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/awesome-html-book-hypertext-markup-language-html),
-- 📖 [Udemy, in an interactive video course format](https://www.udemy.com/course/awesome-html-incl-a11y-aria-css-html5-apis-pwa-seo/?referralCode=31BE9E1E4BF7204B9FAA),
+- ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/course/awesome-html-incl-a11y-aria-css-html5-apis-pwa-seo/?referralCode=31BE9E1E4BF7204B9FAA),
 - 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=x8IsEQAAQBAJ),
 - 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/1802525144),
 - 🛒 [eBay, in PDF format](https://www.ebay.com/itm/405312761104?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2524149&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
