@@ -8,6 +8,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats](https://shop.ditectrev.com/product/awesome-html-book-hypertext-markup-language-html),
 - ▶️ [Udemy, in an interactive video course format](https://www.udemy.com/course/awesome-html-incl-a11y-aria-css-html5-apis-pwa-seo/?referralCode=31BE9E1E4BF7204B9FAA),
+- 🖨️ [Amazon, printable physical book in paperback or hardcover (Kindle available, too)](https://www.amazon.com//Daniel-Danielecki-book/dp/B0GSSHHG63),
 - 🆓 [Shorter, but free, part of our Udemy course is available on YouTube](https://www.youtube.com/playlist?list=PLD1m9AjEIXDajG1hy8Czp_i3LJWnUF80t),
 - 📚 [Google Play Books, in PDF format](https://play.google.com/store/books/details?id=x8IsEQAAQBAJ),
 - 🛍️ [Etsy, in PDF format](https://ditectrev.etsy.com/listing/1802525144),
